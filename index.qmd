@@ -1,0 +1,23 @@
+---
+title: "Automated Data Collection"
+subtitle: "Übung - Methoden der Vergleichenden Regierungslehre"
+---
+
+## **Course overview**
+
+Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.
+
+The course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process.
+
+## **Course details**
+
+|                 |                                                                                                           |
+|-----------------|-----------------------------------------------------------------------------------------------------------|
+| Seminar:        | Übung - Methoden der Vergleichenden Regierungslehre                                                       |
+| Time:           | Tuesday, 15:30 – 17:00,  February 13 to May 28                                                         |
+| Place:          | C -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)                                              |
+| Language:       | English                                                                                                   |
+| Instructor:     | David Schweizer, M.A., david.schweizer\@uni-mannheim.de                                                   |
+| Office hours:   | In-person (A 340) or via Zoom, Tuesday 13:45 -- 15:15,, please make an appointment by e-mail                   |
+| Course website: | [Link](https://datavisualizationfall2023.netlify.app/ "https://datavisualizationfall2023.netlify.app/")   |
+| Syllabus as PDF |  |

@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Automated Data Collection - Course Website"
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "Automated Data Collection | Spring 2024 | University of Mannheim"  
+  sidebar:
+    background: "#8399B0"
+    logo: "images/hex_sticker.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: slack
+        href: https://datavis-fall2023.slack.com
+        text: Slack
+      - icon: bank
+        href: https://ilias.uni-mannheim.de/goto.php?target=crs_1413212&client_id=ILIAS
+        text: Ilias
+      - icon: rocket
+        href: https://www.datacamp.com/
+        text: Datacamp
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: material.qmd
+        text: Schedule, slides & materials
+        
+format:
+  html:
+    theme: 
+      - default
+      - css/theme.scss
+    css: css/custom.css
+    toc: true
+
+
+

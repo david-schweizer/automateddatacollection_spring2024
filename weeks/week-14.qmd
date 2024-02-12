@@ -1,0 +1,46 @@
+---
+title: "Self-study: Final project"
+subtitle: "Week 14"
+description: ""
+author: ""
+date: "Dec 07, 2023"
+#listing:
+  # - id: slides
+  #   contents:
+  #     - ../slides/week-14/*.qmd
+  #   type: table
+  #   fields: [title, subtitle, date]
+  #   #date-format: "ddd, MMM DD"
+  #   field-display-names:
+  #     title: "Topic"
+  #     subtitle: "Session"
+  #     date: "Date"
+  #   sort: [filename]
+  #   sort-ui: false
+  #   filter-ui: false
+  # - id: assignments
+  #   contents:
+  #     - ../hw/w1-*.qmd
+  #     - ../labs/w1-*.qmd
+  #   type: table
+  #   fields: [categories, title, date]
+  #   date-format: "ddd, MMM DD"
+  #   field-display-names:
+  #     categories: "Assignment"
+  #     title: "Title"
+  #     date: "Due"
+  #   sort: [date]
+  #   sort-ui: false
+  #   filter-ui: false
+tbl-colwidths: [10,50,40]
+---
+
+## No in-person session, but 'self-study'
+
+This week, there will be **no in-person session.** **Instead**, you should use the time to **develop a first sketch** of your final project.
+
+I will offer **individual office hour for each student** in the week from **11.12. - 15.12.23** via Zoom. There, you can discuss this sketch with me and get early feedback. Please contact me about a specific date by the end of this week (08.12.23).
+
+Of course, there will **additional office hours if needed** before Christmas (until 22.12.23) and after New Year's (from 03.01.24 onward).
+
+Keep in mind that the **deadline for the final project** is January 18, 2024, 23:59.
