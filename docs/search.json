@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Automated Data Collection",
     "section": "",
-    "text": "Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process."
+    "text": "Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github and how to communicate your results. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process."
   },
   {
     "objectID": "index.html#seminar-meetings",
@@ -25,7 +25,7 @@
     "href": "material.html",
     "title": "Schedule, slides & materials",
     "section": "",
-    "text": "You can find all course materials below. This includes slides, code, links to readings, etc.\nJust click on the topic of the respective week.\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntro Session\n\n\nSeptember 07, 2023\n\n\n\n\nWeek 02\n\n\nDesigning a Graph\n\n\nSeptember 14, 2023\n\n\n\n\nWeek 03\n\n\nMapping (Tidy) Data\n\n\nSeptember 21, 2023\n\n\n\n\nWeek 04\n\n\nAmounts and Proportions\n\n\nSeptember 28, 2023\n\n\n\n\nWeek 05\n\n\nThemes\n\n\nOctober 05, 2023\n\n\n\n\nWeek 06\n\n\nUncertainty\n\n\nOctober 12, 2023\n\n\n\n\nWeek 07\n\n\nRelationships\n\n\nOctober 19, 2023\n\n\n\n\nWeek 08\n\n\nComparisons\n\n\nOctober 26, 2023\n\n\n\n\nWeek 09\n\n\nAnnotations\n\n\nNovember 02, 2023\n\n\n\n\nWeek 10\n\n\nInteractivity I\n\n\nNovember 09, 2023\n\n\n\n\nWeek 11\n\n\nTime\n\n\nNovember 16, 2023\n\n\n\n\nWeek 12\n\n\nSpace\n\n\nNovember 23, 2023\n\n\n\n\nWeek 13\n\n\nInteractivity II\n\n\nNovember 30, 2023\n\n\n\n\nWeek 14\n\n\nSelf-study: Final project\n\n\nDecember 07, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "You can find all course materials below. This includes slides, code, links to readings, etc.\nJust click on the topic of the respective week.\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntro Session\n\n\nFebruary 13, 2023\n\n\n\n\nWeek 02\n\n\nIntro to R\n\n\nFebruary 20, 2024\n\n\n\n\nWeek 03\n\n\nTidyverse I: Import, tidy, and transform\n\n\nFebruary 27, 2024\n\n\n\n\nWeek 04\n\n\nTidyverse II: Import, tidy, and transform\n\n\nMarch 05, 2024\n\n\n\n\nWeek 05\n\n\nggplot: Visualize\n\n\nMarch 12, 2024\n\n\n\n\nWeek 06\n\n\nR Markdown / Quarto\n\n\nMarch 19, 2024\n\n\n\n\nWeek 09\n\n\nVersion control (Github)\n\n\nApril 09, 2024\n\n\n\n\nWeek 10\n\n\nAPIs\n\n\nApril 16, 2023\n\n\n\n\nWeek 11\n\n\nWeb scraping basics\n\n\nApril 23, 2024\n\n\n\n\nWeek 12\n\n\nWeb scraping static\n\n\nApril 30, 2023\n\n\n\n\nWeek 13\n\n\nWeb scraping dynamic\n\n\nMay 07, 2024\n\n\n\n\nWeek 14\n\n\nInteractive I: Create your first Shiny app\n\n\nMay 14, 2024\n\n\n\n\nWeek 15\n\n\nInteractive II: Making pretty Shiny apps\n\n\nMay 21, 2024\n\n\n\n\nWeek 16\n\n\nClosing Session\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "material.html#assignments",
@@ -37,16 +37,16 @@
   {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "",
-    "text": "Seminar:\nÜbung - Methoden der Vergleichenden Regierungslehre\n\n\nTime:\nTuesday, 15:30 – 17:00,  February 13 to May 28\n\n\nPlace:\nC -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)\n\n\nLanguage:\nEnglish\n\n\nInstructor:\nDavid Schweizer, M.A., david.schweizer@uni-mannheim.de\n\n\nOffice hours:\nIn-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail\n\n\nCourse website:\n\n\n\nSyllabus as PDF"
+    "text": "Seminar:\nÜbung - Methoden der Vergleichenden Regierungslehre\n\n\nTime:\nTuesday, 15:30 – 17:00,  February 13 to May 28\n\n\nPlace:\nC -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)\n\n\nLanguage:\nEnglish\n\n\nInstructor:\nDavid Schweizer, M.A., david.schweizer@uni-mannheim.de\n\n\nOffice hours:\nIn-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail"
   },
   {
     "objectID": "weeks/week-01.html",
     "href": "weeks/week-01.html",
     "title": "Intro Session",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nIntro Session\n\n\nWeek 1\n\n\nSep 7, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTo Do’s before our session\n\nNone. We will have an introductory session to get to know each other, go over the plan for the semester, and talk about both your and my expectations for the course.\nAlthough our sessions are in the “Methodenlabor” and you will have access to computers, I encourage you to bring your own laptop (if you have one). That way, you can also work on assignments during the semester and the final examination at home. We will have time tomorrow to ensure everybody can install a working version of R and RStudio."
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nIntro Session\n\n\nWeek 1\n\n\nFeb 13, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTo Do’s before our session\n\nNone. We will have an introductory session to get to know each other, go over the plan for the semester, and talk about both your and my expectations for the course.\nAlthough our sessions are in the “Methodenlabor” and you will have access to computers, I encourage you to bring your own laptop (if you have one). That way, you can also work on assignments during the semester and the final examination at home. We will have time tomorrow to ensure everybody can install a working version of R and RStudio."
   },
   {
     "objectID": "slides/week-01/01-example.html#bullet-point-list",
@@ -121,9 +121,9 @@
   {
     "objectID": "weeks/week-02.html",
     "href": "weeks/week-02.html",
-    "title": "Designing a Graph",
+    "title": "Intro to R",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nDesigning a Graph\n\n\nWeek 2\n\n\nSep 14, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the R script for this session here.\n\n\nTo Do’s before our session\n\nInstall & JoinReadThink\n\n\n\nMake sure R and RStudio is installed and works\n\nInstructions can be found on the course website\n\nJoin the course Slack channel!\n\nInvitation will follow tomorrow\n\nJoin the Dataquest team!\n\nInvitation will follow in the next days\n\n\n\n\n\nChapter 1: Look at data in Healy, Data Visualization\n\nLink to free online version\n\nChapter 2: The Five Qualities of Great Visualizations in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 2: Visualizing data: Mapping data onto aesthetics, in Wilke, Fundamentals of Data Visualization\n\nLink to free online version\n\nFurther reading:\nChapter 3: Make a Plot in Healy, Data Visualization\n\nLink to free online version\n\n\n\n\n\nQuestions to think about for the readings\n\nWhy do we use visualizations?\nWhat do we need in order to create great visualizations?\nHow do we determine what kind of visualization should be used? (Bar plot, pie chart,…)"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nIntro to R\n\n\nWeek 2\n\n\nFeb 20, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nInstall & JoinReadThink\n\n\n\nMake sure R and RStudio is installed and works\n\nhttps://posit.co/download/rstudio-desktop/\n\nJoin the course Slack channel!\n\nInvitation will follow via e-mail.\n\nJoin the Dataquest team!\n\nInvitation will follow via e-mail.\n\n\n\n\n\nChapter 2: Get Started in Healy, Data Visualization\n\nLink to free online version\nBegin with 2.2 Use R with RStudio\n\n\n\n\n\nQuestions to think about until our next session:\n\nWhat interests you substantially? Start thinking about possible research areas for your data project.\nFeel also free to point out (via Slack or personally via e-mail) which data sets you are interested in. Our coding examples during the weekly sessions can be tailored accordingly!"
   },
   {
     "objectID": "slides/week-01/01-Intro.html",
@@ -135,16 +135,16 @@
   {
     "objectID": "syllabus.html#course-description",
     "href": "syllabus.html#course-description",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Course description",
-    "text": "Course description\n\nAgainst the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process."
+    "text": "Course description\n\nAgainst the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github and how to communicate your results. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process.\nThe goal of this course is to equip you with the skills to:\n\ncollect your own data\ntidy, transform & visualize the data\ncommunicate your data & (exploratory) results\ncollaborate with others along the workflow\n\nTaking this course should not be an end in itself. The motivation for this course is therefore twofold: First, these skills prepare you for conducting empirical research (including term papers, BA or MA theses), collaborating with other students / researchers, and communicating your work. Second, mastering these skills also prepare you for a career outside academia.\nThere are no prerequisites for this course, except the willingness to familiarise yourself with the R programming language."
   },
   {
     "objectID": "syllabus.html#course-requirements",
     "href": "syllabus.html#course-requirements",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Course requirements",
-    "text": "Course requirements\nActive participation and preparation:\nAttending the weekly sessions and reading assigned articles and chapters before class. Use Slack to post any questions or discuss with your peers if you do not understand concepts. Usually, I post questions to think about regarding the readings. Keep them in mind while reading.\nShort presentation\nThroughout the semester, I will assign you in groups of 2-3 to participate in the TidyTuesday challenge (https://github.com/rfordatascience/tidytuesday). The goal is to produce anything from simple plots to advanced graphics and present your work process in the next session.\nData project (100% of your grade):\nCreation of multiple visualizations of (political) data. While it is possible to produce static visualizations and hand in a PDF, ideally the visualizations are part of an interactive (web) dashboard. The visualization project has to be submitted via ILIAS. Late submissions will result in deductions of 1/3 of a grade point per day. In case of any questions or problems, please get in touch with me early. Deadline: January 18, 2024, 23:59.\n\nContentQuantityQuality\n\n\n\n\nYour final project should relate to a research question broadly related to political science and comparative politics.\nFirst, you should describe the motivation for your visualization project.\nSecond, make a theoretical argument for the relationships you are investigating.\nThird, describe the data source.\nFourth, annotate your coding (import, transformation, …) extensively.\n\n\n\n\n\n\nIt is difficult to determine a exact “number of plots” needed. Of course, you can display much more information in an interactive Shiny app than in a static dashboard.\nYou should produce enough plots (visualizations) to effectively address your research question. Description is totally fine!\nNote: This is also where the individual office hour comes into play!\n\n\n\n\n\n\nWe have spoken a lot about how we can produce elegant graphs.\nTherefore, the design of the visualizations will make up a considerable share of your grade.\nRemember? Contrast, Repetition, Alignment, and Proximity\nCreating your own theme!\nAll the little things: Titles, captions, accompanying text, colors, different aesthetics, …\nHere, there is clearly potential for bonus points for effort."
+    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines TBA\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
   },
   {
     "objectID": "syllabus.html#recommended-readings",
@@ -156,16 +156,16 @@
   {
     "objectID": "syllabus.html#organization-learning-resources",
     "href": "syllabus.html#organization-learning-resources",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Organization & Learning Resources",
-    "text": "Organization & Learning Resources\nCourse website, Slack, and ILIAS:\nThe plan is to use primarily the course website and Slack for providing the structure of the seminar and communication, respectively. Nevertheless, you will also receive mails via ILIAS. Make sure to regularly check your university e-mail address.\n\nYou can find the course website here: Link\nThe ILIAS seminar name is: Ü Methoden der Vergleichenden Regierungslehre: Data Visualization for Comparative Politics [WÜB] [1. PG] (HWS 2023). Ensure that you have access to the system and that e-mails sent over ILIAS are forwarded to the e-mail account you check regularly.\nIf you have contacted me with a question via any channel and you did not hear back after 2 days (except over the weekend), please just send me your question again!\n\nOffice hours:\n\nIn-person (A 340) or via Zoom, Thu 15:30 – 16:30, please make an appointment by e-mail.\nIf you have a specific question or problem (e.g., finding a research question), please tell me before coming to the office hours (when making the appointment). This way , I can also prepare for it and thereby making our meeting more productive and constructive.\n\nCovid-19 (and general illness):\n\nIf you feel ill or have symptoms, please be considerate of your fellow students and yourself(!). Just let me know by e-mail.\n\nStudents with disabilities or chronic illnesses:\n\nPlease contact me or the Office of Student Affairs if you need special assistance due to disabilities or chronic illnesses.\nAnd please do this early in the semester so that we can make the appropriate arrangements immediately.\n\nIf you need support:\nOf course, you can always talk directly to me if you feel comfortable with the question. It is important to note that the University’s Equality and Diversity Office supports and advises you in cases of discrimination or sexual harassment. The responsible contact person in such a case is Dipl.-Psych. Ute Pfründer. She is trained to deal with such incidents and will keep everything strictly confidential. No action will be taken without your express consent. Further counseling services offered by the university can be found via this link."
+    "text": "Organization & Learning Resources\nCourse website, Slack, (and ILIAS):\nThe plan is to use primarily the course website and Slack for providing the structure of the seminar, materials, and communication, respectively. Nevertheless, you will also receive mails via ILIAS. Make sure to regularly check your university e-mail address.\nIf you have contacted me with a question via any channel and you did not hear back after 2 days (except over the weekend), please just send me your question again!\nOffice hours:\n\nIn-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail.\nIf you have a specific question or problem (e.g., installing a specific package, finding a data source, etc.), please let me know before coming to the office hours. This way , I can also prepare for it and thereby making our meeting more productive and constructive.\n\nIllness (& Covid)\n\nIf you feel ill or have symptoms, please be considerate of your fellow students and yourself(!). Just let me know by e-mail.\n\nStudents with disabilities or chronic illnesses:\n\nPlease contact me or the Office of Student Affairs if you need special assistance due to disabilities or chronic illnesses. And please do this early in the semester so that we can make the appropriate arrangements.\n\nIf you need any support:\nOf course, you can always talk directly to me if you feel comfortable with the question. It is important to note that the University’s Equality and Diversity Office supports and advises you in cases of discrimination or sexual harassment. The responsible contact person in such a case is Dipl.-Psych. Ute Pfründer. She is trained to deal with such incidents and will keep everything strictly confidential. No action will be taken without your express consent. Further counseling services offered by the university can be found via this link.\nReadings\nThe primary readings for this seminar are chapters from the following books:\n\nHealy, Kieran. Data visualization: a practical introduction. Princeton University Press, 2018. Free access via Katalog Primo and free online: https://socviz.co/\nWilke, Claus E. Fundamentals of Data Visualization. O’Reilly Media, 2018. Free access via Katalog Primo and free online: https://clauswilke.com/dataviz/\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science. 2ed”. O’Reilly Media, Inc. Free online: https://r4ds.hadley.nz/"
   },
   {
     "objectID": "syllabus.html#course-schedule",
     "href": "syllabus.html#course-schedule",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Course Schedule",
-    "text": "Course Schedule\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n1\n13.02.2024\nIntro Session\n\n\n2\n20.02.2024\nThe Tidyverse\n\n\n3\n27.02.2024\nData Wrangling\n\n\n4\n05.03.2024\nMaking plots\n\n\n5\n12.03.2024\nVersion control I\n\n\n6\n19.03.2024\nVersion control II\n\n\n7\n26.03.2024\nNo Session; Easter Break\n\n\n8\n02.04.2024\nNo Session, Easter Break\n\n\n9\n09.04.2024\nAPIs\n\n\n10\n16.04.2024\nWebscraping I: Intro\n\n\n11\n23.04.2024\nWebscraping II: Static\n\n\n12\n30.04.2024\nWebscraping II: Interactive\n\n\n13\n07.05.2024\nInteractive I\n\n\n14\n14.05.2024\nInteractive II\n\n\n15\n21.05.2024\nInteractive III\n\n\n16\n28.05.2024\nClosing Session"
+    "text": "Course Schedule\nThe schedule is preliminary. Structure and/or content might change during the semester. You will find the readings, materials, and slides for each week on the course website (see Schedule, slides & materials).\nIntro\nWeek 01 - 13.02.2024 - Intro Session\nBlock I: Import, Tidy, Transform, & Visualize Data\nWeek 02 - 20.02.2024 - Intro to R\nWeek 03 - 27.02.2024 - Tidyverse I: Import, tidy, and transform\nWeek 04 - 05.03.2024 - Tidyverse II: Import, tidy, and transform\nWeek 05 - 12.03.2024 - ggplot: Visualize\nBlock II: Communicate & Collaborate\nWeek 06 - 19.03.2024 - R Markdown / Quarto\nWeek 07 - 26.03.2024 - Easter Break\nWeek 08 - 02.04.2024 - Easter Break\nWeek 09 - 09.04.2024 - Version control (Github)\nBlock III: Web scraping\nWeek 10 - 16.04.2024 - APIs\nWeek 11 - 23.04.2024 - Web scraping basics\nWeek 12 - 30.04.2024 - Web scraping static\nWeek 13 - 07.05.2024 - Web scraping dynamic\nBlock II: Communicate Interactively\nWeek 14 - 14.05.2024 - Interactive I: Create your first Shiny app\nWeek 15 - 21.05.2024 - Interactive II: Making pretty Shiny apps\nClosing\nWeek 16 - 28.05.2024 - Closing Session"
   },
   {
     "objectID": "syllabus.html#course-schedule-and-reading-material",
@@ -177,79 +177,79 @@
   {
     "objectID": "weeks/week-03.html",
     "href": "weeks/week-03.html",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nMapping (Tidy) Data\n\n\nWeek 3\n\n\nSep 21, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nThere is no R script for this session.\n\n\nTo Do’s before our session\n\nFirst plotsReadThink\n\n\nUsing the R script from week 2, try to plot different data (filter different continents and/or years) with geom_point().\nDon’t be frustrated if it won’t work! We will go in detail over the structure of ggplot() in this session.\n\n\n\nChapter 3: Make a Plot in Healy, Data Visualization. Link to free online version\nChapter 2: Visualizing data: Mapping data onto aesthetics, in Wilke, Fundamentals of Data Visualization. Link to free online version\nFurther reading:\nIf you struggle with R Studio in general and feel overwhelmed, have a look at Chapter 2: Get Started in Healy, Data Visualization. Link to free online verison\nMore advanced: This blog post by Cédric Scherer gives a nice overview of how to customize a plot. Give it a try to understand and run the code.\n\n\n\n\nQuestions to think about for the readings:\n\nWhat does mapping data onto aesthetics mean?\nAt what point should we stop editing our graph? Can we always do “more”?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nTidyverse I: Import, tidy, and transform\n\n\nWeek 3\n\n\nFeb 27, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-04.html",
     "href": "weeks/week-04.html",
-    "title": "Amounts and Proportions",
+    "title": "Tidyverse II: Import, tidy, and transform",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nAmounts & Proportions\n\n\nWeek 4\n\n\nSep 28, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the R Markdown script for this session here.\n\n\nTo Do’s before our session\n\nGapminder and V-DemReadThink\n\n\nTry to import data - either Gapminder or V-Dem (if you are more advanced already) - transform it using dplyr functions and make a simple plot.\nOf course, you can use the code in the slides and adapt it to your needs.\n\n\n\nChapter 6: Exploring Data with Simple Charts in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 6: Visualizing amounts, in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 10: Visualizing proportions, in Wilke, Fundamentals of Data Visualization. Link to free online version\n\n\n\n\nQuestions to think about for the readings:\n\nDo you analyze data at the moment for another course? How could you benefit from visualizing amounts and proportions?\nMany argue against pie charts for data visualization. In what cases might they be a good choice?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nTidyverse II: Import, tidy, and transform\n\n\nWeek 4\n\n\nMar 5, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-05.html",
     "href": "weeks/week-05.html",
-    "title": "Themes",
+    "title": "ggplot: Visualize",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nThemes & Refining Plots\n\n\nWeek 5\n\n\nOct 5, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nFor this week, have a look at these R markdown files:\n\nThe first R markdown file demonstrates how to create a nice custom theme for ggplot using the gapminder data. You can find it here.\nThe second R markdown file shows how to import data from the Federal Returning Officer in Germany and create a scatterplot of unemployment rate and AfD vote share at the constituency level for the 2021 German federal elections. You can find it here. You can download the .csv files either yourself (see the links in the R markdown files) or from ILIAS.\n\nTry to run both R markdown files. As always, you can try out new arguments or change values (e.g., colors, title size, …). If this works, try to extend the code in the second R markdown file:\n\nFirst, you will see that the code also imports data from the 2017 German federal election.\nNext, create a new data frame that contains the 2017 and 2021 data.\nThird, create a scatterplot of unemployment rate and AfD vote share and use year as facet.\nFinally, apply the custom theme from the first R markdown file to this new plot.\n\nDoes your plot look like this?\n\n\n\n\n\nYou can find the solution here. Try first without looking!\n\n\nTo Do’s before our session\n\nVisualizing amountsReadThink\n\n\n“Beginner”\n\nTry to run the ggparliament R markdown script (see Materials for week 4)\n\n“Advanced”\n\nHave a look at TidyTuesday, choose one of the data sets, and visualize amounts\n\n\n\n\nChapter 8: Refine your plots, in Hiely, Data Visualization. Link to free online version\nChapter 22: Titles, captions, and tables in Wilke, Fundamentals of Data Visualization. Link to free online version\n\n\n\n\nQuestions to think about for the readings:\n\nDo you still remember the CRAP principles? How do they relate to theme elements (e.g., title, captions, labels, …) in ggplot?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nggplot: Visualize\n\n\nWeek 5\n\n\nMar 12, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-06.html",
     "href": "weeks/week-06.html",
-    "title": "Uncertainty",
+    "title": "R Markdown / Quarto",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nUncertainty\n\n\nWeek 6\n\n\nOct 12, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the coding example and data on ILIAS.\n\n\nTo Do’s before our session\n\n(Voluntary) exerciseReadThink\n\n\nTry to run both R markdown files under Materials in week 5 and extend the code as described.\nThis is not a mandatory exercise. However, I strongly recommend that you try to do it. Being able to extend existing code will be essential for creating a great visualization for your final examination! If there are any questions, please do not hesitate to contact me via e-mail before our next session.\n\n\n\nChapter 4 and 11 in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 7: Visualizing distributions: Histograms and density plots in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings:\n\nBlog post by Cedric Scherer\nChapter 16: Visualizing uncertainty in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 7 in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\n\n\n\n\nQuestions to think about for the readings:\n\nWhy is it important to communicate uncertainty in our plots?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nR Markdown / Quarto\n\n\nWeek 6\n\n\nMar 19, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-07.html",
     "href": "weeks/week-07.html",
-    "title": "Relationships",
+    "title": "Version control (Github)",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nRelationships\n\n\nWeek 7\n\n\nOct 19, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\n\nIf you want to create correlograms on your own, you can find illustrating code here.\nYou can find the exercise here.\n\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 9 in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 12: Visualizing associations among two or more quantitative variables in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings:\n\nBlog post by Kieran Hiely\n\n\n\n\nQuestions to think about for the readings:\n\nHow can we communicate the relationship between variables the best way? What about uncertainty?\nWhat are the dangers of visualizing two variables?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nVersion control (Github)\n\n\nWeek 9\n\n\nApr 9, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-09.html",
     "href": "weeks/week-09.html",
-    "title": "Annotations",
+    "title": "Web scraping basics",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nAnnotations\n\n\nWeek 9\n\n\nNov 2, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find a template for today’s group work here.\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 17: The principle of proportional ink in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 18: Handling overlapping points in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 19: Common pitfalls of color use in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 22: Tites, captions, and tables in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 5: Graph tables, add labels, make notes in Healy, Datavisualization. Link to free online version\n\nHelpful and interesting readings:\n\nTutorial by Cara Thompson\n\n\n\n\nQuestions to think about for the readings:\n\nWhen is annotation helpful and when does it clutter our graph? Can there be too much annotation? When is it most effective?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping basics\n\n\nWeek 11\n\n\nApr 23, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-10.html",
     "href": "weeks/week-10.html",
-    "title": "Interactivity I",
+    "title": "Web scraping static",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractivity I\n\n\nWeek 10\n\n\nNov 9, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou find the materials to follow along the applied examples as a ZIP file here. You should extract the files and make use of the R project in the folder. The folder includes the raw election and structural data as well as the transformed data. With the transformed data you can run the R Markdown files. These allow you to create a simple flexdashboard, a flexdashboard with multiple pages, and a flexdashboard using Shiny (interactive) elements. In order to to run the R markdown files you need to install the package flexdashboard and shiny.\n\ninstall.packages(\"flexdashboard\")\ninstall.packages(\"shiny\")\n\n\n\nTo Do’s before our session\n\nRead - Have a look at the examplesThink\n\n\n\nflexdashboard by R Studio\nR Shiny\n\nHelpful and interesting readings - Have a look at the respective introductions\n\nMastering Shiny\nOutstanding User Interfaces with Shiny\n\n\n\n\nQuestions to think about for the readings:\n\nHow would you visualize your data in an interactive way or via a flexdashboard?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping static\n\n\nWeek 12\n\n\nApr 30, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-11.html",
     "href": "weeks/week-11.html",
-    "title": "Time",
+    "title": "Web scraping dynamic",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nTime\n\n\nWeek 11\n\n\nNov 16, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\n\nYou can find the R Markdown file to animate gapminder data using the gganimate package here.\nYou can find the code for a flexdashboard with a time slider here.\n\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 8: Revealing Change in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 13: Visualizing time series and other functions of an independent variable in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 14: Visualizing trends in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings\n\n11 ways to visualize changes over time - a guide\n\n\n\n\nQuestions to think about for the readings:\n\nit is easy to mislead our readers when displaying changes over time. Why is this the case? And how can we avoid it?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping dynamic\n\n\nWeek 13\n\n\nMay 7, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-12.html",
     "href": "weeks/week-12.html",
-    "title": "Space",
+    "title": "Interactive I: Create your first Shiny app",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nSpace\n\n\nWeek 12\n\n\nNov 23, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can download the applied example for this week here.\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 10: Mapping Data in Cairo, The Truthful Art\n\nPlease access the chapter via Katalog Primo (University library)\n\nChapter 7: Draw maps in Healy, Data Visualization. A practical introduction. Link to free online version\nChapter 15: Geospatial data in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings\n\nVideo: Why all maps are wrong\n\n\n\n\nQuestions to think about for the readings:\n\nHow can you incorporate maps in your final assignment? Are they actually better suited for your data?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive I: Create your first Shiny app\n\n\nWeek 14\n\n\nMay 14, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-13.html",
     "href": "weeks/week-13.html",
-    "title": "Interactivity II",
+    "title": "Interactive II: Making pretty Shiny apps",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractivity II\n\n\nWeek 13\n\n\nNov 30, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find a zip folder with R scripts for Shiny apps and the respective data here.\n\nAll Shiny apps use either constituency_shapes_vote.RDS or constituency_geometry_vote.RDS as data, both files are stored in the data folder. The R script used for the data processing is called raw_data_processing.R and makes use of the various .csv files and the .shp file in the raw data folder.\nshiny_app.R allows you to run a ‘basic’ Shiny app displaying a histogram of vote shares for the 2017 German federal election allowing you to choose the party.\nshiny_dashboard_bslib.R incorporates the same code, but renders the Shiny app as part of a dashboard.\nSimilar to a flexdashboard, we can create multiple pages on our dashboard. shinydashboard_multiple_pages_bslib.R demonstrates this.\nFinally, advanced_shiny_app_map.R introduces reactivity combined with an interactive plot based on the ggiraph package. Based on your selection on the map, the accompanying table will update.\n\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 1, Your first Shiny app in Wickham, Mastering Shiny. Link to free online version.\nR Shiny, Get Started: Welcome to Shiny.\n\n\n\n\nQuestions to think about for the readings:\n\nCan you implement the examples on your own device? Try to follow the practical examples and run these Shiny apps!"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive II: Making pretty Shiny apps\n\n\nWeek 15\n\n\nMay 21, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week-14.html",
     "href": "weeks/week-14.html",
-    "title": "Self-study: Final project",
+    "title": "Closing Session",
     "section": "",
-    "text": "This week, there will be no in-person session. Instead, you should use the time to develop a first sketch of your final project.\nI will offer individual office hour for each student in the week from 11.12. - 15.12.23 via Zoom. There, you can discuss this sketch with me and get early feedback. Please contact me about a specific date by the end of this week (08.12.23).\nOf course, there will additional office hours if needed before Christmas (until 22.12.23) and after New Year’s (from 03.01.24 onward).\nKeep in mind that the deadline for the final project is January 18, 2024, 23:59."
+    "text": "Seminar slides\n\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
   },
   {
     "objectID": "weeks/week08.html",
@@ -345,9 +345,9 @@
   {
     "objectID": "weeks/week-08.html",
     "href": "weeks/week-08.html",
-    "title": "Comparisons",
+    "title": "APIs",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nComparisons\n\n\nWeek 8\n\n\nOct 26, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\n\nYou can find the R markdown to follow along the coding example as well as with the task for the group work (and with the necessary data) here. Create an R project and store all files in the respective folder. You can a file with “solutions” here.\nIn addition, you can find further examples on how to create small multiples, sparklines, slope graphs, and bump charts here. Again, in order to run everything smoothly, I recommend to create an R project and store all the files in this folder.\n\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 9: Visualizing many distributions at once in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 21: Multi-panel figures in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings:\n\nBlog post by Mike Bostock\nBlog post by Edward Tufte\nLollipop charts\n\n\n\n\nQuestions to think about for the readings:\n\nWhat is your favorite way to visualize comparisons?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nAPIs\n\n\nWeek 10\n\n\nApr 16, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\n\nYou can find the R markdown to follow along the coding example as well as with the task for the group work (and with the necessary data) here. Create an R project and store all files in the respective folder. You can a file with “solutions” here.\nIn addition, you can find further examples on how to create small multiples, sparklines, slope graphs, and bump charts here. Again, in order to run everything smoothly, I recommend to create an R project and store all the files in this folder.\n\n\n\nTo Do’s before our session\n\nReadThink\n\n\n\nChapter 9: Visualizing many distributions at once in Wilke, Fundamentals of Data Visualization. Link to free online version\nChapter 21: Multi-panel figures in Wilke, Fundamentals of Data Visualization. Link to free online version\n\nHelpful and interesting readings:\n\nBlog post by Mike Bostock\nBlog post by Edward Tufte\nLollipop charts\n\n\n\n\nQuestions to think about for the readings:\n\nWhat is your favorite way to visualize comparisons?"
   },
   {
     "objectID": "slides/week-02/02-ScienceOfClimateChange.html#social-and-economic-impacts-of-climate",
@@ -2139,7 +2139,7 @@
     "href": "index.html#course-overview",
     "title": "Automated Data Collection",
     "section": "",
-    "text": "Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process."
+    "text": "Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.\nThe course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github and how to communicate your results. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process."
   },
   {
     "objectID": "index.html#weekly-event",
@@ -2340,23 +2340,23 @@
   {
     "objectID": "syllabus.html#textbooks",
     "href": "syllabus.html#textbooks",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Textbooks",
     "text": "Textbooks\nThe primary readings for this seminar are chapters from the following books:\n\nCairo, Alberto. The truthful art: Data, charts, and maps for communication. New Riders, 2016. Free access via Katalog Primo (UB Mannheim)\nHealy, Kieran. Data visualization: a practical introduction. Princeton University Press, 2018. Free access via Katalog Primo and free online: https://socviz.co/\nWilke, Claus E. Fundamentals of Data Visualization. O’Reilly Media, 2018). Free access via Katalog Primo and free online: https://clauswilke.com/dataviz/"
   },
   {
     "objectID": "syllabus.html#prerequisites",
     "href": "syllabus.html#prerequisites",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "Prerequisites",
     "text": "Prerequisites\nThere are no prerequisites for this course, except the willingness to familiarise yourself with the R programming language."
   },
   {
     "objectID": "syllabus.html#course-details",
     "href": "syllabus.html#course-details",
-    "title": "Syllabus: Automated Data Collection",
+    "title": "Syllabus",
     "section": "",
-    "text": "Seminar:\nÜbung - Methoden der Vergleichenden Regierungslehre\n\n\nTime:\nTuesday, 15:30 – 17:00,  February 13 to May 28\n\n\nPlace:\nC -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)\n\n\nLanguage:\nEnglish\n\n\nInstructor:\nDavid Schweizer, M.A., david.schweizer@uni-mannheim.de\n\n\nOffice hours:\nIn-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail\n\n\nCourse website:\n\n\n\nSyllabus as PDF"
+    "text": "Seminar:\nÜbung - Methoden der Vergleichenden Regierungslehre\n\n\nTime:\nTuesday, 15:30 – 17:00,  February 13 to May 28\n\n\nPlace:\nC -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)\n\n\nLanguage:\nEnglish\n\n\nInstructor:\nDavid Schweizer, M.A., david.schweizer@uni-mannheim.de\n\n\nOffice hours:\nIn-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail"
   },
   {
     "objectID": "index.html#course-details",
@@ -4632,5 +4632,82 @@
     "title": "Interactivity II",
     "section": "Your final project",
     "text": "Your final project\n\nContentQuantityQuality\n\n\n\n\nYour final project should relate to a research question broadly related to political science and comparative politics.\nFirst, you should describe the motivation for your visualization project.\nSecond, make a theoretical argument for the relationships you are investigating.\nThird, describe the data source.\nFourth, annotate your coding (import, transformation, …) extensively.\n\n\n\n\n\n\nIt is difficult to determine a exact “number of plots” needed. Of course, you can display much more information in an interactive Shiny app than in a static dashboard.\nYou should produce enough plots (visualizations) to effectively address your research question. Description is totally fine!\nNote: This is also where the individual office hour comes into play!\n\n\n\n\n\n\nWe have spoken a lot about how we can produce elegant graphs.\nTherefore, the design of the visualizations will make up a considerable share of your grade.\nRemember? Contrast, Repetition, Alignment, and Proximity\nCreating your own theme!\nAll the little things: Titles, captions, accompanying text, colors, different aesthetics, …\nHere, there is clearly potential for bonus points for effort."
+  },
+  {
+    "objectID": "index.html#navigating-this-website",
+    "href": "index.html#navigating-this-website",
+    "title": "Automated Data Collection",
+    "section": "Navigating this website",
+    "text": "Navigating this website\nOn this website, you can find the syllabus as well as all course materials (see Schedule, slides & materials)."
+  },
+  {
+    "objectID": "slides/week-02/02-GrammarOfGraphics.html#tba",
+    "href": "slides/week-02/02-GrammarOfGraphics.html#tba",
+    "title": "Intro to R",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#tba",
+    "href": "slides/week-05/05-Themes.html#tba",
+    "title": "ggplot: Visualize",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#tba",
+    "href": "slides/week-06/06-Uncertainty.html#tba",
+    "title": "R Markdown / Quarto",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#tba",
+    "href": "slides/week-07/07-Relationships.html#tba",
+    "title": "Version control (Github)",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#apis",
+    "href": "slides/week-08/08-Comparisons.html#apis",
+    "title": "APIs",
+    "section": "APIs",
+    "text": "APIs\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-09/09-Annotations.html#tba",
+    "href": "slides/week-09/09-Annotations.html#tba",
+    "title": "Web scraping basics",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-10/10-InteractivityI.html#tba",
+    "href": "slides/week-10/10-InteractivityI.html#tba",
+    "title": "Web scraping static",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#tba",
+    "href": "slides/week-11/11-Time.html#tba",
+    "title": "Web scraping dynamic",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#tba",
+    "href": "slides/week-12/12-Space.html#tba",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-13/13-InteractivityII.html#tba",
+    "href": "slides/week-13/13-InteractivityII.html#tba",
+    "title": "Interactive II: Making pretty Shiny apps",
+    "section": "TBA",
+    "text": "TBA\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Visualization for Comparative Politics - Course Website - Syllabus: Automated Data Collection</title>
+<title>Automated Data Collection - Course Website - Syllabus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,10 +132,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#course-details" id="toc-course-details" class="nav-link active" data-scroll-target="#course-details"><strong>Course details</strong></a></li>
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description"><strong>Course description</strong></a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites"><strong>Prerequisites</strong></a></li>
   <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements"><strong>Course requirements</strong></a></li>
   <li><a href="#organization-learning-resources" id="toc-organization-learning-resources" class="nav-link" data-scroll-target="#organization-learning-resources"><strong>Organization &amp; Learning Resources</strong></a></li>
-  <li><a href="#textbooks" id="toc-textbooks" class="nav-link" data-scroll-target="#textbooks"><strong>Textbooks</strong></a></li>
   <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule"><strong>Course Schedule</strong></a></li>
   </ul>
 </nav>
@@ -145,8 +143,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus: Automated Data Collection</h1>
-<p class="subtitle lead">Spring 2024</p>
+<h1 class="title">Syllabus</h1>
+<p class="subtitle lead">Automated Data Collection - Spring 2024 - University of Mannheim</p>
 </div>
 
 
@@ -165,8 +163,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="course-details"><strong>Course details</strong></h2>
 <table class="table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 70%">
+<col style="width: 28%">
+<col style="width: 71%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -193,14 +191,6 @@ ul.task-list li input[type="checkbox"] {
 <td>Office hours:</td>
 <td>In-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail</td>
 </tr>
-<tr class="odd">
-<td>Course website:</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Syllabus as PDF</td>
-<td></td>
-</tr>
 </tbody>
 </table>
 </section>
@@ -208,189 +198,99 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="course-description"><strong>Course description</strong></h2>
 <p><strong><br>
 </strong>Against the background of the ever-increasing availability of (unstructured) online data, the goal of this course is to equip the students with the necessary skills to collect large quantities of data for their own research projects, to process the data, and to automate this workflow in a reproducible way.</p>
-<p>The course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process.</p>
-</section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites"><strong>Prerequisites</strong></h2>
+<p>The course introduces students to automated data collection using a very practical approach with the R programming language. The course consists of three major modules. First, you will be guided into the programming language and learn the fundamentals of R. No prior experience with R is necessary. Among other things, we will cover how to import, transform, and visualize data. Second, we will focus on the workflow for reproducible research. For example, this includes version control via Github and how to communicate your results. Third, we will cover static and dynamic web scraping as well as APIS’s from a conceptual perspective and use these tools to collect web data. Finally, we will also learn how to automate this process.</p>
+<p>The goal of this course is to equip you with the skills to:</p>
+<ul>
+<li><p>collect your own data</p></li>
+<li><p>tidy, transform &amp; visualize the data</p></li>
+<li><p>communicate your data &amp; (exploratory) results</p></li>
+<li><p>collaborate with others along the workflow</p></li>
+</ul>
+<p>Taking this course should not be an end in itself. The motivation for this course is therefore twofold: First, these skills prepare you for conducting empirical research (including term papers, BA or MA theses), collaborating with other students / researchers, and communicating your work. Second, mastering these skills also prepare you for a career outside academia.</p>
 <p>There are no prerequisites for this course, except the willingness to familiarise yourself with the R programming language.</p>
 </section>
 <section id="course-requirements" class="level2">
 <h2 class="anchored" data-anchor-id="course-requirements"><strong>Course requirements</strong></h2>
 <p><strong>Active participation and preparation:</strong></p>
-<p>Attending the weekly sessions and reading assigned articles and chapters before class. Use Slack to post any questions or discuss with your peers if you do not understand concepts. Usually, I post questions to think about regarding the readings. Keep them in mind while reading.</p>
-<p><strong>Short presentation</strong></p>
-<p>Throughout the semester, I will assign you in groups of 2-3 to participate in the TidyTuesday challenge (<a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a>). The goal is to produce anything from simple plots to advanced graphics and present your work process in the next session.</p>
-<p><strong>Data project (100% of your grade):</strong></p>
-<p>Creation of multiple visualizations of (political) data. While it is possible to produce static visualizations and hand in a PDF, ideally the visualizations are part of an interactive (web) dashboard. The visualization project has to be submitted via ILIAS. Late submissions will result in deductions of 1/3 of a grade point per day. <strong>In case of any questions or problems, please get in touch with me early. Deadline:</strong> January 18, 2024, 23:59.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Content</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Quantity</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Quality</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div style="font-size: 80%;">
+<p>Active participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.</p>
+<p>Use Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.</p>
+<p><strong>Assignments during the semester (10% of your grade)</strong></p>
+<p>There will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.</p>
+<p>Deadlines TBA</p>
+<p><strong>“Mid-term” assignments (15% of your grade)</strong></p>
+<p>The mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).</p>
+<p><strong>Data project (75% of your grade):</strong></p>
+<p>Instead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:</p>
 <ul>
-<li><p>Your final project should relate to a research question broadly related to political science and comparative politics.</p></li>
-<li><p>First, you should describe the motivation for your visualization project.</p></li>
-<li><p>Second, make a theoretical argument for the relationships you are investigating.</p></li>
-<li><p>Third, describe the data source.</p></li>
-<li><p>Fourth, annotate your coding (import, transformation, …) extensively.</p></li>
+<li><p>Collect own data using web scraping methods</p></li>
+<li><p>Tidy and transform the data</p></li>
+<li><p>Possibly enrich the data set with other data (sets)</p></li>
+<li><p>Visualize your data</p></li>
+<li><p>Present your data set using an interactive web application or an (interactive Quarto document)</p></li>
+<li><p>Describe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?</p></li>
 </ul>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div style="font-size: 80%;">
+<p><strong>In case of any questions or problems, please get in touch with me as early as possible.</strong> Late submission will result in grade deductions.</p>
 <ul>
-<li><p>It is difficult to determine a exact “number of plots” needed. Of course, you can display much more information in an interactive Shiny app than in a static dashboard.</p></li>
-<li><p>You should produce <em>enough</em> plots (visualizations) to effectively address your research question. Description is totally fine!</p></li>
-<li><p>Note: This is also where the individual office hour comes into play!</p></li>
+<li>Group work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)</li>
 </ul>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div style="font-size: 80%;">
+<!-- -->
 <ul>
-<li><p>We have spoken a lot about how we can produce elegant graphs.</p></li>
-<li><p>Therefore, the design of the visualizations will make up a considerable share of your grade.</p></li>
-<li><p>Remember? <strong>C</strong>ontrast,&nbsp;<strong>R</strong>epetition,&nbsp;<strong>A</strong>lignment, and&nbsp;<strong>P</strong>roximity</p></li>
-<li><p>Creating your own theme!</p></li>
-<li><p>All the <em>little</em> things: Titles, captions, accompanying text, colors, different aesthetics, …</p></li>
-<li><p>Here, there is clearly potential for bonus points for effort.</p></li>
+<li>Submission via ILIAS. <strong>Deadline:</strong> August 06, 2024, 23:59.</li>
 </ul>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="organization-learning-resources" class="level2">
 <h2 class="anchored" data-anchor-id="organization-learning-resources"><strong>Organization &amp; Learning Resources</strong></h2>
-<p><strong>Course website, Slack, and ILIAS:</strong></p>
-<p>The plan is to use primarily the course website and Slack for providing the structure of the seminar and communication, respectively. Nevertheless, you will also receive mails via ILIAS. Make sure to regularly check your university e-mail address.</p>
-<ul>
-<li><p>You can find the course website here: <a href="https://datavisualizationfall2023.netlify.app/" title="https://datavisualizationfall2023.netlify.app/">Link</a></p></li>
-<li><p>The ILIAS seminar name is: Ü Methoden der Vergleichenden Regierungslehre: Data Visualization for Comparative Politics [WÜB] [1. PG] (HWS 2023). Ensure that you have access to the system and that e-mails sent over ILIAS are forwarded to the e-mail account you check regularly.</p></li>
-<li><p>If you have contacted me with a question via any channel and you did not hear back after 2 days (except over the weekend), please just send me your question again!</p></li>
-</ul>
+<p><strong>Course website, Slack, (and ILIAS):</strong></p>
+<p>The plan is to use primarily the course website and Slack for providing the structure of the seminar, materials, and communication, respectively. Nevertheless, you will also receive mails via ILIAS. Make sure to regularly check your university e-mail address.</p>
+<p>If you have contacted me with a question via any channel and you did not hear back after 2 days (except over the weekend), please just send me your question again!</p>
 <p><strong>Office hours:</strong></p>
 <ul>
-<li><p>In-person (A 340) or via Zoom, Thu 15:30 – 16:30, please make an appointment by e-mail.</p></li>
-<li><p>If you have a specific question or problem (e.g., finding a research question), please tell me before coming to the office hours (when making the appointment). This way , I can also prepare for it and thereby making our meeting more productive and constructive.</p></li>
+<li><p>In-person (A 340) or via Zoom, Tuesday 13:45 – 15:15, please make an appointment by e-mail.</p></li>
+<li><p>If you have a specific question or problem (e.g., installing a specific package, finding a data source, etc.), please let me know before coming to the office hours. This way , I can also prepare for it and thereby making our meeting more productive and constructive.</p></li>
 </ul>
-<p><strong>Covid-19 (and general illness):</strong></p>
+<p><strong>Illness (&amp; Covid)</strong></p>
 <ul>
 <li>If you feel ill or have symptoms, please be considerate of your fellow students and yourself(!). Just let me know by e-mail.</li>
 </ul>
 <p><strong>Students with disabilities or chronic illnesses:</strong></p>
 <ul>
-<li><p>Please contact me or the Office of Student Affairs if you need special assistance due to disabilities or chronic illnesses.</p></li>
-<li><p>And please do this early in the semester so that we can make the appropriate arrangements immediately.</p></li>
+<li>Please contact me or the Office of Student Affairs if you need special assistance due to disabilities or chronic illnesses. And please do this early in the semester so that we can make the appropriate arrangements.</li>
 </ul>
-<p><strong>If you need support:</strong></p>
+<p><strong>If you need any support:</strong></p>
 <p>Of course, you can always talk directly to me if you feel comfortable with the question. It is important to note that the <a href="https://www.uni-mannheim.de/gleichstellung/beratung/">University’s Equality and Diversity Office</a> supports and advises you in cases of discrimination or sexual harassment. The responsible contact person in such a case is Dipl.-Psych. Ute Pfründer. She is trained to deal with such incidents and will keep everything strictly confidential. No action will be taken without your express consent. Further counseling services offered by the university can be found via this <a href="https://www.uni-mannheim.de/studium/beratung-und-service/beratungswegweiser/">link</a>.</p>
-</section>
-<section id="textbooks" class="level2">
-<h2 class="anchored" data-anchor-id="textbooks"><strong>Textbooks</strong></h2>
+<p><strong>Readings</strong></p>
 <p>The primary readings for this seminar are chapters from the following books:</p>
 <ul>
-<li><p>Cairo, Alberto<em>. The truthful art: Data, charts, and maps for communication</em>. New Riders, 2016. <em>Free access via Katalog Primo (UB Mannheim)</em></p></li>
 <li><p>Healy, Kieran. <em>Data visualization: a practical introduction</em>. Princeton University Press, 2018. <em>Free access via Katalog Primo and free online: https://socviz.co/</em></p></li>
-<li><p>Wilke, Claus E. <em>Fundamentals of Data Visualization</em>. O’Reilly Media, 2018). <em>Free access via Katalog Primo and free online: https://clauswilke.com/dataviz/</em></p></li>
+<li><p>Wilke, Claus E. <em>Fundamentals of Data Visualization</em>. O’Reilly Media, 2018. <em>Free access via Katalog Primo and free online: https://clauswilke.com/dataviz/</em></p></li>
+<li><p>Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023).&nbsp;<em>R for data science. 2ed</em>”. O’Reilly Media, Inc.&nbsp;<em>Free online:</em> <a href="https://r4ds.hadley.nz/" class="uri">https://r4ds.hadley.nz/</a></p></li>
 </ul>
 </section>
 <section id="course-schedule" class="level2">
 <h2 class="anchored" data-anchor-id="course-schedule"><strong>Course Schedule</strong></h2>
-<table class="table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 18%">
-<col style="width: 41%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Week</strong></td>
-<td><strong>Date</strong></td>
-<td><strong>Topic</strong></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>13.02.2024</td>
-<td>Intro Session</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>20.02.2024</td>
-<td>The Tidyverse</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>27.02.2024</td>
-<td>Data Wrangling</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>05.03.2024</td>
-<td>Making plots</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>12.03.2024</td>
-<td>Version control I</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>19.03.2024</td>
-<td>Version control II</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>26.03.2024</td>
-<td>No Session; Easter Break</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>02.04.2024</td>
-<td>No Session, Easter Break</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>09.04.2024</td>
-<td>APIs</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>16.04.2024</td>
-<td>Webscraping I: Intro</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>23.04.2024</td>
-<td>Webscraping II: Static</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>30.04.2024</td>
-<td>Webscraping II: Interactive</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>07.05.2024</td>
-<td>Interactive I</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>14.05.2024</td>
-<td>Interactive II</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>21.05.2024</td>
-<td>Interactive III</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>28.05.2024</td>
-<td>Closing Session</td>
-</tr>
-</tbody>
-</table>
+<p>The schedule is preliminary. Structure and/or content might change during the semester. You will find the readings, materials, and slides for each week on the course website (see <em>Schedule, slides &amp; materials</em>).</p>
+<p><strong>Intro</strong></p>
+<p>Week 01 - 13.02.2024 - Intro Session</p>
+<p><strong>Block I: Import, Tidy, Transform, &amp; Visualize Data</strong></p>
+<p>Week 02 - 20.02.2024 - Intro to R</p>
+<p>Week 03 - 27.02.2024 - Tidyverse I: Import, tidy, and transform</p>
+<p>Week 04 - 05.03.2024 - Tidyverse II: Import, tidy, and transform</p>
+<p>Week 05 - 12.03.2024 - ggplot: Visualize</p>
+<p><strong>Block II: Communicate &amp; Collaborate</strong></p>
+<p>Week 06 - 19.03.2024 - R Markdown / Quarto</p>
+<p><em>Week 07 - 26.03.2024 - Easter Break</em></p>
+<p><em>Week 08 - 02.04.2024 - Easter Break</em></p>
+<p>Week 09 - 09.04.2024 - Version control (Github)</p>
+<p><strong>Block III: Web scraping</strong></p>
+<p>Week 10 - 16.04.2024 - APIs</p>
+<p>Week 11 - 23.04.2024 - Web scraping basics</p>
+<p>Week 12 - 30.04.2024 - Web scraping static</p>
+<p>Week 13 - 07.05.2024 - Web scraping dynamic</p>
+<p><strong>Block II: Communicate Interactively</strong></p>
+<p>Week 14 - 14.05.2024 - Interactive I: Create your first Shiny app</p>
+<p>Week 15 - 21.05.2024 - Interactive II: Making pretty Shiny apps</p>
+<p><strong>Closing</strong></p>
+<p>Week 16 - 28.05.2024 - Closing Session</p>
 
 
 </section>
@@ -632,7 +532,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Data Visualization for Comparative Politics | Fall 2023 | University of Mannheim</div>   
+    <div class="nav-footer-left">Automated Data Collection | Spring 2024 | University of Mannheim</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

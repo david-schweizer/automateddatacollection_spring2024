@@ -18,8 +18,6 @@ listing:
 editor: visual
 ---
 
-## **Material**
-
 You can find all course materials below. This includes slides, code, links to readings, etc.
 
 Just click on the topic of the respective week.

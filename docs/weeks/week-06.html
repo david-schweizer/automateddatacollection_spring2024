@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="dcterms.date" content="2023-10-12">
+<meta name="dcterms.date" content="2024-03-19">
 
-<title>Data Visualization for Comparative Politics - Course Website - Uncertainty</title>
+<title>Automated Data Collection - Course Website - R Markdown / Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -106,10 +107,10 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Uncertainty</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">R Markdown / Quarto</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -124,9 +125,9 @@ ul.task-list li input[type="checkbox"] {
       <img src="../images/hex_sticker.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://datavis-fall2023.slack.com" title="Slack" class="quarto-navigation-tool px-1" aria-label="Slack"><i class="bi bi-slack"></i></a>
-    <a href="https://ilias.uni-mannheim.de/goto.php?target=crs_1413212&amp;client_id=ILIAS" title="Ilias" class="quarto-navigation-tool px-1" aria-label="Ilias"><i class="bi bi-bank"></i></a>
-    <a href="https://www.datacamp.com/" title="Datacamp" class="quarto-navigation-tool px-1" aria-label="Datacamp"><i class="bi bi-rocket"></i></a>
+    <a href="https://datavis-fall2023.slack.com" rel="" title="Slack" class="quarto-navigation-tool px-1" aria-label="Slack"><i class="bi bi-slack"></i></a>
+    <a href="https://ilias.uni-mannheim.de/goto.php?target=crs_1413212&amp;client_id=ILIAS" rel="" title="Ilias" class="quarto-navigation-tool px-1" aria-label="Ilias"><i class="bi bi-bank"></i></a>
+    <a href="https://www.datacamp.com/" rel="" title="Datacamp" class="quarto-navigation-tool px-1" aria-label="Datacamp"><i class="bi bi-rocket"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -151,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../material.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">Schedule, slides &amp; materials</span></a>
   </div>
 </li>
     </ul>
@@ -175,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Uncertainty</h1>
+<h1 class="title">R Markdown / Quarto</h1>
 <p class="subtitle lead">Week 06</p>
 </div>
 
@@ -187,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 12, 2023</p>
+      <p class="date">March 19, 2024</p>
     </div>
   </div>
   
@@ -216,15 +217,15 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1697061600000" data-listing-file-modified-sort="1697093314502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-title-sort="Uncertainty" data-listing-filename-sort="06-Uncertainty.qmd">
+<tr data-index="0" data-listing-date-sort="1710802800000" data-listing-file-modified-sort="1707828794615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="R Markdown / Quarto" data-listing-filename-sort="06-Uncertainty.qmd">
 <td>
-<a href="../slides/week-06/06-Uncertainty.html" class="title listing-title">Uncertainty</a>
+<a href="../slides/week-06/06-Uncertainty.html" class="title listing-title">R Markdown / Quarto</a>
 </td>
 <td>
 <span class="listing-subtitle">Week 6</span>
 </td>
 <td>
-<span class="listing-date">Oct 12, 2023</span>
+<span class="listing-date">Mar 19, 2024</span>
 </td>
 </tr>
 </tbody>
@@ -237,45 +238,11 @@ No matching items
 </section>
 <section id="materials" class="level1">
 <h1>Materials</h1>
-<p>You can find the coding example and data <a href="https://ilias.uni-mannheim.de/goto.php?target=fold_1441801&amp;client_id=ILIAS">on ILIAS</a>.</p>
+<p>TBA</p>
 </section>
 <section id="to-dos-before-our-session" class="level1">
 <h1>To Do’s before our session</h1>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">(Voluntary) exercise</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Read</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Think</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Try to run both R markdown files under Materials in week 5 and extend the code as described.</p>
-<p>This is not a mandatory exercise. However, I strongly recommend that you try to do it. Being able to extend existing code will be essential for creating a great visualization for your final examination! If there are any questions, please do not hesitate to contact me via e-mail before our next session.</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<ul>
-<li>Chapter 4 and 11 in Cairo, The Truthful Art
-<ul>
-<li>Please access the chapter via Katalog Primo (University library)</li>
-</ul></li>
-<li>Chapter 7: Visualizing distributions: Histograms and density plots in Wilke, Fundamentals of Data Visualization. <a href="https://clauswilke.com/dataviz/histograms-density-plots.html">Link to free online version</a></li>
-</ul>
-<p><strong>Helpful and interesting readings:</strong></p>
-<ul>
-<li><p><a href="https://www.cedricscherer.com/2021/06/06/visualizing-distributions-with-raincloud-plots-and-how-to-create-them-with-ggplot2/">Blog post by Cedric Scherer</a></p></li>
-<li><p>Chapter 16: Visualizing uncertainty in Wilke, Fundamentals of Data Visualization. <a href="https://clauswilke.com/dataviz/visualizing-uncertainty.html">Link to free online version</a></p></li>
-<li><p>Chapter 7 in Cairo, The Truthful Art</p>
-<ul>
-<li>Please access the chapter via Katalog Primo (University library)</li>
-</ul></li>
-</ul>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<ul>
-<li><p>Questions to think about for the readings:</p>
-<ul>
-<li>Why is it important to communicate uncertainty in our plots?</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</div>
+<p>TBA</p>
 
 
 
@@ -518,7 +485,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Data Visualization for Comparative Politics | Fall 2023 | University of Mannheim</div>   
+    <div class="nav-footer-left">Automated Data Collection | Spring 2024 | University of Mannheim</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

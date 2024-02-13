@@ -1,6 +1,6 @@
 ---
-title: "Syllabus: Automated Data Collection"
-subtitle: "Spring 2024"
+title: "Syllabus"
+subtitle: "Automated Data Collection - Spring 2024 - University of Mannheim"
 editor: 
   markdown: 
     wrap: 72
@@ -8,27 +8,14 @@ editor:
 
 ## **Course details**
 
-+------------------+--------------------------------------------------+
-| Seminar:         | Übung - Methoden der Vergleichenden              |
-|                  | Regierungslehre                                  |
-+------------------+--------------------------------------------------+
-| Time:            | Tuesday, 15:30 – 17:00,  February 13 to May 28   |
-+------------------+--------------------------------------------------+
-| Place:           | C -108 Methodenlabor - groß/ Telefonlabor (A 5,  |
-|                  | 6 Bauteil C)                                     |
-+------------------+--------------------------------------------------+
-| Language:        | English                                          |
-+------------------+--------------------------------------------------+
-| Instructor:      | David Schweizer, M.A.,                           |
-|                  | david.schweizer\@uni-mannheim.de                 |
-+------------------+--------------------------------------------------+
-| Office hours:    | In-person (A 340) or via Zoom, Tuesday 13:45 --  |
-|                  | 15:15, please make an appointment by e-mail      |
-+------------------+--------------------------------------------------+
-| Course website:  |                                                  |
-+------------------+--------------------------------------------------+
-| Syllabus as PDF  |                                                  |
-+------------------+--------------------------------------------------+
+|               |                                                                                             |
+|--------------------|--------------------------------------------------|
+| Seminar:      | Übung - Methoden der Vergleichenden Regierungslehre                                         |
+| Time:         | Tuesday, 15:30 – 17:00,  February 13 to May 28                                              |
+| Place:        | C -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)                                |
+| Language:     | English                                                                                     |
+| Instructor:   | David Schweizer, M.A., david.schweizer\@uni-mannheim.de                                     |
+| Office hours: | In-person (A 340) or via Zoom, Tuesday 13:45 -- 15:15, please make an appointment by e-mail |
 
 ## **Course description**
 
@@ -46,11 +33,27 @@ language and learn the fundamentals of R. No prior experience with R is
 necessary. Among other things, we will cover how to import, transform,
 and visualize data. Second, we will focus on the workflow for
 reproducible research. For example, this includes version control via
-Github. Third, we will cover static and dynamic web scraping as well as
-APIS’s from a conceptual perspective and use these tools to collect web
-data. Finally, we will also learn how to automate this process.
+Github and how to communicate your results. Third, we will cover static
+and dynamic web scraping as well as APIS’s from a conceptual perspective
+and use these tools to collect web data. Finally, we will also learn how
+to automate this process.
 
-## **Prerequisites**
+The goal of this course is to equip you with the skills to:
+
+-   collect your own data
+
+-   tidy, transform & visualize the data
+
+-   communicate your data & (exploratory) results
+
+-   collaborate with others along the workflow
+
+Taking this course should not be an end in itself. The motivation for
+this course is therefore twofold: First, these skills prepare you for
+conducting empirical research (including term papers, BA or MA theses),
+collaborating with other students / researchers, and communicating your
+work. Second, mastering these skills also prepare you for a career
+outside academia.
 
 There are no prerequisites for this course, except the willingness to
 familiarise yourself with the R programming language.
@@ -59,114 +62,85 @@ familiarise yourself with the R programming language.
 
 **Active participation and preparation:**
 
-Attending the weekly sessions and reading assigned articles and chapters
-before class. Use Slack to post any questions or discuss with your peers
-if you do not understand concepts. Usually, I post questions to think
-about regarding the readings. Keep them in mind while reading.
+Active participation during our weekly sessions is important to get the
+most out of this course. Engaging with the assigned readings is
+essential for participation.
 
-**Short presentation**
+Use Slack to post any questions or discuss with your peers if you do not
+understand concepts. I will also regularly check our Slack channel.
 
-Throughout the semester, I will assign you in groups of 2-3 to
-participate in the TidyTuesday challenge
-(<https://github.com/rfordatascience/tidytuesday>). The goal is to
-produce anything from simple plots to advanced graphics and present your
-work process in the next session.
+**Assignments during the semester (10% of your grade)**
 
-**Data project (100% of your grade):**
+There will be 4 (short) assignments during the semester. Here, you have
+to demonstrate that you can apply the concepts/code presented during the
+session on your own.
 
-Creation of multiple visualizations of (political) data. While it is
-possible to produce static visualizations and hand in a PDF, ideally the
-visualizations are part of an interactive (web) dashboard. The
-visualization project has to be submitted via ILIAS. Late submissions
-will result in deductions of 1/3 of a grade point per day. **In case of
-any questions or problems, please get in touch with me early.
-Deadline:** January 18, 2024, 23:59.
+Deadlines TBA
 
-::: panel-tabset
-## Content
+**"Mid-term" assignments (15% of your grade)**
 
-::: {style="font-size: 80%;"}
--   Your final project should relate to a research question broadly
-    related to political science and comparative politics.
+The mid-term assignment differs from the other assignments in scope and
+length. Here, you should demonstrate your understanding of the
+concepts/code covered in the first half of the semester (importing,
+wrangling, and visualizing data).
 
--   First, you should describe the motivation for your visualization
-    project.
+**Data project (75% of your grade):**
 
--   Second, make a theoretical argument for the relationships you are
-    investigating.
+Instead of a term paper, you will work on a data project. Again, in this
+final assignment, you need to demonstrate you understanding of the
+concepts/code covered during the semester. The goal is that you build
+your own data set using web scraping methods and present this data set.
+Hence, the data project includes the following steps:
 
--   Third, describe the data source.
+-   Collect own data using web scraping methods
 
--   Fourth, annotate your coding (import, transformation, ...)
-    extensively.
-:::
+-   Tidy and transform the data
 
-## Quantity
+-   Possibly enrich the data set with other data (sets)
 
-::: {style="font-size: 80%;"}
--   It is difficult to determine a exact "number of plots" needed. Of
-    course, you can display much more information in an interactive
-    Shiny app than in a static dashboard.
+-   Visualize your data
 
--   You should produce *enough* plots (visualizations) to effectively
-    address your research question. Description is totally fine!
+-   Present your data set using an interactive web application or an
+    (interactive Quarto document)
 
--   Note: This is also where the individual office hour comes into play!
-:::
+-   Describe: How could you or other researchers make use of this data
+    for empirical research - What might be possible research questions?
 
-## Quality
+**In case of any questions or problems, please get in touch with me as
+early as possible.** Late submission will result in grade deductions.
 
-::: {style="font-size: 80%;"}
--   We have spoken a lot about how we can produce elegant graphs.
+-   Group work (up to 3 students) is possible and encouraged for the
+    data project. In case of group work, each student will receive the
+    same grade)
 
--   Therefore, the design of the visualizations will make up a
-    considerable share of your grade.
+<!-- -->
 
--   Remember? **C**ontrast, **R**epetition, **A**lignment,
-    and **P**roximity
-
--   Creating your own theme!
-
--   All the *little* things: Titles, captions, accompanying text,
-    colors, different aesthetics, ...
-
--   Here, there is clearly potential for bonus points for effort.
-:::
-:::
+-   Submission via ILIAS. **Deadline:** August 06, 2024, 23:59.
 
 ## **Organization & Learning Resources**
 
-**Course website, Slack, and ILIAS:**
+**Course website, Slack, (and ILIAS):**
 
 The plan is to use primarily the course website and Slack for providing
-the structure of the seminar and communication, respectively.
-Nevertheless, you will also receive mails via ILIAS. Make sure to
-regularly check your university e-mail address.
+the structure of the seminar, materials, and communication,
+respectively. Nevertheless, you will also receive mails via ILIAS. Make
+sure to regularly check your university e-mail address.
 
--   You can find the course website here:
-    [Link](https://datavisualizationfall2023.netlify.app/ "https://datavisualizationfall2023.netlify.app/")
-
--   The ILIAS seminar name is: Ü Methoden der Vergleichenden
-    Regierungslehre: Data Visualization for Comparative Politics \[WÜB\]
-    \[1. PG\] (HWS 2023). Ensure that you have access to the system and
-    that e-mails sent over ILIAS are forwarded to the e-mail account you
-    check regularly.
-
--   If you have contacted me with a question via any channel and you did
-    not hear back after 2 days (except over the weekend), please just
-    send me your question again!
+If you have contacted me with a question via any channel and you did not
+hear back after 2 days (except over the weekend), please just send me
+your question again!
 
 **Office hours:**
 
--   In-person (A 340) or via Zoom, Thu 15:30 -- 16:30, please make an
-    appointment by e-mail.
+-   In-person (A 340) or via Zoom, Tuesday 13:45 -- 15:15, please make
+    an appointment by e-mail.
 
--   If you have a specific question or problem (e.g., finding a research
-    question), please tell me before coming to the office hours (when
-    making the appointment). This way , I can also prepare for it and
-    thereby making our meeting more productive and constructive.
+-   If you have a specific question or problem (e.g., installing a
+    specific package, finding a data source, etc.), please let me know
+    before coming to the office hours. This way , I can also prepare for
+    it and thereby making our meeting more productive and constructive.
 
-**Covid-19 (and general illness):**
+**Illness (& Covid)**
 
 -   If you feel ill or have symptoms, please be considerate of your
     fellow students and yourself(!). Just let me know by e-mail.
@@ -174,12 +148,11 @@ regularly check your university e-mail address.
 **Students with disabilities or chronic illnesses:**
 
 -   Please contact me or the Office of Student Affairs if you need
-    special assistance due to disabilities or chronic illnesses.
+    special assistance due to disabilities or chronic illnesses. And
+    please do this early in the semester so that we can make the
+    appropriate arrangements.
 
--   And please do this early in the semester so that we can make the
-    appropriate arrangements immediately.
-
-**If you need support:**
+**If you need any support:**
 
 Of course, you can always talk directly to me if you feel comfortable
 with the question. It is important to note that the [University's
@@ -193,57 +166,70 @@ consent. Further counseling services offered by the university can be
 found via this
 [link](https://www.uni-mannheim.de/studium/beratung-und-service/beratungswegweiser/).
 
-## **Textbooks**
+**Readings**
 
 The primary readings for this seminar are chapters from the following
 books:
-
--   Cairo, Alberto*. The truthful art: Data, charts, and maps for
-    communication*. New Riders, 2016. *Free access via Katalog Primo (UB
-    Mannheim)*
 
 -   Healy, Kieran. *Data visualization: a practical introduction*.
     Princeton University Press, 2018. *Free access via Katalog Primo and
     free online: https://socviz.co/*
 
 -   Wilke, Claus E. *Fundamentals of Data Visualization*. O'Reilly
-    Media, 2018). *Free access via Katalog Primo and free online:
+    Media, 2018. *Free access via Katalog Primo and free online:
     https://clauswilke.com/dataviz/*
+
+-   Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). *R for
+    data science. 2ed*". O'Reilly Media, Inc. *Free online:*
+    <https://r4ds.hadley.nz/>
 
 ## **Course Schedule**
 
-+----------+------------+-----------------------------+
-| **Week** | **Date**   | **Topic**                   |
-+----------+------------+-----------------------------+
-| 1        | 13.02.2024 | Intro Session               |
-+----------+------------+-----------------------------+
-| 2        | 20.02.2024 | The Tidyverse               |
-+----------+------------+-----------------------------+
-| 3        | 27.02.2024 | Data Wrangling              |
-+----------+------------+-----------------------------+
-| 4        | 05.03.2024 | Making plots                |
-+----------+------------+-----------------------------+
-| 5        | 12.03.2024 | Version control I           |
-+----------+------------+-----------------------------+
-| 6        | 19.03.2024 | Version control II          |
-+----------+------------+-----------------------------+
-| 7        | 26.03.2024 | No Session; Easter Break    |
-+----------+------------+-----------------------------+
-| 8        | 02.04.2024 | No Session, Easter Break    |
-+----------+------------+-----------------------------+
-| 9        | 09.04.2024 | APIs                        |
-+----------+------------+-----------------------------+
-| 10       | 16.04.2024 | Webscraping I: Intro        |
-+----------+------------+-----------------------------+
-| 11       | 23.04.2024 | Webscraping II: Static      |
-+----------+------------+-----------------------------+
-| 12       | 30.04.2024 | Webscraping II: Interactive |
-+----------+------------+-----------------------------+
-| 13       | 07.05.2024 | Interactive I               |
-+----------+------------+-----------------------------+
-| 14       | 14.05.2024 | Interactive II              |
-+----------+------------+-----------------------------+
-| 15       | 21.05.2024 | Interactive III             |
-+----------+------------+-----------------------------+
-| 16       | 28.05.2024 | Closing Session             |
-+----------+------------+-----------------------------+
+The schedule is preliminary. Structure and/or content might change
+during the semester. You will find the readings, materials, and slides
+for each week on the course website (see *Schedule, slides &
+materials*).
+
+**Intro**
+
+Week 01 - 13.02.2024 - Intro Session
+
+**Block I: Import, Tidy, Transform, & Visualize Data**
+
+Week 02 - 20.02.2024 - Intro to R
+
+Week 03 - 27.02.2024 - Tidyverse I: Import, tidy, and transform
+
+Week 04 - 05.03.2024 - Tidyverse II: Import, tidy, and transform
+
+Week 05 - 12.03.2024 - ggplot: Visualize
+
+**Block II: Communicate & Collaborate**
+
+Week 06 - 19.03.2024 - R Markdown / Quarto
+
+*Week 07 - 26.03.2024 - Easter Break*
+
+*Week 08 - 02.04.2024 - Easter Break*
+
+Week 09 - 09.04.2024 - Version control (Github)
+
+**Block III: Web scraping**
+
+Week 10 - 16.04.2024 - APIs
+
+Week 11 - 23.04.2024 - Web scraping basics
+
+Week 12 - 30.04.2024 - Web scraping static
+
+Week 13 - 07.05.2024 - Web scraping dynamic
+
+**Block II: Communicate Interactively**
+
+Week 14 - 14.05.2024 - Interactive I: Create your first Shiny app
+
+Week 15 - 21.05.2024 - Interactive II: Making pretty Shiny apps
+
+**Closing**
+
+Week 16 - 28.05.2024 - Closing Session

@@ -1,9 +1,9 @@
 ---
-title: "Time"
-subtitle: "Week 11"
+title: "Web scraping dynamic"
+subtitle: "Week 13"
 description: ""
 author: ""
-date: "Nov 16, 2023"
+date: "May 07, 2024"
 listing:
   - id: slides
     contents:
@@ -42,27 +42,8 @@ tbl-colwidths: [10,50,40]
 
 # Materials
 
--   You can find the R Markdown file to animate gapminder data using the gganimate package [**here**](https://ilias.uni-mannheim.de/goto.php?target=file_1455164_download&client_id=ILIAS).
-
--   You can find the code for a flexdashboard with a time slider [**here**](https://ilias.uni-mannheim.de/goto.php?target=file_1455165_download&client_id=ILIAS).
+TBA
 
 # To Do's before our session
 
-::: panel-tabset
-## Read
-
--   Chapter 8: Revealing Change in Cairo, The Truthful Art
-    -   Please access the chapter via Katalog Primo (University library)
--   Chapter 13: Visualizing time series and other functions of an independent variable in Wilke, Fundamentals of Data Visualization. [Link to free online version](https://clauswilke.com/dataviz/time-series.html)
--   Chapter 14: Visualizing trends in Wilke, Fundamentals of Data Visualization. [Link to free online version](https://clauswilke.com/dataviz/visualizing-trends.html)
-
-**Helpful and interesting readings**
-
--   [11 ways to visualize changes over time - a guide](https://flowingdata.com/2010/01/07/11-ways-to-visualize-changes-over-time-a-guide/)
-
-## Think
-
--   Questions to think about for the readings:
-
-    -   it is easy to mislead our readers when displaying changes over time. Why is this the case? And how can we avoid it?
-:::
+TBA

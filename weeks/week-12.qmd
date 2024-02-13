@@ -1,9 +1,9 @@
 ---
-title: "Space"
-subtitle: "Week 12"
+title: "Interactive I: Create your first Shiny app"
+subtitle: "Week 14"
 description: ""
 author: ""
-date: "Nov 23, 2023"
+date: "May 14, 2024"
 listing:
   - id: slides
     contents:
@@ -42,25 +42,8 @@ tbl-colwidths: [10,50,40]
 
 # Materials
 
-You can download the applied example for this week [**here**](https://ilias.uni-mannheim.de/goto.php?target=file_1458188_download&client_id=ILIAS).
+TBA
 
 # To Do's before our session
 
-::: panel-tabset
-## Read
-
--   Chapter 10: Mapping Data in Cairo, The Truthful Art
-    -   Please access the chapter via Katalog Primo (University library)
--   Chapter 7: Draw maps in Healy, Data Visualization. A practical introduction. [Link to free online version](https://socviz.co/maps.html)
--   Chapter 15: Geospatial data in Wilke, Fundamentals of Data Visualization. [Link to free online version](https://clauswilke.com/dataviz/geospatial-data.html)
-
-**Helpful and interesting readings**
-
--   [Video: Why all maps are wrong](https://www.youtube.com/watch?v=kIID5FDi2JQ)
-
-## Think
-
--   Questions to think about for the readings:
-
-    -   How can you incorporate maps in your final assignment? Are they actually better suited for your data?
-:::
+TBA

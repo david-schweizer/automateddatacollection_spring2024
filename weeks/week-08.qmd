@@ -1,9 +1,9 @@
 ---
-title: "Comparisons"
-subtitle: "Week 08"
+title: "APIs"
+subtitle: "Week 10"
 description: ""
 author: ""
-date: "Oct 26, 2023"
+date: "Apr 16, 2023"
 listing:
   - id: slides
     contents:
