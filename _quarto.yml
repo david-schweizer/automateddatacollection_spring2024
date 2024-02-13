@@ -14,10 +14,10 @@ website:
     align: center
     tools:
       - icon: slack
-        href: https://datavis-fall2023.slack.com
+        href: https://ilias.uni-mannheim.de/goto.php?target=crs_1465074&client_id=ILIAS
         text: Slack
       - icon: bank
-        href: https://ilias.uni-mannheim.de/goto.php?target=crs_1413212&client_id=ILIAS
+        href: https://ilias.uni-mannheim.de/goto.php?target=crs_1465074&client_id=ILIAS
         text: Ilias
       - icon: rocket
         href: https://www.datacamp.com/
