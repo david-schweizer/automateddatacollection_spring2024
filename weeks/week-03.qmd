@@ -46,4 +46,20 @@ TBA
 
 # To Do's before our session
 
-TBA
+::: panel-tabset
+## Read
+
+-   Chapter 7: Data Import in R for Data Science
+
+    -   [Link to free online version](https://r4ds.hadley.nz/data-import)
+
+-   Chapter 3: Data Transformation in R for Data Science
+
+    -   [Link to free online version](https://r4ds.hadley.nz/data-transform)
+
+## Think
+
+-   Questions to think about until our next session:
+
+    -   Do you have a particular data set you would like to import into R? Let me know!
+:::
