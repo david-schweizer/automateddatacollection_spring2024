@@ -14,7 +14,7 @@ website:
     align: center
     tools:
       - icon: slack
-        href: https://ilias.uni-mannheim.de/goto.php?target=crs_1465074&client_id=ILIAS
+        href: https://aut-data-collection.slack.com
         text: Slack
       - icon: bank
         href: https://ilias.uni-mannheim.de/goto.php?target=crs_1465074&client_id=ILIAS
