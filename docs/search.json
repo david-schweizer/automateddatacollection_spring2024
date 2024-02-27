@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-requirements",
     "title": "Syllabus",
     "section": "Course requirements",
-    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines TBA\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
+    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 05.03.2024 after the session -&gt; 11.03.2024 18:00\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
   },
   {
     "objectID": "syllabus.html#recommended-readings",
@@ -2599,14 +2599,14 @@
   {
     "objectID": "slides/week-03/03-Data.html#importing-data",
     "href": "slides/week-03/03-Data.html#importing-data",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Importing data",
     "text": "Importing data\n\nR: use load(\"filename.RData\") or readRDS(\"filename.RDS\").\nExcel: e.g., load library(\"xlsx\") and use read.xlsx(\"filename.xlsx\").\nStata: e.g., load library(\"haven\") and use read_dta(\"filename.dta\").\n\nConsult the R documentation (e.g. type ?read.xlsx) to get an overview about options (e.g. sheetIndex or startRow)."
   },
   {
     "objectID": "slides/week-03/03-Data.html#importing-data-manually",
     "href": "slides/week-03/03-Data.html#importing-data-manually",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Importing data manually",
     "text": "Importing data manually\n\nChoose file formatChoose file"
   },
@@ -2634,9 +2634,9 @@
   {
     "objectID": "slides/week-03/03-Data.html#tidyverse",
     "href": "slides/week-03/03-Data.html#tidyverse",
-    "title": "Mapping (Tidy) Data",
-    "section": "Tidyverse",
-    "text": "Tidyverse\n\n\nThe tidyverse is a collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures (Tidyverse website).\nIt is a coherent system of packages for data manipulation, exploration and visualization that share a common design philosophy (Rickert, 2017)."
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "tidyverse",
+    "text": "tidyverse"
   },
   {
     "objectID": "slides/week-03/03-Data.html#tidyverse---benefits",
@@ -2662,21 +2662,21 @@
   {
     "objectID": "slides/week-03/03-Data.html#tidyverse-concepts",
     "href": "slides/week-03/03-Data.html#tidyverse-concepts",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Tidyverse: Concepts",
     "text": "Tidyverse: Concepts\nThere is much more to the tidyverse, but two important concepts that you should be familiar with, if you want to use it, are:\n\nTidy data\nPipes"
   },
   {
     "objectID": "slides/week-03/03-Data.html#tidy-data",
     "href": "slides/week-03/03-Data.html#tidy-data",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Tidy data",
-    "text": "Tidy data\nThe data should be in a so-called “tidy” format for ggplot and the tidyverse’s packages in general. Tidy refers to the structure of the data.\n\nVariablesObservationsValues\n\n\nEach variable has its own column.\n\n\n\n\n\n\n\nEach observation has its own row.\n\n\n\n\n\n\n\nEach value has its own cell."
+    "text": "Tidy data\nTidy refers to the structure of the data.\n\nVariablesObservationsValues\n\n\nEach variable has its own column.\n\n\n\nEach observation has its own row.\n\n\n\nEach value has its own cell."
   },
   {
     "objectID": "slides/week-03/03-Data.html#wide-vs.-long",
     "href": "slides/week-03/03-Data.html#wide-vs.-long",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Wide vs. Long",
     "text": "Wide vs. Long"
   },
@@ -2690,7 +2690,7 @@
   {
     "objectID": "slides/week-03/03-Data.html#pipes-1",
     "href": "slides/week-03/03-Data.html#pipes-1",
-    "title": "Mapping (Tidy) Data",
+    "title": "Tidyverse I: Import, tidy, and transform",
     "section": "Pipes",
     "text": "Pipes\nThe %&gt;% pipe used in the tidyverse is part of the magrittr package which also includes other specialized types of pipes.\n\nRStudio offers a keyboard shortcut for inserting the %&gt;% pipe: Ctrl + Shift + M (Windows & Linux)/Cmd + Shift + M (Mac)\nSince version 4.1.0, base R also offers its own pipe |&gt;, which is similar to but not the same as the %&gt;% pipe"
   },
@@ -5003,5 +5003,166 @@
     "title": "Intro to R",
     "section": "Accessing and subsetting data frames",
     "text": "Accessing and subsetting data frames\nWe can also access individual variables using the $ sign:\n\ndf$party\n\n[1] \"CDU\" \"CSU\" \"SPD\"\n\n\nAlternatively, we can index by variable name:\n\ndf[\"party\"]\n\n  party\n1   CDU\n2   CSU\n3   SPD\n\n\nOr variable order:\n\ndf[1]\n\n  party\n1   CDU\n2   CSU\n3   SPD"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#plan-for-today",
+    "href": "slides/week-03/03-Data.html#plan-for-today",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Plan for today",
+    "text": "Plan for today\n\nData project workflow from R for Data Science"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#data-project-workflow",
+    "href": "slides/week-03/03-Data.html#data-project-workflow",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Data project workflow",
+    "text": "Data project workflow\n\n[R for data Science](https://r4ds.hadley.nz/intro)"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#data-wrangling",
+    "href": "slides/week-03/03-Data.html#data-wrangling",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Data wrangling …",
+    "text": "Data wrangling …\n… includes all steps to prepare our data for visualization, modeling, and analysis:\n\nimporting data\nsubsetting (selecting) our data\nrenaming variables or recode values\ncreating new variables\n\n… will account for most of the time spent on your data project!"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#dplyr",
+    "href": "slides/week-03/03-Data.html#dplyr",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "dplyr",
+    "text": "dplyr\n\n\n\n\nThe dplyr package provides us with the verbs to wrangle our data:\n\nselect()\nfilter()\nmutate()\ngroup_by()\nsummarize()\n… and many more!"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#pipes",
+    "href": "slides/week-03/03-Data.html#pipes",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Pipes",
+    "text": "Pipes\nUsually, in R we apply functions as follows:\n\nf(x)\n\nIn the logic of pipes this function is written as:\n\nx %&gt;% f(.)\n\nHere, object x is piped into function f, becoming (by default) its first argument. We can use pipes with more than one function, too:\n\nx %&gt;%    \n  f_1() %&gt;%    \n  f_2() %&gt;%    \n  f_3()"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#importing-r-files",
+    "href": "slides/week-03/03-Data.html#importing-r-files",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Importing R files",
+    "text": "Importing R files"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#importing-external-files",
+    "href": "slides/week-03/03-Data.html#importing-external-files",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Importing external files",
+    "text": "Importing external files"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#exporting-data",
+    "href": "slides/week-03/03-Data.html#exporting-data",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Exporting data",
+    "text": "Exporting data"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#absolute-relative-file-paths",
+    "href": "slides/week-03/03-Data.html#absolute-relative-file-paths",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Absolute & relative file paths",
+    "text": "Absolute & relative file paths"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#import-gles-wave-25",
+    "href": "slides/week-03/03-Data.html#import-gles-wave-25",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Import GLES wave 25",
+    "text": "Import GLES wave 25\n\n# we load the haven package to import Stata files\nlibrary(haven)\n\n# we store the data in the object \"gles_25\"\ngles_25 &lt;- read_dta(\"ZA7731_sA_v1-0-0.dta\")\n\n# let's check the class of our object\ndim(gles_25)\n\n[1] 10030   201\n\n# and it's dimensions\nclass(gles_25)\n\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\""
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#import-gles-wave-25-1",
+    "href": "slides/week-03/03-Data.html#import-gles-wave-25-1",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Import GLES wave 25",
+    "text": "Import GLES wave 25\n\n# let's have a look at a subset of the data\ngles_25[1:10,1:7]\n\n# A tibble: 10 × 7\n   study                       version doi   field_start field_end sample  lfdn \n   &lt;dbl+lbl&gt;                   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;     &lt;dbl+l&gt; &lt;dbl&gt;\n 1 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18540\n 2 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 3 [Sam… 12587\n 3 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26011\n 4 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26012\n 5 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26014\n 6 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26018\n 7 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26019\n 8 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18556\n 9 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18557\n10 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26021"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#renaming",
+    "href": "slides/week-03/03-Data.html#renaming",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Renaming",
+    "text": "Renaming\n\nGeneralbase Rdplyr\n\n\nAs you have seen, not all variable names are informative or they are quite long. This complicates the coding process for us and reviewers. We want:\n\nshort,\nand informative variable names\n\n\n\n\n# we rename only column 22\ncolnames(gles_25)[22] &lt;- \"ego_state_measures_inequality\"\n\n# let's check if it worked\ncolnames(gles_25)[22:23]\n\n[1] \"ego_state_measures_inequality\" \"kp25_2880g\"                   \n\n# we can also rename multiple columns at once:\ncolnames(gles_25)[22:23] &lt;- c(\"ego_state_measures_inequality\",\n                              \"ego_state_no_economy\")\n\n# let's check if it worked\ncolnames(gles_25)[22:23]\n\n[1] \"ego_state_measures_inequality\" \"ego_state_no_economy\"         \n\n\n\n\n\ngles_25_new &lt;- gles_25 %&gt;% \n  # rename: new = old\n  rename(ego_state_measures_inequality = kp25_2880d)\n\ncolnames(gles_25)[22:23]\n\n[1] \"kp25_2880d\" \"kp25_2880g\"\n\ngles_25_new &lt;- gles_25 %&gt;% \n  # rename: new = old \n  # rename multiple variables at once\n  rename(ego_state_measures_inequality = kp25_2880d,\n         ego_state_no_economy = kp25_2880g)\n\ncolnames(gles_25)[22:23]\n\n[1] \"kp25_2880d\" \"kp25_2880g\""
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#selecting",
+    "href": "slides/week-03/03-Data.html#selecting",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Selecting",
+    "text": "Selecting\n\nGeneralbase Rdplyr\n\n\nUsually, we do not want to work with the full data set. For example, we do not need all of the 201 variables of the GLES wave 25. Therefore, we subset our data.\nThis also requires that we have engaged with the data set and the codebook (if available).\n\n\nIn base R, there are multiple ways to subset the data.\n\ngles_new &lt;- gles_25[,1:10]\n\n\n\n\n# we can subset the data using the select() verb\n\ngles_select &lt;- gles_25 %&gt;% \n  select(study:kp25_011a)"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#filtering",
+    "href": "slides/week-03/03-Data.html#filtering",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Filtering",
+    "text": "Filtering\n\nGeneralbase Rdplyr\n\n\nFiltering refers to rows instead of columns. We want to only include (or exclude) a specific set of observations.\nTherefore, we need to use comparison or logical operators (e.g, ==, &, …).\n\n\n\ngles_filter &lt;- gles[gles$pol_interest_state == 5,]\n\ndim(gles_filter)\n\n[1] 616   2\n\n\n\n\n\n# we can use the filter() verb\ngles_filter &lt;- gles %&gt;% \n  filter(pol_interest_state == 5)\n\ndim(gles_filter)\n\n[1] 616   2"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#mutating",
+    "href": "slides/week-03/03-Data.html#mutating",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Mutating",
+    "text": "Mutating"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#recoding",
+    "href": "slides/week-03/03-Data.html#recoding",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Recoding",
+    "text": "Recoding\n\nGeneralGet labelsdplyr\n\n\nSometimes, we might want to recode specific values. For example, we do not want to display numeric values but their labels. We can solve this using the recode() verb. But as always, we have multiple possibilities to do so.\n\n\n\n# get value labels\ntable(gles_25$kp25_050k)\n\n\n -99  -93    1    2    3    4    5 \n  37  246  329  618 3200 3778 1822 \n\n\n\n\n\n# Now we can recode (some of) the values\ngles_25_recode &lt;- gles_25 %&gt;% \n  mutate(new = case_when(kp25_050k == -99 ~ NA,\n                         TRUE ~ kp25_050k))\n\ntable(gles_25_recode$new)\n\n\n -93    1    2    3    4    5 \n 246  329  618 3200 3778 1822"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#summarizing",
+    "href": "slides/week-03/03-Data.html#summarizing",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Summarizing",
+    "text": "Summarizing\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#inspect-gles-wave-25",
+    "href": "slides/week-03/03-Data.html#inspect-gles-wave-25",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Inspect GLES wave 25",
+    "text": "Inspect GLES wave 25\n\n# let's have a look at a subset of the data\ngles_25[1:10,1:7]\n\n# A tibble: 10 × 7\n   study                       version doi   field_start field_end sample  lfdn \n   &lt;dbl+lbl&gt;                   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;     &lt;dbl+l&gt; &lt;dbl&gt;\n 1 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18540\n 2 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 3 [Sam… 12587\n 3 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26011\n 4 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26012\n 5 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26014\n 6 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26018\n 7 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26019\n 8 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18556\n 9 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 4 [Sam… 18557\n10 7731 [ZA7731 GLES Panel 20… 1-0-0 … 10.4… 2023-10-11  2023-10-… 6 [Sam… 26021"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#inspect-gles-wave-25-1",
+    "href": "slides/week-03/03-Data.html#inspect-gles-wave-25-1",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Inspect GLES wave 25",
+    "text": "Inspect GLES wave 25\n\n# let's have a look at a subset of the data\n# alternatively, you can use: names(gles_25)[1:50]\ncolnames(gles_25)[1:50] \n\n [1] \"study\"       \"version\"     \"doi\"         \"field_start\" \"field_end\"  \n [6] \"sample\"      \"lfdn\"        \"kp25_2601\"   \"kp25_010\"    \"kp25_011a\"  \n[11] \"kp25_011b\"   \"kp25_011c\"   \"kp25_170\"    \"kp25_190aa\"  \"kp25_190ab\" \n[16] \"kp25_190ba\"  \"kp25_190bb\"  \"kp25_850a\"   \"kp25_850b\"   \"kp25_870a\"  \n[21] \"kp25_870b\"   \"kp25_2880d\"  \"kp25_2880g\"  \"kp25_2880o\"  \"kp25_2880x\" \n[26] \"kp25_2880cv\" \"kp25_1090\"   \"kp25_1290\"   \"kp25_1130\"   \"kp25_1210\"  \n[31] \"kp25_020\"    \"kp25_2880p\"  \"kp25_2880t\"  \"kp25_2880u\"  \"kp25_2880y\" \n[36] \"kp25_2880al\" \"kp25_650f2\"  \"kp25_650o1\"  \"kp25_650l1\"  \"kp25_650s\"  \n[41] \"kp25_650e2\"  \"kp25_650g2\"  \"kp25_650h2\"  \"kp25_650k1\"  \"kp25_2880bg\"\n[46] \"kp25_2880bh\" \"kp25_2880bp\" \"kp25_2880bq\" \"kp25_2880bs\" \"kp25_5020\""
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#select-and-rename-in-one-step",
+    "href": "slides/week-03/03-Data.html#select-and-rename-in-one-step",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Select and Rename in one step",
+    "text": "Select and Rename in one step\n\ngles &lt;- gles_25 %&gt;% \n  # select(new_nam = old_name)\n  select(pol_interest_country = kp25_011a,\n         pol_interest_state = kp25_011b)"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#adding-logical-operators",
+    "href": "slides/week-03/03-Data.html#adding-logical-operators",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Adding logical operators",
+    "text": "Adding logical operators\n\n# now, we want to filter depending on political interest on the state and country level\n\ngles_filter &lt;- gles %&gt;% \n  filter(pol_interest_state == 5 & pol_interest_country == 5 )\n\ndim(gles_filter)\n\n[1] 569   2"
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#mutating---class",
+    "href": "slides/week-03/03-Data.html#mutating---class",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Mutating - Class",
+    "text": "Mutating - Class\n\nGeneralbase Rdplyr\n\n\nOftentimes, we want to transform the class of our variables. E.g., transform a character variable (“2024”) to a numeric one (“2024).\nIn base R, there is: as.numeric(), as.character(), as.factor(), and as.logical()\n\n\n\n# Let's test this:\nclass(gles$pol_interest_state)\n\n[1] \"haven_labelled\" \"vctrs_vctr\"     \"double\"        \n\n# what values are there?\ntable(gles$pol_interest_state)\n\n\n -99  -93    1    2    3    4    5 \n  82   46 1728 3346 3246  966  616 \n\n# change them to character\ngles$character_test &lt;- as.character(gles$pol_interest_state)\n\nclass(gles$character_test)\n\n[1] \"character\"\n\n\n\n\n\n# We can do the same using mutate() in dpylr:\ngles &lt;- gles %&gt;% \n  mutate(character_test = as.character(pol_interest_state))\n\n# let's check it\nclass(gles$character_test)\n\n[1] \"character\""
+  },
+  {
+    "objectID": "slides/week-03/03-Data.html#importing-files",
+    "href": "slides/week-03/03-Data.html#importing-files",
+    "title": "Tidyverse I: Import, tidy, and transform",
+    "section": "Importing files",
+    "text": "Importing files\n\nR: use load(\"filename.RData\") or readRDS(\"filename.RDS\").\nExcel: e.g., load library(\"xlsx\") and use read.xlsx(\"filename.xlsx\").\nStata: e.g., load library(\"haven\") and use read_dta(\"filename.dta\").\n\nConsult the R documentation (e.g. type ?read.xlsx) to get an overview about options (e.g. sheetIndex or startRow).Tidy & Transform"
   }
 ]
