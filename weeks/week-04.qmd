@@ -46,4 +46,4 @@ TBA
 
 # To Do's before our session
 
-TBA
+Try to apply the learnings from last session! Import your own data set, and wrangle the data.
