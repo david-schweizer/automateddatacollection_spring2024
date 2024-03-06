@@ -9,7 +9,7 @@ editor:
 ## **Course details**
 
 |               |                                                                                             |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | Seminar:      | Übung - Methoden der Vergleichenden Regierungslehre                                         |
 | Time:         | Tuesday, 15:30 – 17:00,  February 13 to May 28                                              |
 | Place:        | C -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)                                |
@@ -77,7 +77,7 @@ session on your own.
 
 Deadlines:
 
--   Assignment 1: 05.03.2024 after the session -\> 11.03.2024 18:00
+-   Assignment 1: 12.03.2024 after the session -\> 19.03.2024 15:00
 
 **"Mid-term" assignments (15% of your grade)**
 
