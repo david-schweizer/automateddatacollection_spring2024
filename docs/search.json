@@ -193,14 +193,14 @@
     "href": "weeks/week-05.html",
     "title": "ggplot: Visualize",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nggplot: Visualize\n\n\nWeek 5\n\n\nMar 12, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nHave a look at Chapter 1: Visualize.\nThink: What visualizations might be appropriate for your data?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nDesigning a Graph\n\n\nWeek 2\n\n\nSep 14, 2023\n\n\n\n\nggplot: Visualize\n\n\nWeek 5\n\n\nMar 12, 2023\n\n\n\n\nSpace\n\n\nWeek 12\n\n\nNov 23, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the R script and data for today’s session here.\n\n\nTo Do’s before our session\n\nHave a look at Chapter 1: Visualize.\nThink: What visualizations might be appropriate for your data?"
   },
   {
     "objectID": "weeks/week-06.html",
     "href": "weeks/week-06.html",
     "title": "R Markdown / Quarto",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nR Markdown / Quarto\n\n\nWeek 6\n\n\nMar 19, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nR Markdown / Quarto\n\n\nWeek 6\n\n\nMar 19, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nWork on the first assignment. The deadline is 19.03.2024 15:00. You should submit the assignment via ILIAS. You can download the assignment and data here.\nHave a look at chapter 28 and 29 in R for Data Science."
   },
   {
     "objectID": "weeks/week-07.html",
@@ -3166,23 +3166,23 @@
   {
     "objectID": "slides/week-05/05-Themes.html#plan-for-today",
     "href": "slides/week-05/05-Themes.html#plan-for-today",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "Plan for today",
-    "text": "Plan for today\nShort input\n\nThemes in ggplot\n\nCoding\n\nCoding example\nYour turn!"
+    "text": "Plan for today\nInput:\n\nWhy do we need visualizations? What makes a great visualization?\nBuilding a (gg)plot step by step\nMaps\n\nCoding:\n\nYour very first plot or take it to the next level"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#crap-and-ggplot",
     "href": "slides/week-05/05-Themes.html#crap-and-ggplot",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "CRAP and ggplot?",
-    "text": "CRAP and ggplot?"
+    "text": "CRAP and ggplot?\n\n\nContrast, Repetition, Alignment, Proximity\nFollowing CRAP principles makes it easy to improve our plots!\nWe can apply these principles in ggplot using the theme() function\nYou can find great examples in Wilke’s book in chapter 17-22: Part II: Principles of Figure Design"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#crap",
     "href": "slides/week-05/05-Themes.html#crap",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "CRAP",
-    "text": "CRAP\nDesign principles - CRAP:\n\nContrast\nRepetition\nAlignment\nProximity"
+    "text": "CRAP\n\n\n\nContrast\nRepetition\nAlignment\nProximity\n\nThese design principles apply in all areas of life: Art, architecture, …, and graphs."
   },
   {
     "objectID": "slides/week-05/05-Themes.html#crap-and-gpplot",
@@ -3194,7 +3194,7 @@
   {
     "objectID": "slides/week-05/05-Themes.html#design-principles---crap",
     "href": "slides/week-05/05-Themes.html#design-principles---crap",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "Design principles - CRAP",
     "text": "Design principles - CRAP\n\n\nContrast\nRepetition\nAlignment\nProximity"
   },
@@ -3208,30 +3208,30 @@
   {
     "objectID": "slides/week-05/05-Themes.html#themes",
     "href": "slides/week-05/05-Themes.html#themes",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "Themes",
-    "text": "Themes\nMake use of existing themes:\n\nhrbrthemes\nggthemes\nggtech\nggpomological\n…\n\nThere are many more!"
+    "text": "Themes\nMake use of existing themes:\n\nhrbrthemes\nggthemes\n…\n\nThere are many more! And you can even create your own theme!"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#hrbrthemes",
     "href": "slides/week-05/05-Themes.html#hrbrthemes",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "hrbrthemes",
-    "text": "hrbrthemes\n\nggplot(data = btw21,\n       aes(x = unemployment_rate, y = vote_share, color = east)) +\n  geom_point() +\n  hrbrthemes::theme_ipsum_ps()"
+    "text": "hrbrthemes\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp, color = continent)) +\n  geom_point() +\n  hrbrthemes::theme_ipsum_ps()"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#hrbrthemes-1",
     "href": "slides/week-05/05-Themes.html#hrbrthemes-1",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "hrbrthemes",
-    "text": "hrbrthemes\n\nggplot(data = btw21,        \n       aes(x = unemployment_rate, y = vote_share, color = east)) +   \n  geom_point() +   \n  hrbrthemes::theme_modern_rc()"
+    "text": "hrbrthemes\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp, color = continent)) +\n  geom_point() +\n  hrbrthemes::theme_modern_rc()"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#ggthemes",
     "href": "slides/week-05/05-Themes.html#ggthemes",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "ggthemes",
-    "text": "ggthemes\n\nggplot(data = btw21,        \n       aes(x = unemployment_rate, y = vote_share, color = east)) +   \n  geom_point() +   \n  ggthemes::theme_economist()"
+    "text": "ggthemes\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp, color = continent)) +\n  geom_point() +\n  ggthemes::theme_economist()"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#ggtech",
@@ -3257,16 +3257,16 @@
   {
     "objectID": "slides/week-05/05-Themes.html#theme",
     "href": "slides/week-05/05-Themes.html#theme",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "theme()",
     "text": "theme()"
   },
   {
     "objectID": "slides/week-05/05-Themes.html#how-to-learn-theme-arguments",
     "href": "slides/week-05/05-Themes.html#how-to-learn-theme-arguments",
-    "title": "Themes & Refining Plots",
+    "title": "ggplot: Visualize",
     "section": "How to learn theme() arguments?",
-    "text": "How to learn theme() arguments?\n\nThere are 94 possible arguments for the theme() function\nMany of them are very specific. E.g., axis.ticks.length.x.top\nBest way: Trial and error. Practice makes (almost) perfect\nTry the ggThemeAssist package\nDocumentation: Modify components of a theme and ggplot complete themes\n\n\n\nData Visualization for Comparative Politics | Fall 2023 | University of Mannheim"
+    "text": "How to learn theme() arguments?\n\nThere are 94 possible arguments for the theme() function\nMany of them are very specific. E.g., axis.ticks.length.x.top\nBest way: Trial and error. Practice makes (almost) perfect\nTry the ggThemeAssist package\nDocumentation: Modify components of a theme and ggplot complete themes"
   },
   {
     "objectID": "session05_example.html",
@@ -5269,5 +5269,684 @@
     "title": "Tidyverse II: Import, tidy, and transform",
     "section": "Example: left_join()",
     "text": "Example: left_join()\n\nElectionStructuralJoin\n\n\n\nelection &lt;- readr::read_delim(\"w-btw21_kerg2.csv\", \n                       delim = \";\", escape_double = FALSE, \n                       locale = locale(decimal_mark = \",\"), \n                       trim_ws = TRUE, skip = 9) %&gt;% \n  dplyr::select(area_no = Gebietsnummer,\n                area_type = Gebietsart,\n                area_name = Gebietsname,\n                group_type = Gruppenart,\n                group_name = Gruppenname,\n                vote = Stimme,\n                vote_share = Prozent) %&gt;% \n  filter(area_type == \"Wahlkreis\" & group_name == \"AfD\" & vote == 2)\n\n\n\n\nstructural &lt;- readr::read_delim(\"btw21_strukturdaten.csv\", \n                                delim = \";\", escape_double = FALSE,\n                                locale = locale(decimal_mark = \",\"),\n                                trim_ws = TRUE, skip = 8) %&gt;% \n  dplyr::select(area_no = `Wahlkreis-Nr.`,\n                unemployment_rate = `Arbeitslosenquote Februar 2021 - insgesamt`) %&gt;% \n  filter(area_no &lt;= 299)\n\n\n\n\nelection_structural &lt;- election %&gt;% \n  left_join(structural, by = \"area_no\") %&gt;% \n  select(area_no, area_name, vote_share, unemployment_rate)\n\nhead(election_structural)\n\n# A tibble: 6 × 4\n  area_no area_name                         vote_share unemployment_rate\n  &lt;chr&gt;   &lt;chr&gt;                                  &lt;dbl&gt;             &lt;dbl&gt;\n1 001     Flensburg – Schleswig                   5.78               7  \n2 002     Nordfriesland – Dithmarschen Nord       6.10               6.5\n3 003     Steinburg – Dithmarschen Süd            8.37               6.4\n4 004     Rendsburg-Eckernförde                   6.56               4.8\n5 005     Kiel                                    4.94               8.4\n6 006     Plön – Neumünster                       7.35               6.7"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#look-at-your-data",
+    "href": "slides/week-05/05-Themes.html#look-at-your-data",
+    "title": "ggplot: Visualize",
+    "section": "Look at your data!",
+    "text": "Look at your data!\n\nThe dataSummary statisticsVisual inspection\n\n\n\n# Have a look at the first 10 data points:\nhead(data, n = 10)\n\n        V1      V2\n1  55.3846 97.1795\n2  51.5385 96.0256\n3  46.1538 94.4872\n4  42.8205 91.4103\n5  40.7692 88.3333\n6  38.7179 84.8718\n7  35.6410 79.8718\n8  33.0769 77.5641\n9  28.9744 74.4872\n10 26.1538 71.4103\n\n\nFor a deep dive, have a look at this blog post by Autodesk, this post by Alberto Cairo, or this R package.\n\n\n\n# Inspect mean of V1\nmean(data$V1)\n\n[1] 54.26327\n\n# Inspect mean of V2\nmean(data$V2)\n\n[1] 47.83225\n\n# Inspect the correlation between V1 and V2\ncor(data$V1, data$V2)\n\n[1] -0.06447185"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#the-datasaurus-dozen",
+    "href": "slides/week-05/05-Themes.html#the-datasaurus-dozen",
+    "title": "ggplot: Visualize",
+    "section": "The datasaurus dozen",
+    "text": "The datasaurus dozen"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#what-makes-a-great-visualization",
+    "href": "slides/week-05/05-Themes.html#what-makes-a-great-visualization",
+    "title": "ggplot: Visualize",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nFive qualities of a great visualization according to Cairo:\n\n\nTruthful - Based on thorough and honest research\n\n\n\n\nFunctional - Accurate depiction of the data\n\n\n\n\nBeautiful - Aesthetically pleasing for its intended audience\n\n\n\n\nInsightful - Communicate new evidence\n\n\n\n\nEnlightening - Change your audience’s mind"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#what-makes-a-great-visualization-1",
+    "href": "slides/week-05/05-Themes.html#what-makes-a-great-visualization-1",
+    "title": "ggplot: Visualize",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nQualities of a great visualization according to Hiely:\n\nAestheticsSubstancePerceptionHonesty"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#how-about-this",
+    "href": "slides/week-05/05-Themes.html#how-about-this",
+    "title": "ggplot: Visualize",
+    "section": "How about this?",
+    "text": "How about this?"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#and-this",
+    "href": "slides/week-05/05-Themes.html#and-this",
+    "title": "ggplot: Visualize",
+    "section": "And this?",
+    "text": "And this?"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#what-makes-a-great-visualization-2",
+    "href": "slides/week-05/05-Themes.html#what-makes-a-great-visualization-2",
+    "title": "ggplot: Visualize",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nGraphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space … [It] is nearly always multivariate … And graphical excellence requires telling the truth about the data. \n\nEdward Tufte (1983). The Visual Display of Quantitative Information, p. 51."
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#maximize-data-ink-ratio",
+    "href": "slides/week-05/05-Themes.html#maximize-data-ink-ratio",
+    "title": "ggplot: Visualize",
+    "section": "Maximize Data-Ink Ratio",
+    "text": "Maximize Data-Ink Ratio\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di1"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#remove-grid",
+    "href": "slides/week-05/05-Themes.html#remove-grid",
+    "title": "ggplot: Visualize",
+    "section": "Remove Grid",
+    "text": "Remove Grid\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di2"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#remove-background",
+    "href": "slides/week-05/05-Themes.html#remove-background",
+    "title": "ggplot: Visualize",
+    "section": "Remove Background",
+    "text": "Remove Background\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di3"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#remove-box",
+    "href": "slides/week-05/05-Themes.html#remove-box",
+    "title": "ggplot: Visualize",
+    "section": "Remove Box",
+    "text": "Remove Box\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di4"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#add-horizontal-line",
+    "href": "slides/week-05/05-Themes.html#add-horizontal-line",
+    "title": "ggplot: Visualize",
+    "section": "Add horizontal “line”",
+    "text": "Add horizontal “line”\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di5"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#remove-axis-line-and-ticks",
+    "href": "slides/week-05/05-Themes.html#remove-axis-line-and-ticks",
+    "title": "ggplot: Visualize",
+    "section": "Remove axis line and ticks",
+    "text": "Remove axis line and ticks\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di6"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#design-prinicples",
+    "href": "slides/week-05/05-Themes.html#design-prinicples",
+    "title": "ggplot: Visualize",
+    "section": "Design prinicples",
+    "text": "Design prinicples\nWhy would we care about design principles? What is our goal?\n\n\nCommunicating our data in different forms to specific audiences.\nFollowing design principles, we can fulfill the criteria of great visualizations."
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#contrast",
+    "href": "slides/week-05/05-Themes.html#contrast",
+    "title": "ggplot: Visualize",
+    "section": "Contrast",
+    "text": "Contrast\n\n\nWe want to contrast various elements to get a reader’s attention.\n\nIt creates a hierarchy among different elements of your graph making it more interesting.\nHowever, contrast must be strong!"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#repetition",
+    "href": "slides/week-05/05-Themes.html#repetition",
+    "title": "ggplot: Visualize",
+    "section": "Repetition",
+    "text": "Repetition\n\n\nWe want to repeat design aspects throughout the graph for consistency.\n\nElements might include bullet points, typefaces, lines, colors, …\nRepetition makes it easier for a reader to recognize patterns and capture the graph’s message."
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#alignment",
+    "href": "slides/week-05/05-Themes.html#alignment",
+    "title": "ggplot: Visualize",
+    "section": "Alignment",
+    "text": "Alignment\n\n\nWe want to align the elements of our graph.\n\nTo keep our graph consistent, align every object with an edge of any other object.\nStrong alignments allow you to break them occasionally to make a point without making it look like a mistake."
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#proximity",
+    "href": "slides/week-05/05-Themes.html#proximity",
+    "title": "ggplot: Visualize",
+    "section": "Proximity",
+    "text": "Proximity\n\n\nWe want to group together related elements of our graph.\n\nGroup elements into closer proximity if they are related.\nSeparate elements that are not directly related.\nVary space between groups and elements."
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#grammar-of-graphics",
+    "href": "slides/week-05/05-Themes.html#grammar-of-graphics",
+    "title": "ggplot: Visualize",
+    "section": "Grammar of graphics",
+    "text": "Grammar of graphics\nIn general:\n\nggplot(data = DATA) +\n  GEOM_FUNCTION(mapping = aes(AESTHETIC MAPPINGS))\n\nFor our Gapminder data:\n\nggplot(data = gapminder) +\n  geom_point(mapping = aes(x = gdpPercap,\n                           y = lifeExp,\n                           color = continent))"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#mapping-data-to-aesthetics",
+    "href": "slides/week-05/05-Themes.html#mapping-data-to-aesthetics",
+    "title": "ggplot: Visualize",
+    "section": "Mapping data to aesthetics",
+    "text": "Mapping data to aesthetics\n\nggplot(data = gapminder %&gt;% filter(year==2007)) +\n  geom_point(mapping = aes(x = gdpPercap,\n                           y = lifeExp,\n                           color = continent))\n\n\n\n\nData\nAesthetics - aes()\nGeometry - geom\n\n\n\n\nWealth (GDP per capita)\nx\ngeom_point\n\n\nHealth (Life expectancy)\ny\ngeom_point\n\n\nContinent\ncolor\ngeom_point\n\n\n?\n?\n?"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#health-and-wealth",
+    "href": "slides/week-05/05-Themes.html#health-and-wealth",
+    "title": "ggplot: Visualize",
+    "section": "Health and wealth",
+    "text": "Health and wealth\n\nggplot(data = gapminder %&gt;% filter(year==2007)) +\n  geom_point(mapping = aes(x = gdpPercap,\n                           y = lifeExp,\n                           color = continent,\n                           size = pop)) +\n  scale_x_log10()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#grammatical-layers",
+    "href": "slides/week-05/05-Themes.html#grammatical-layers",
+    "title": "ggplot: Visualize",
+    "section": "Grammatical Layers",
+    "text": "Grammatical Layers\n\nFoundationalCodeAdditional\n\n\n\n\n\n\nggplot(data = gapminder,\n       mapping = aes(x = gdpPercap,\n                           y = lifeExp,\n                           color = continent)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\n\nPackagesCodePlot\n\n\nPackages to reproduce the plots:\n\n# library(tidyverse)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(gapminder)\n\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, \n      y = lifeExp,\n  color = continent))"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-1",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-1",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd geom_point()\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-2",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-2",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd a scale()\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-3",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-3",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd geom_smooth()\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-4",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-4",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd different color scale\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-5",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-5",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nUse facets\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2)"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-6",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-6",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd titles, subtitles, etc.\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2) +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n  color = \"Continent\",\n  title = \"Wealth = Health?\",\n  subtitle = \"gdpPercap/lifeExp\",\n  caption = \"Gapminder dataset\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-7",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-7",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd a theme\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2) +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n  color = \"Continent\",\n  title = \"Wealth = Health?\",\n  subtitle = \"gdpPercap/lifeExp\",\n  caption = \"Gapminder dataset\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-8",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-8",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nAdd a theme\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2) +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n  color = \"Continent\",\n  title = \"Wealth = Health?\",\n  subtitle = \"gdpPercap/lifeExp\",\n  caption = \"Gapminder dataset\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-9",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-9",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nOther geometries\n\n\n\nggplot(data = filter(gapminder, year %in% c(2007)),\naes(x = lifeExp,\nfill = continent)) +\ngeom_histogram(binwidth = 5,\ncolor = \"grey\") +\nscale_fill_viridis_d() +\nfacet_wrap(vars(continent), ncol = 2) +\nguides(fill = \"none\") +\ntheme_minimal()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-10",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-10",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nOther geometries\n\n\n\ncolors &lt;- c(\"red\", \"orange\", \"yellow\", \"green\", \"blue\")\n\nggplot(data = filter(gapminder, year %in% c(2007)),\n  aes(x = continent,\n  y = lifeExp,\n  fill = continent)) +\n  geom_boxplot(alpha = 0.5) +\n  scale_fill_manual(values = colors) +\n  guides(fill = \"none\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-11",
+    "href": "slides/week-05/05-Themes.html#building-a-ggplot-step-by-step-11",
+    "title": "ggplot: Visualize",
+    "section": "Building a ggplot step-by-step",
+    "text": "Building a ggplot step-by-step\nOther geometries\n\n\n\nggplot(gapminder, aes(x = year, y = lifeExp,\n  group = country)) +\n  geom_line(alpha = 0.2, color=\"grey\") +\n  geom_line(data = gapminder %&gt;%\n    filter(country %in% c(\n    \"Germany\",\n    \"India\",\n    \"Rwanda\")),\n    lwd = 1) + # thicker line\n  gghighlight(country %in% c(\"Germany\", \"India\", \"Rwanda\")) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#adding-a-geometry-geom_point",
+    "href": "slides/week-05/05-Themes.html#adding-a-geometry-geom_point",
+    "title": "ggplot: Visualize",
+    "section": "Adding a geometry: geom_point()",
+    "text": "Adding a geometry: geom_point()\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, \n      y = lifeExp,\n  color = continent)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#adding-a-scale",
+    "href": "slides/week-05/05-Themes.html#adding-a-scale",
+    "title": "ggplot: Visualize",
+    "section": "Adding a scale",
+    "text": "Adding a scale\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#adding-further-geometries",
+    "href": "slides/week-05/05-Themes.html#adding-further-geometries",
+    "title": "ggplot: Visualize",
+    "section": "Adding further geometries",
+    "text": "Adding further geometries\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#add-different-color-scale",
+    "href": "slides/week-05/05-Themes.html#add-different-color-scale",
+    "title": "ggplot: Visualize",
+    "section": "Add different color scale",
+    "text": "Add different color scale\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, \n      y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#use-facets",
+    "href": "slides/week-05/05-Themes.html#use-facets",
+    "title": "ggplot: Visualize",
+    "section": "Use facets",
+    "text": "Use facets\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, \n      y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2)"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#add-titles-subtitles-etc.",
+    "href": "slides/week-05/05-Themes.html#add-titles-subtitles-etc.",
+    "title": "ggplot: Visualize",
+    "section": "Add titles, subtitles, etc.",
+    "text": "Add titles, subtitles, etc.\n\nCodePlot\n\n\n\nggplot(data = gapminder %&gt;% filter(year==2007),\n  aes(x = gdpPercap, \n      y = lifeExp,\n  color = continent)) +\n  geom_point() +\n  scale_x_log10() +\n  geom_smooth(method = \"lm\") +\n  scale_color_viridis_d() +\n  facet_wrap(vars(continent), ncol = 2) +\n  labs(x = \"GDP per capita\", \n       y = \"Life expectancy\",\n       color = \"Continent\",\n       title = \"Wealth = Health?\",\n       subtitle = \"gdpPercap/lifeExp\",\n       caption = \"Gapminder dataset\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#more-geometries",
+    "href": "slides/week-05/05-Themes.html#more-geometries",
+    "title": "ggplot: Visualize",
+    "section": "More geometries",
+    "text": "More geometries\n\nCodePlot\n\n\n\nggplot(data = filter(gapminder, year %in% c(2007)),\naes(x = lifeExp,\nfill = continent)) +\ngeom_histogram(binwidth = 5,\n               color = \"grey\") +\nscale_fill_viridis_d() +\nfacet_wrap(vars(continent), ncol = 2) +\nguides(fill = \"none\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#more-geometries-1",
+    "href": "slides/week-05/05-Themes.html#more-geometries-1",
+    "title": "ggplot: Visualize",
+    "section": "More geometries",
+    "text": "More geometries\n\nCodePlot\n\n\n\ncolors &lt;- c(\"red\", \"orange\", \"yellow\", \"green\", \"blue\")\n\nggplot(data = filter(gapminder, year %in% c(2007)),\n  aes(x = continent,\n      y = lifeExp,\n      fill = continent)) +\n  geom_boxplot(alpha = 0.5) +\n  scale_fill_manual(values = colors) +\n  guides(fill = \"none\")"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#more-geometries-2",
+    "href": "slides/week-05/05-Themes.html#more-geometries-2",
+    "title": "ggplot: Visualize",
+    "section": "More geometries",
+    "text": "More geometries\n\nCodePlot\n\n\n\nggplot(gapminder, aes(x = year, \n                      y = lifeExp,\n                      group = country)) +\n  geom_line(alpha = 0.2, color=\"grey\") +\n  geom_line(data = gapminder %&gt;% filter(country %in% c(\n    \"Germany\",\n    \"India\",\n    \"Rwanda\")),\n    lwd = 1) + # thicker line"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#ways-to-visualize-data-with-maps",
+    "href": "slides/week-05/05-Themes.html#ways-to-visualize-data-with-maps",
+    "title": "ggplot: Visualize",
+    "section": "Ways to visualize data with maps",
+    "text": "Ways to visualize data with maps\nThere are multiple ways to encode data on maps:\n\npoints\nlines\nareas\nshapes\n…"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#maps-points",
+    "href": "slides/week-05/05-Themes.html#maps-points",
+    "title": "ggplot: Visualize",
+    "section": "Maps + points",
+    "text": "Maps + points"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#maps-proportional-symbols",
+    "href": "slides/week-05/05-Themes.html#maps-proportional-symbols",
+    "title": "ggplot: Visualize",
+    "section": "Maps + proportional symbols",
+    "text": "Maps + proportional symbols"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#maps-lines",
+    "href": "slides/week-05/05-Themes.html#maps-lines",
+    "title": "ggplot: Visualize",
+    "section": "Maps + lines",
+    "text": "Maps + lines"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#maps-lines-1",
+    "href": "slides/week-05/05-Themes.html#maps-lines-1",
+    "title": "ggplot: Visualize",
+    "section": "Maps + lines",
+    "text": "Maps + lines"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#choropleth-maps",
+    "href": "slides/week-05/05-Themes.html#choropleth-maps",
+    "title": "ggplot: Visualize",
+    "section": "Choropleth maps",
+    "text": "Choropleth maps"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#cartograms",
+    "href": "slides/week-05/05-Themes.html#cartograms",
+    "title": "ggplot: Visualize",
+    "section": "Cartograms",
+    "text": "Cartograms"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#small-multiples",
+    "href": "slides/week-05/05-Themes.html#small-multiples",
+    "title": "ggplot: Visualize",
+    "section": "Small multiples",
+    "text": "Small multiples"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#shapefiles-1",
+    "href": "slides/week-05/05-Themes.html#shapefiles-1",
+    "title": "ggplot: Visualize",
+    "section": "Shapefiles",
+    "text": "Shapefiles\n\nIn generalStructureFinding shapefiles\n\n\n\n\n\nGeographic information is shared as shapefiles\nThey are not the same as regular CSV files\nNormally, you download them as zipped files (the .shp ending indicates the relevant file)\n\n\n\n\n\n\n\n\nlibrary(sf)\nconstituency_shapes &lt;- read_sf(\"btw17_geometrie_wahlkreise_geo_shp/Geometrie_Wahlkreise_19DBT_geo.shp\")\nconstituency_shapes\n\nSimple feature collection with 299 features and 4 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 5.866479 ymin: 47.27011 xmax: 15.03828 ymax: 55.05838\nGeodetic CRS:  WGS 84\n# A tibble: 299 × 5\n   WKR_NR LAND_NR LAND_NAME          WKR_NAME                           geometry\n    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;              &lt;chr&gt;                    &lt;MULTIPOLYGON [°]&gt;\n 1      1 01      Schleswig-Holstein Flensburg – Schl… (((9.676908 54.83785, 9.…\n 2      2 01      Schleswig-Holstein Nordfriesland – … (((8.630545 54.48889, 8.…\n 3      3 01      Schleswig-Holstein Steinburg – Dith… (((8.689466 54.0485, 8.6…\n 4      4 01      Schleswig-Holstein Rendsburg-Eckern… (((9.961349 54.50129, 9.…\n 5      5 01      Schleswig-Holstein Kiel              (((10.18877 54.41108, 10…\n 6      6 01      Schleswig-Holstein Plön – Neumünster (((10.64299 54.34371, 10…\n 7      7 01      Schleswig-Holstein Pinneberg         (((9.751445 53.89304, 9.…\n 8      8 01      Schleswig-Holstein Segeberg – Storm… (((10.37568 54.07279, 10…\n 9      9 01      Schleswig-Holstein Ostholstein – St… (((11.11089 54.39639, 11…\n10     10 01      Schleswig-Holstein Herzogtum Lauenb… (((10.86189 53.70238, 10…\n# ℹ 289 more rows\n\n\n\n\n\nNatural Earth for international maps\nUS Census Bureau for US maps\nEurostat for EU maps\nGOOGLE: shapefiles for …\n\ne.g., shapefiles for german election districts"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#geometry-column-geom_sf",
+    "href": "slides/week-05/05-Themes.html#geometry-column-geom_sf",
+    "title": "ggplot: Visualize",
+    "section": "Geometry column & geom_sf()",
+    "text": "Geometry column & geom_sf()\n\nCodePlot - 2017 constituencies\n\n\nIf we have a geometry column, all we need to do is use geom_sf():\n\nggplot(data = constituency_shapes) +\n  geom_sf()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#making-a-choropleth-map",
+    "href": "slides/week-05/05-Themes.html#making-a-choropleth-map",
+    "title": "ggplot: Visualize",
+    "section": "Making a choropleth map",
+    "text": "Making a choropleth map\n\nAnd now?CodePlot\n\n\n\nFrom here, it is easy to create a choropleth map.\nWe just have to add data to our constituency_shapes dataframe.\n\nRemember the election and structural data from the German federal election officer?\n\nAnd we can use all typical ggplot functions!\n\n\n\n\nconstituency_shapes_vote &lt;- constituency_shapes %&gt;% \n  # here, we can use our \"btw17_election\" data from earlier sessions!\n  left_join(btw17_election, by = c(\"WKR_NR\" = \"constituency_number\")) %&gt;% \n  filter(party == \"AfD\")\n\nggplot(data = constituency_shapes_vote,\n       aes(fill = vote_share)) +  \n  geom_sf() + \n  scale_fill_gradient(low = \"lightblue\", high = \"darkblue\") +\n  labs(fill = \"AfD vote share\") +\n  theme_void()"
+  },
+  {
+    "objectID": "slides/week-05/05-Themes.html#but-sf-is-more-than-drawing-maps",
+    "href": "slides/week-05/05-Themes.html#but-sf-is-more-than-drawing-maps",
+    "title": "ggplot: Visualize",
+    "section": "But sf is more than drawing maps",
+    "text": "But sf is more than drawing maps"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html",
+    "href": "slides/week-05/12-Space.html",
+    "title": "Space",
+    "section": "",
+    "text": "Input\n\nMisleading maps?\nProjections\nWays to visualize data with maps\nShapefiles & geom_sf()\n\nCoding\n\nApplied example\nYour turn!"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#plan-for-today",
+    "href": "slides/week-05/12-Space.html#plan-for-today",
+    "title": "Space",
+    "section": "",
+    "text": "Input\n\nMisleading maps?\nProjections\nWays to visualize data with maps\nShapefiles & geom_sf()\n\nCoding\n\nApplied example\nYour turn!"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#the-2012-us-elections",
+    "href": "slides/week-05/12-Space.html#the-2012-us-elections",
+    "title": "Space",
+    "section": "The 2012 US elections",
+    "text": "The 2012 US elections\n\nDifferentwaystovisualizetheelections!"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#what-about-our-audience",
+    "href": "slides/week-05/12-Space.html#what-about-our-audience",
+    "title": "Space",
+    "section": "What about our audience?",
+    "text": "What about our audience?\n\nSmall-scale vs.large-scale maps"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#popular-projections",
+    "href": "slides/week-05/12-Space.html#popular-projections",
+    "title": "Space",
+    "section": "Popular projections",
+    "text": "Popular projections"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#appropriate-projections-for-mapping",
+    "href": "slides/week-05/12-Space.html#appropriate-projections-for-mapping",
+    "title": "Space",
+    "section": "Appropriate projections for mapping …",
+    "text": "Appropriate projections for mapping …"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#where-to-find-projections",
+    "href": "slides/week-05/12-Space.html#where-to-find-projections",
+    "title": "Space",
+    "section": "Where to find projections",
+    "text": "Where to find projections\nYou can find projection codes here:\n\nSpatial reference list, epsg.io, and PROJ.org\n\nThis lesson by the Earth Lab provides a great overview of different projection formats.\nIn general, there are no good or bad projections!\n\nIt always depends on our data and visualization goals.\nFor example, the Mercator projection can be a good choice for mapping small areas."
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#ways-to-visualize-data-with-maps-1",
+    "href": "slides/week-05/12-Space.html#ways-to-visualize-data-with-maps-1",
+    "title": "Space",
+    "section": "Ways to visualize data with maps",
+    "text": "Ways to visualize data with maps\nThere are multiple ways to encode data on maps:\n\npoints\nlines\nareas\nshapes\n…"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#maps-points",
+    "href": "slides/week-05/12-Space.html#maps-points",
+    "title": "Space",
+    "section": "Maps + points",
+    "text": "Maps + points"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#maps-proportional-symbols",
+    "href": "slides/week-05/12-Space.html#maps-proportional-symbols",
+    "title": "Space",
+    "section": "Maps + proportional symbols",
+    "text": "Maps + proportional symbols"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#maps-lines",
+    "href": "slides/week-05/12-Space.html#maps-lines",
+    "title": "Space",
+    "section": "Maps + lines",
+    "text": "Maps + lines"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#maps-lines-1",
+    "href": "slides/week-05/12-Space.html#maps-lines-1",
+    "title": "Space",
+    "section": "Maps + lines",
+    "text": "Maps + lines"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#choropleth-maps",
+    "href": "slides/week-05/12-Space.html#choropleth-maps",
+    "title": "Space",
+    "section": "Choropleth maps",
+    "text": "Choropleth maps"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#cartograms",
+    "href": "slides/week-05/12-Space.html#cartograms",
+    "title": "Space",
+    "section": "Cartograms",
+    "text": "Cartograms"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#small-multiples",
+    "href": "slides/week-05/12-Space.html#small-multiples",
+    "title": "Space",
+    "section": "Small multiples",
+    "text": "Small multiples"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#shapefiles-1",
+    "href": "slides/week-05/12-Space.html#shapefiles-1",
+    "title": "Space",
+    "section": "Shapefiles",
+    "text": "Shapefiles\n\nIn generalStructureFinding shapefiles\n\n\n\n\n\nGeographic information is shared as shapefiles\nThey are not the same as regular CSV files\nNormally, you download them as zipped files (the .shp ending indicates the relevant file)\n\n\n\n\n\n\n\n\nlibrary(sf)\n\nLinking to GEOS 3.11.2, GDAL 3.7.2, PROJ 9.3.0; sf_use_s2() is TRUE\n\nconstituency_shapes &lt;- read_sf(\"btw17_geometrie_wahlkreise_geo_shp/Geometrie_Wahlkreise_19DBT_geo.shp\")\nconstituency_shapes\n\nSimple feature collection with 299 features and 4 fields\nGeometry type: MULTIPOLYGON\nDimension:     XY\nBounding box:  xmin: 5.866479 ymin: 47.27011 xmax: 15.03828 ymax: 55.05838\nGeodetic CRS:  WGS 84\n# A tibble: 299 × 5\n   WKR_NR LAND_NR LAND_NAME          WKR_NAME                           geometry\n    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;              &lt;chr&gt;                    &lt;MULTIPOLYGON [°]&gt;\n 1      1 01      Schleswig-Holstein Flensburg – Schl… (((9.676908 54.83785, 9.…\n 2      2 01      Schleswig-Holstein Nordfriesland – … (((8.630545 54.48889, 8.…\n 3      3 01      Schleswig-Holstein Steinburg – Dith… (((8.689466 54.0485, 8.6…\n 4      4 01      Schleswig-Holstein Rendsburg-Eckern… (((9.961349 54.50129, 9.…\n 5      5 01      Schleswig-Holstein Kiel              (((10.18877 54.41108, 10…\n 6      6 01      Schleswig-Holstein Plön – Neumünster (((10.64299 54.34371, 10…\n 7      7 01      Schleswig-Holstein Pinneberg         (((9.751445 53.89304, 9.…\n 8      8 01      Schleswig-Holstein Segeberg – Storm… (((10.37568 54.07279, 10…\n 9      9 01      Schleswig-Holstein Ostholstein – St… (((11.11089 54.39639, 11…\n10     10 01      Schleswig-Holstein Herzogtum Lauenb… (((10.86189 53.70238, 10…\n# ℹ 289 more rows\n\n\n\n\n\nNatural Earth for international maps\nUS Census Bureau for US maps\nEurostat for EU maps\nGOOGLE: shapefiles for …\n\ne.g., shapefiles for german election districts"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#geometry-column-geom_sf",
+    "href": "slides/week-05/12-Space.html#geometry-column-geom_sf",
+    "title": "Space",
+    "section": "Geometry column & geom_sf()",
+    "text": "Geometry column & geom_sf()\n\nCodePlot - 2017 constituencies\n\n\nIf we have a geometry column, all we need to do is use geom_sf():\n\nggplot(data = constituency_shapes) +\n  geom_sf()"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#making-a-choropleth-map",
+    "href": "slides/week-05/12-Space.html#making-a-choropleth-map",
+    "title": "Space",
+    "section": "Making a choropleth map",
+    "text": "Making a choropleth map\n\nAnd now?CodePlot\n\n\n\nFrom here, it is easy to create a choropleth map.\nWe just have to add data to our constituency_shapes dataframe.\n\nRemember the election and structural data from the German federal election officer?\n\nAnd we can use all typical ggplot functions!\n\n\n\n\nconstituency_shapes_vote &lt;- constituency_shapes %&gt;% \n  # here, we can use our \"btw17_election\" data from earlier sessions!\n  left_join(btw17_election, by = c(\"WKR_NR\" = \"constituency_number\")) %&gt;% \n  filter(party == \"AfD\")\n\nggplot(data = constituency_shapes_vote,\n       aes(fill = vote_share)) +  \n  geom_sf() + \n  scale_fill_gradient(low = \"lightblue\", high = \"darkblue\") +\n  labs(fill = \"AfD vote share\") +\n  theme_void()"
+  },
+  {
+    "objectID": "slides/week-05/12-Space.html#sf-is-more-than-drawing-maps",
+    "href": "slides/week-05/12-Space.html#sf-is-more-than-drawing-maps",
+    "title": "Space",
+    "section": "sf is more than drawing maps",
+    "text": "sf is more than drawing maps"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html",
+    "href": "slides/week-05/02-GrammarOfGraphics.html",
+    "title": "Designing a Graph",
+    "section": "",
+    "text": "Input:\n\nWhy do we need visualizations? What makes a great visualization?\nData-ink ratio & CRAP principle\n\nCoding:\n\nR Basics - Projects\nMotivating example: Visualizing surveys\nYour very first plot or take it to the next level"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#plan-for-today",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#plan-for-today",
+    "title": "Designing a Graph",
+    "section": "",
+    "text": "Input:\n\nWhy do we need visualizations? What makes a great visualization?\nData-ink ratio & CRAP principle\n\nCoding:\n\nR Basics - Projects\nMotivating example: Visualizing surveys\nYour very first plot or take it to the next level"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#look-at-your-data",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#look-at-your-data",
+    "title": "Designing a Graph",
+    "section": "Look at your data!",
+    "text": "Look at your data!\n\nThe dataSummary statisticsVisual inspection\n\n\n\n# Have a look at the first 10 data points:\nhead(data, n = 10)\n\n        V1      V2\n1  55.3846 97.1795\n2  51.5385 96.0256\n3  46.1538 94.4872\n4  42.8205 91.4103\n5  40.7692 88.3333\n6  38.7179 84.8718\n7  35.6410 79.8718\n8  33.0769 77.5641\n9  28.9744 74.4872\n10 26.1538 71.4103\n\n\nFor a deep dive, have a look at this blog post by Autodesk, this post by Alberto Cairo, or this R package.\n\n\n\n# Inspect mean of V1\nmean(data$V1)\n\n[1] 54.26327\n\n# Inspect mean of V2\nmean(data$V2)\n\n[1] 47.83225\n\n# Inspect the correlation between V1 and V2\ncor(data$V1, data$V2)\n\n[1] -0.06447185"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#the-datasaurus-dozen",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#the-datasaurus-dozen",
+    "title": "Designing a Graph",
+    "section": "The datasaurus dozen",
+    "text": "The datasaurus dozen"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization",
+    "title": "Designing a Graph",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nFive qualities of a great visualization according to Cairo:\n. . .\n\nTruthful - Based on thorough and honest research\n\n. . .\n\nFunctional - Accurate depiction of the data\n\n. . .\n\nBeautiful - Aesthetically pleasing for its intended audience\n\n. . .\n\nInsightful - Communicate new evidence\n\n. . .\n\nEnlightening - Change your audience’s mind"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization-1",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization-1",
+    "title": "Designing a Graph",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nQualities of a great visualization according to Hiely:\n\nAestheticsSubstancePerceptionHonesty"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#how-about-this",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#how-about-this",
+    "title": "Designing a Graph",
+    "section": "How about this?",
+    "text": "How about this?"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#and-this",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#and-this",
+    "title": "Designing a Graph",
+    "section": "And this?",
+    "text": "And this?"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization-2",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#what-makes-a-great-visualization-2",
+    "title": "Designing a Graph",
+    "section": "What makes a great visualization?",
+    "text": "What makes a great visualization?\nGraphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design … [It] consists of complex ideas communicated with clarity, precision, and efficiency. … [It] is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space … [It] is nearly always multivariate … And graphical excellence requires telling the truth about the data. \n\nEdward Tufte (1983). The Visual Display of Quantitative Information, p. 51."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#maximize-data-ink-ratio",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#maximize-data-ink-ratio",
+    "title": "Designing a Graph",
+    "section": "Maximize Data-Ink Ratio",
+    "text": "Maximize Data-Ink Ratio\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di1"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#remove-grid",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#remove-grid",
+    "title": "Designing a Graph",
+    "section": "Remove Grid",
+    "text": "Remove Grid\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di2"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#remove-background",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#remove-background",
+    "title": "Designing a Graph",
+    "section": "Remove Background",
+    "text": "Remove Background\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di3"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#remove-box",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#remove-box",
+    "title": "Designing a Graph",
+    "section": "Remove Box",
+    "text": "Remove Box\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di4"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#add-horizontal-line",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#add-horizontal-line",
+    "title": "Designing a Graph",
+    "section": "Add horizontal “line”",
+    "text": "Add horizontal “line”\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di5"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#remove-axis-line-and-ticks",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#remove-axis-line-and-ticks",
+    "title": "Designing a Graph",
+    "section": "Remove axis line and ticks",
+    "text": "Remove axis line and ticks\n\n\n\nBray, Tim. http://www.tbray.org/ongoing/data-ink/di6"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#design-prinicples",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#design-prinicples",
+    "title": "Designing a Graph",
+    "section": "Design prinicples",
+    "text": "Design prinicples\nWhy would we care about design principles? What is our goal?\n. . .\n\nCommunicating our data in different forms to specific audiences.\nFollowing design principles, we can fulfill the criteria of great visualizations."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#crap",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#crap",
+    "title": "Designing a Graph",
+    "section": "CRAP",
+    "text": "CRAP\n\n\n\nContrast\nRepetition\nAlignment\nProximity\n\nThese design principles apply in all areas of life: Art, architecture, …, and graphs."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#contrast",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#contrast",
+    "title": "Designing a Graph",
+    "section": "Contrast",
+    "text": "Contrast\n\n\nWe want to contrast various elements to get a reader’s attention.\n\nIt creates a hierarchy among different elements of your graph making it more interesting.\nHowever, contrast must be strong!"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#repetition",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#repetition",
+    "title": "Designing a Graph",
+    "section": "Repetition",
+    "text": "Repetition\n\n\nWe want to repeat design aspects throughout the graph for consistency.\n\nElements might include bullet points, typefaces, lines, colors, …\nRepetition makes it easier for a reader to recognize patterns and capture the graph’s message."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#alignment",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#alignment",
+    "title": "Designing a Graph",
+    "section": "Alignment",
+    "text": "Alignment\n\n\nWe want to align the elements of our graph.\n\nTo keep our graph consistent, align every object with an edge of any other object.\nStrong alignments allow you to break them occasionally to make a point without making it look like a mistake."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#proximity",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#proximity",
+    "title": "Designing a Graph",
+    "section": "Proximity",
+    "text": "Proximity\n\n\nWe want to group together related elements of our graph.\n\nGroup elements into closer proximity if they are related.\nSeparate elements that are not directly related.\nVary space between groups and elements."
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#coding",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#coding",
+    "title": "Designing a Graph",
+    "section": "Coding",
+    "text": "Coding"
+  },
+  {
+    "objectID": "slides/week-05/02-GrammarOfGraphics.html#coding-1",
+    "href": "slides/week-05/02-GrammarOfGraphics.html#coding-1",
+    "title": "Designing a Graph",
+    "section": "Coding",
+    "text": "Coding"
   }
 ]

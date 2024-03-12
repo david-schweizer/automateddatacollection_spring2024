@@ -46,4 +46,5 @@ TBA
 
 # To Do's before our session
 
-TBA
+-   Work on the **first assignment**. The **deadline is 19.03.2024 15:00**. You should submit the assignment via ILIAS. You can download the assignment and data here.
+-   Have a look at [chapter 28](https://r4ds.hadley.nz/quarto) and [29](https://r4ds.hadley.nz/quarto-formats) in R for Data Science.
