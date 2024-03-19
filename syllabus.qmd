@@ -9,7 +9,7 @@ editor:
 ## **Course details**
 
 |               |                                                                                             |
-|----------------------|--------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Seminar:      | Übung - Methoden der Vergleichenden Regierungslehre                                         |
 | Time:         | Tuesday, 15:30 – 17:00,  February 13 to May 28                                              |
 | Place:        | C -108 Methodenlabor - groß/ Telefonlabor (A 5, 6 Bauteil C)                                |
@@ -78,6 +78,9 @@ session on your own.
 Deadlines:
 
 -   Assignment 1: 12.03.2024 after the session -\> 19.03.2024 15:00
+-   Assignment 2: 09.04.2024 after the session -\> 16.04.2024 15:00
+-   Assignment 3: 23.04.2024 after the session -\> 30.04.2024 15:00
+-   Assignment 4: 14.05.2024 after the session -\> 21.05.2024 15:00
 
 **"Mid-term" assignments (15% of your grade)**
 
@@ -85,6 +88,8 @@ The mid-term assignment differs from the other assignments in scope and
 length. Here, you should demonstrate your understanding of the
 concepts/code covered in the first half of the semester (importing,
 wrangling, and visualizing data).
+
+Deadline: 09.04.2024 15:00
 
 **Data project (75% of your grade):**
 

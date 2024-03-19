@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-requirements",
     "title": "Syllabus",
     "section": "Course requirements",
-    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
+    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\nAssignment 2: 09.04.2024 after the session -&gt; 16.04.2024 15:00\nAssignment 3: 23.04.2024 after the session -&gt; 30.04.2024 15:00\nAssignment 4: 14.05.2024 after the session -&gt; 21.05.2024 15:00\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nDeadline: 09.04.2024 15:00\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
   },
   {
     "objectID": "syllabus.html#recommended-readings",
@@ -200,14 +200,14 @@
     "href": "weeks/week-06.html",
     "title": "R Markdown / Quarto",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nR Markdown / Quarto\n\n\nWeek 6\n\n\nMar 19, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nWork on the first assignment. The deadline is 19.03.2024 15:00. You should submit the assignment via ILIAS. You can download the assignment and data here.\nHave a look at chapter 28 and 29 in R for Data Science."
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nQuarto\n\n\nWeek 6\n\n\nMar 19, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the Quarto document here.\n\n\nTo Do’s before our session\n\nWork on the first assignment. The deadline is 19.03.2024 15:00. You should submit the assignment via ILIAS. You can download the assignment and data here.\nHave a look at chapter 28 and 29 in R for Data Science."
   },
   {
     "objectID": "weeks/week-07.html",
     "href": "weeks/week-07.html",
     "title": "Version control (Github)",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nVersion control (Github)\n\n\nWeek 9\n\n\nApr 9, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nVersion control (Github)\n\n\nWeek 9\n\n\nApr 9, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nWork on the mid-term assignment. The deadline is 09.04.2024 15:00. You should submit the assignment via ILIAS. You can download the assignment and data here.\nCreate a Github account and install GitHub Desktop."
   },
   {
     "objectID": "weeks/week-09.html",
@@ -3362,9 +3362,9 @@
   {
     "objectID": "slides/week-06/06-Uncertainty.html#plan-for-today",
     "href": "slides/week-06/06-Uncertainty.html#plan-for-today",
-    "title": "Uncertainty",
+    "title": "Quarto",
     "section": "Plan for today",
-    "text": "Plan for today\nInput\n\nWhy is it hard to communicate uncertainty?\nHow to visualize uncertainty?\n\nCoding\n\nCoding example\nYour turn!"
+    "text": "Plan for today\nInput\n\nReproducibility, R Markdown & Quarto\n\nCoding Session\n\nDrafting your first Quarto documents"
   },
   {
     "objectID": "slides/week-06/06-Uncertainty.html#misperceptions-of-probability-chance",
@@ -5948,5 +5948,187 @@
     "title": "Designing a Graph",
     "section": "Coding",
     "text": "Coding"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#reproducibility-why-r",
+    "href": "slides/week-06/06-Uncertainty.html#reproducibility-why-r",
+    "title": "Quarto",
+    "section": "Reproducibility ⟶ Why R?",
+    "text": "Reproducibility ⟶ Why R?\n… and not just Excel? R …\n\n… can deal with more data faster.\n… is open-source and free.\n… allows us to reproduce results and understand data processing steps."
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#but-what-could-go-wrong",
+    "href": "slides/week-06/06-Uncertainty.html#but-what-could-go-wrong",
+    "title": "Quarto",
+    "section": "But what could go wrong?",
+    "text": "But what could go wrong?"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#a-lot",
+    "href": "slides/week-06/06-Uncertainty.html#a-lot",
+    "title": "Quarto",
+    "section": "… a lot!",
+    "text": "… a lot!"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#and-there-is-more",
+    "href": "slides/week-06/06-Uncertainty.html#and-there-is-more",
+    "title": "Quarto",
+    "section": "… and there is more …",
+    "text": "… and there is more …\n\n\nResult: Economic growth slows when a country’s debt is higher than 90% of GDP\nImplication: e.g., cited by Republican Paul Ryan in his proposed 2013 budget: The Path to Prosperity: A Blueprint for American Renewal"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#wrong-basis-for-policy-decisions",
+    "href": "slides/week-06/06-Uncertainty.html#wrong-basis-for-policy-decisions",
+    "title": "Quarto",
+    "section": "… wrong basis for policy decisions",
+    "text": "… wrong basis for policy decisions"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#how-can-we-avoid-this",
+    "href": "slides/week-06/06-Uncertainty.html#how-can-we-avoid-this",
+    "title": "Quarto",
+    "section": "How can we avoid this?",
+    "text": "How can we avoid this?\n\nDo not change the raw data!\n\nIf there is no other way, document and explain what you did extensively.\n\nUse open formats\n\ne.g., .csv and not .xlsx\n\nUse reproducible code\n\nR Markdown & Quarto"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#r-markdown",
+    "href": "slides/week-06/06-Uncertainty.html#r-markdown",
+    "title": "Quarto",
+    "section": "R Markdown",
+    "text": "R Markdown\nR Markdown provides an unified authoring framework for data science, combining your code, its results, and your prose commentary. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more.\nR for Data Science"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#why-should-we-use-r-markdown",
+    "href": "slides/week-06/06-Uncertainty.html#why-should-we-use-r-markdown",
+    "title": "Quarto",
+    "section": "Why should we use R Markdown?",
+    "text": "Why should we use R Markdown?\n\nCommunication of our analysis with a focus on conclusions and not on the code.\nCollaboration with other researchers who want to understand your data analysis and your code.\nAnnotation of the codes and thoughts regarding the coding and data analysis can be stored in the same document.\n\nR for Data Science"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#r-markdown---airbnb",
+    "href": "slides/week-06/06-Uncertainty.html#r-markdown---airbnb",
+    "title": "Quarto",
+    "section": "R Markdown - AirBnb",
+    "text": "R Markdown - AirBnb"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#r-markdown---uk-government",
+    "href": "slides/week-06/06-Uncertainty.html#r-markdown---uk-government",
+    "title": "Quarto",
+    "section": "R Markdown - UK Government",
+    "text": "R Markdown - UK Government\nFormerly, a typical statistics production process in government agencies in the UK:\n\n\nProne to errors & time-consuming ⟶ Development to a reproducible analytical pipeline:"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#moving-to-quarto",
+    "href": "slides/week-06/06-Uncertainty.html#moving-to-quarto",
+    "title": "Quarto",
+    "section": "Moving to Quarto",
+    "text": "Moving to Quarto\n\nQuarto is not an R package as R Markdown, but an command line interface tool.\nIt gives you the same functionality as R Markdown as well as other packages.\nIt extends R Markdown through native support for other programming languages such as Python.\nThe “new” way to produce articles & reports, presentations, interactive documents, websites or books.\n\nR for Data Science"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#create-a-quarto-document",
+    "href": "slides/week-06/06-Uncertainty.html#create-a-quarto-document",
+    "title": "Quarto",
+    "section": "Create a Quarto Document",
+    "text": "Create a Quarto Document"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-1",
+    "href": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-1",
+    "title": "Quarto",
+    "section": "Create a Quarto Document",
+    "text": "Create a Quarto Document"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-2",
+    "href": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-2",
+    "title": "Quarto",
+    "section": "Create a Quarto Document",
+    "text": "Create a Quarto Document"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-3",
+    "href": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-3",
+    "title": "Quarto",
+    "section": "Create a Quarto Document",
+    "text": "Create a Quarto Document"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-4",
+    "href": "slides/week-06/06-Uncertainty.html#create-a-quarto-document-4",
+    "title": "Quarto",
+    "section": "Create a Quarto Document",
+    "text": "Create a Quarto Document"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#code-chunks",
+    "href": "slides/week-06/06-Uncertainty.html#code-chunks",
+    "title": "Quarto",
+    "section": "Code chunks",
+    "text": "Code chunks\n\nDataWrangleVisualize\n\n\nWe make use of the Gapminder data.\n\n\n\ngapminder_2007_europe &lt;- gapminder %&gt;% \n  filter(year == 2007 & continent == \"Europe\") %&gt;% \n  select(-c(year,continent,pop))\n\nhead(gapminder_2007_europe, n = 5)\n\n\n\n\nggplot(gapminder_2007_europe, \n       aes(x = gdpPercap,\n           y = lifeExp)) + \n  geom_point() +\n  geom_smooth() +\n  theme_minimal()\n\n\n\n\nGDP per capita and life expectancy in Europe in 2007"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#output",
+    "href": "slides/week-06/06-Uncertainty.html#output",
+    "title": "Quarto",
+    "section": "Output",
+    "text": "Output"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#code-chunk-options",
+    "href": "slides/week-06/06-Uncertainty.html#code-chunk-options",
+    "title": "Quarto",
+    "section": "Code chunk options",
+    "text": "Code chunk options"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#render-to-different-formats",
+    "href": "slides/week-06/06-Uncertainty.html#render-to-different-formats",
+    "title": "Quarto",
+    "section": "Render to different formats",
+    "text": "Render to different formats\nQuarto offers many output formats. You can find a complete overview here.\nInteresting for us so far:\n\nHTML\nPDF\nWord"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#adjust-the-yaml-header",
+    "href": "slides/week-06/06-Uncertainty.html#adjust-the-yaml-header",
+    "title": "Quarto",
+    "section": "Adjust the YAML header",
+    "text": "Adjust the YAML header\n\nHTMLPDFWord\n\n\n\n---\ntitle: \"Explore Gapminder Data\"\nauthor: \"David Schweizer\"\nformat: \n  html: default\n\neditor: visual\n---\n\n\n\n\n---\ntitle: \"Explore Gapminder Data\"\nauthor: \"David Schweizer\"\nformat: \n  pdf: default\n\neditor: visual\n---\n\n\n\n\n---\ntitle: \"Explore Gapminder Data\"\nauthor: \"David Schweizer\"\nformat: \n  docx: default\n\neditor: visual\n---"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#next-steps",
+    "href": "slides/week-06/06-Uncertainty.html#next-steps",
+    "title": "Quarto",
+    "section": "Next steps",
+    "text": "Next steps\nWe have covered the basics. Now, it is your turn to practice and explore Quarto:\n\nGet Started: Quarto\nWriting a reproducible paper with RStudio and Quarto\nGallery: Quarto\nR for Data Science"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#code-chunks---data",
+    "href": "slides/week-06/06-Uncertainty.html#code-chunks---data",
+    "title": "Quarto",
+    "section": "Code chunks - Data",
+    "text": "Code chunks - Data\nWe make use of the Gapminder data.\n\n# #| label: load-packages-and-data\n# #| include: false\n\nlibrary(tidyverse)\nlibrary(gapminder)\n\ngapminder &lt;- gapminder"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#code-chunks---wrangle",
+    "href": "slides/week-06/06-Uncertainty.html#code-chunks---wrangle",
+    "title": "Quarto",
+    "section": "Code chunks - Wrangle",
+    "text": "Code chunks - Wrangle\n\n# #| label: wrangle-data\n# #| echo: true\n# #| results: hide\n\ngapminder_2007_europe &lt;- gapminder %&gt;% \n  filter(year == 2007 & continent == \"Europe\") %&gt;% \n  select(-c(year,continent,pop))\n\nhead(gapminder_2007_europe, n = 5)"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#code-chunks---visualize",
+    "href": "slides/week-06/06-Uncertainty.html#code-chunks---visualize",
+    "title": "Quarto",
+    "section": "Code chunks - Visualize",
+    "text": "Code chunks - Visualize\n\n# #| label: visualize-data\n# #| echo: false\n# #| message: false\n# #| fig-cap: \"GDP per capita and life expectancy in Europe in 2007\"\n\n\nGDP per capita and life expectancy in Europe in 2007"
+  },
+  {
+    "objectID": "slides/week-06/06-Uncertainty.html#yaml-header",
+    "href": "slides/week-06/06-Uncertainty.html#yaml-header",
+    "title": "Quarto",
+    "section": "YAML header",
+    "text": "YAML header\n\n---\ntitle: \"Explore Gapminder Data\"\nauthor: \"David Schweizer\"\nformat: \n  html: default\neditor: visual\n---"
   }
 ]
