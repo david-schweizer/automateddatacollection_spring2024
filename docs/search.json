@@ -6360,14 +6360,14 @@
     "href": "slides/week-07/07-Relationships.html#exercise-1",
     "title": "Version control (Github)",
     "section": "Exercise 1",
-    "text": "Exercise 1\nSetting up a new repository:\n\nFile → New Repository\nAdd name, select location, (optionally) add gitignore\nUse “Publish Repository” button to host repository on GitHub"
+    "text": "Exercise 1\nGitHub Desktop: Setting up a new repository:\n\nFile → New Repository\nAdd name, select location, (optionally) add gitignore\nUse “Publish Repository” button to host repository on GitHub"
   },
   {
     "objectID": "slides/week-07/07-Relationships.html#exercise-2",
     "href": "slides/week-07/07-Relationships.html#exercise-2",
     "title": "Version control (Github)",
     "section": "Exercise 2",
-    "text": "Exercise 2\nCommiting changes:\n\nCreate a file (e.g., .txt, .tex, .R, .py, .do) of your choice and save it in your repo for this workshop\nAdd some content to the file and save it\nObserve whether this change is indicated in the repo at GitHub Desktop. If that’s the case, write a commit message and press the “commit” button\nMake a few more changes to the file, inspect the changes in GitHub, and make a second commit"
+    "text": "Exercise 2\nCommitting changes:\n\nCreate a file (e.g., .txt, .tex, .R, .py, .do) of your choice and save it in your repo\nAdd some content to the file and save it\nObserve whether this change is indicated in the repo at GitHub Desktop. If that’s the case, write a commit message and press the “commit” button\nMake a few more changes to the file, inspect the changes in GitHub, and make a second commit"
   },
   {
     "objectID": "slides/week-07/07-Relationships.html#exercise-3",
@@ -6396,5 +6396,12 @@
     "title": "Version control (Github)",
     "section": "Bonus",
     "text": "Bonus\nBranches and pull requests:\n\nCreate and publish a new branch\nCommit changes to the branch\nMake and merge a pull request\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop-add-a-new-repository",
+    "href": "slides/week-07/07-Relationships.html#github-desktop-add-a-new-repository",
+    "title": "Version control (Github)",
+    "section": "GitHub desktop: Add a new repository",
+    "text": "GitHub desktop: Add a new repository"
   }
 ]

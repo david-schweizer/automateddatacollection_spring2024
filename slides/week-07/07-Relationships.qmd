@@ -150,6 +150,10 @@ Today, we cannot cover:
 
 -   You can set up new repositories at github.com or via GitHub Desktop
 
+## GitHub desktop: Add a new repository
+
+![](git_desk.jpg)
+
 ## What should we commit?
 
 **Source files:** These files are created and edited by hand, such as R or Python scripts, R Markdown or LaTeX files. This could also include the raw data for an analysis.
@@ -315,7 +319,7 @@ gapminder %>%
 
 ## Exercise 1
 
-**Setting up a new repository:**
+**GitHub Desktop: Setting up a new repository:**
 
 1.   File → New Repository
 
@@ -325,9 +329,9 @@ gapminder %>%
 
 ## Exercise 2
 
-**Commiting changes:**
+**Committing changes:**
 
-1.  Create a file (e.g., .txt, .tex, .R, .py, .do) of your choice and save it in your repo for this workshop
+1.  Create a file (e.g., .txt, .tex, .R, .py, .do) of your choice and save it in your repo
 
 2.  Add some content to the file and save it
 
