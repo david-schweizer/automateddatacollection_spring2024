@@ -3663,9 +3663,9 @@
   {
     "objectID": "slides/week-07/07-Relationships.html#plan-for-today",
     "href": "slides/week-07/07-Relationships.html#plan-for-today",
-    "title": "Relationships",
+    "title": "Version control (Github)",
     "section": "Plan for today",
-    "text": "Plan for today\nInput\n\nCorrelation != causation\nDual y-axes\nVisualizing correlations\nVisualizing regressions\n\nCoding\n\nCoding example: R projects\nYour turn!"
+    "text": "Plan for today\nReproducible research with Git and GitHub:\n\nadvantages of version control\nfeatures of GitHub and GitHub Desktop & terms and concepts\ngeneral workflow:\n\ncreating a repository,\ncommitting changes,\npushing changes\n\nintro to branches and pull requests"
   },
   {
     "objectID": "slides/week-07/07-Relationships.html#chocolate-nobel-prize",
@@ -6130,5 +6130,271 @@
     "title": "Quarto",
     "section": "YAML header",
     "text": "YAML header\n\n---\ntitle: \"Explore Gapminder Data\"\nauthor: \"David Schweizer\"\nformat: \n  html: default\neditor: visual\n---"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#next-steps",
+    "href": "slides/week-07/07-Relationships.html#next-steps",
+    "title": "Version control (Github)",
+    "section": "Next steps",
+    "text": "Next steps\nToday, we cannot cover:\n\nusing the console/command line to interact with Git\ndealing with merge conflicts after pull requests\nsoftware/package development\ncreating your own website with Quarto and GitHub"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#version-control-in-the-research-workflow",
+    "href": "slides/week-07/07-Relationships.html#version-control-in-the-research-workflow",
+    "title": "Version control (Github)",
+    "section": "Version control in the research workflow",
+    "text": "Version control in the research workflow"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#why-should-we-use-version-control",
+    "href": "slides/week-07/07-Relationships.html#why-should-we-use-version-control",
+    "title": "Version control (Github)",
+    "section": "Why should we use version control?",
+    "text": "Why should we use version control?\n\nGood academic work entails organisation, and the recording and disseminating of it\nCollaboration is much more structured and transparent with version control in place\nGit and GitHub can be used for many things:\n\nproject management, saving code and outputs\nhosting a personal or professional website\n\nRewarding: You can trace your work and accomplishments"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#git",
+    "href": "slides/week-07/07-Relationships.html#git",
+    "title": "Version control (Github)",
+    "section": "Git",
+    "text": "Git\n\nGit is a version control system. Original purpose: help groups of developers work collaboratively on big software projects\nGit manages the evolution of a set of files (called a repository or repo) in a highly structured way\nThink of it as the “Track Changes” feature from Microsoft Word, but more rigorous, powerful, and scaled up to multiple files\nResources: Overview of basic Git commands & Book on Git: Chacon and Straub (2014)"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github",
+    "href": "slides/week-07/07-Relationships.html#github",
+    "title": "Version control (Github)",
+    "section": "Github",
+    "text": "Github\n\nGitHub complements Git by providing a polished user interface and distribution mechanism for Git repositories\n\nGit: software you will use locally to record changes to a set of files\nGitHub: a hosting service for such projects.\n\nMany operations can be done entirely in the browser\nGitHub also offers granular control over who can see, edit, and administer a project\nYou can apply for a free GitHub Pro account for students!"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#username.-who-cares",
+    "href": "slides/week-07/07-Relationships.html#username.-who-cares",
+    "title": "Version control (Github)",
+    "section": "Username. Who cares?",
+    "text": "Username. Who cares?\n\nIncorporate your actual name in your username!\nReuse your username from other contexts, e.g., Twitter (“professional” social media)\nPick a (short) username you will be comfortable revealing in applications.\nDon’t highlight your current university, employer, or place of residence\nMore info & tips"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#how-you-could-build-your-profile",
+    "href": "slides/week-07/07-Relationships.html#how-you-could-build-your-profile",
+    "title": "Version control (Github)",
+    "section": "How you could build your profile",
+    "text": "How you could build your profile"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#terms",
+    "href": "slides/week-07/07-Relationships.html#terms",
+    "title": "Version control (Github)",
+    "section": "Terms",
+    "text": "Terms\n\nRepository/Repo: directory of files that Git manages holistically\n\n\n\nCommit: a snapshot of all the files in the repo, at a specific moment. Under the hood, that is not exactly how Git implements things\nCommit message: every time you make a commit you must also write a short commit message\nPull request: submitting contributions to a project\nBranch: diverge from the main line of development and continue to do work without messing with that main line\nFor more information see: https://git-scm.com/doc"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-workflow",
+    "href": "slides/week-07/07-Relationships.html#github-workflow",
+    "title": "Version control (Github)",
+    "section": "GitHub workflow",
+    "text": "GitHub workflow"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#setup-how-to-get-started",
+    "href": "slides/week-07/07-Relationships.html#setup-how-to-get-started",
+    "title": "Version control (Github)",
+    "section": "Setup: How to get started",
+    "text": "Setup: How to get started\n\nRegister for a free account with GitHub\nInstall Git. Depending on your OS, Git might already be installed. Usually, you will need to install it or update it to a more recent version\nInstall a local Git client (e.g., SourceTree, GitKraken, GitHub Desktop). A Git client provides a graphical user interface for Git, which is otherwise command-line only. We will use GitHub Desktop.\n\n→ Once this setup is done, you are ready to start using Git and GitHub"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#how-to-structure-your-project",
+    "href": "slides/week-07/07-Relationships.html#how-to-structure-your-project",
+    "title": "Version control (Github)",
+    "section": "How to structure your project?",
+    "text": "How to structure your project?\n\nHave a local folder for all of your projects that you want to host on GitHub\nFor example:\n\nGitHub\n\nbachelor-thesis\nseminar_x\nseminar_y\n\n\nYou can set up new repositories at github.com or via GitHub Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#what-should-we-commit",
+    "href": "slides/week-07/07-Relationships.html#what-should-we-commit",
+    "title": "Version control (Github)",
+    "section": "What should we commit?",
+    "text": "What should we commit?\nSource files: These files are created and edited by hand, such as R or Python scripts, R Markdown or LaTeX files. This could also include the raw data for an analysis.\nConfiguration files: These files modify the behavior of a tool, for example .gitignore (identify files or file formats that should not be committed)\nDerived products: These files are programmatically generated from source files and have external value. By executing .R or rendering .Rmd files, you obtain artifacts such as intermediate data (e.g., .csv or .rds), figures (e.g., .png or .pdf), and reports (e.g., .md, .pdf, .docx, or .html)"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#what-not-to-commit",
+    "href": "slides/week-07/07-Relationships.html#what-not-to-commit",
+    "title": "Version control (Github)",
+    "section": "What not to commit?",
+    "text": "What not to commit?\n\nRule of thumb: a file (e.g., intermediate data) that is large and changing often can make your repository bloated and slow down pushes and pulls (speaking from experience!)\nYou can exclude files from commits by adding it to the .gitignore file"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#gitignore",
+    "href": "slides/week-07/07-Relationships.html#gitignore",
+    "title": "Version control (Github)",
+    "section": ".gitignore",
+    "text": ".gitignore"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#how-to-commit-changes",
+    "href": "slides/week-07/07-Relationships.html#how-to-commit-changes",
+    "title": "Version control (Github)",
+    "section": "How to commit changes",
+    "text": "How to commit changes\nLet’s start by creating a new R script:\n\nlibrary(tidyverse)\nlibrary(gapminder)\n\ngapminder %&gt;% \n  filter(year == 2007) %&gt;% \nggplot(aes(x = gdpPercap,\n           y = lifeExp)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop",
+    "href": "slides/week-07/07-Relationships.html#github-desktop",
+    "title": "Version control (Github)",
+    "section": "Github Desktop",
+    "text": "Github Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop-1",
+    "href": "slides/week-07/07-Relationships.html#github-desktop-1",
+    "title": "Version control (Github)",
+    "section": "Github Desktop",
+    "text": "Github Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop-2",
+    "href": "slides/week-07/07-Relationships.html#github-desktop-2",
+    "title": "Version control (Github)",
+    "section": "Github Desktop",
+    "text": "Github Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop-3",
+    "href": "slides/week-07/07-Relationships.html#github-desktop-3",
+    "title": "Version control (Github)",
+    "section": "Github Desktop",
+    "text": "Github Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#github-desktop-4",
+    "href": "slides/week-07/07-Relationships.html#github-desktop-4",
+    "title": "Version control (Github)",
+    "section": "Github Desktop",
+    "text": "Github Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#add-more-to-our-r-script",
+    "href": "slides/week-07/07-Relationships.html#add-more-to-our-r-script",
+    "title": "Version control (Github)",
+    "section": "Add more to our R script",
+    "text": "Add more to our R script"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#changes-in-github-desktop",
+    "href": "slides/week-07/07-Relationships.html#changes-in-github-desktop",
+    "title": "Version control (Github)",
+    "section": "Changes in GitHub Desktop",
+    "text": "Changes in GitHub Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#commits-on-github",
+    "href": "slides/week-07/07-Relationships.html#commits-on-github",
+    "title": "Version control (Github)",
+    "section": "Commits on GitHub",
+    "text": "Commits on GitHub"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#pushing-changes",
+    "href": "slides/week-07/07-Relationships.html#pushing-changes",
+    "title": "Version control (Github)",
+    "section": "Pushing changes",
+    "text": "Pushing changes\n\nWhen you made the commits, we can “push” these changes to GitHub\n\n(If necessary) publish the repository (top-right corner of GitHub Desktop)\nPress the same button (“Push origin”)\nGo to github.com, log into your account and look for the repository. Can you see the repository and the changes?"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#push-changes-in-github-desktop",
+    "href": "slides/week-07/07-Relationships.html#push-changes-in-github-desktop",
+    "title": "Version control (Github)",
+    "section": "Push changes in GitHub Desktop",
+    "text": "Push changes in GitHub Desktop"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#our-progress-so-far",
+    "href": "slides/week-07/07-Relationships.html#our-progress-so-far",
+    "title": "Version control (Github)",
+    "section": "Our progress so far:",
+    "text": "Our progress so far:"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#branches",
+    "href": "slides/week-07/07-Relationships.html#branches",
+    "title": "Version control (Github)",
+    "section": "Branches",
+    "text": "Branches\n\nSo far, we only used the main branch. But you can commit, push, and pull to more than one branch\nA branch is an independent line of development within a repo, where the intent is usually to merge it into the main branch when ready.\nYou can make edits in a separate branch and test what works. When you are happy with the changes, you can commit to this branch.\nMake sure you are in the desired branch when working on your project!"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#pull-requests",
+    "href": "slides/week-07/07-Relationships.html#pull-requests",
+    "title": "Version control (Github)",
+    "section": "Pull requests",
+    "text": "Pull requests\n\nA pull request is a GitHub-specific way to propose changes to a repo that overlays Git’s regular branch and merge workflow with facilities for structured review.\nA pull request can be made between two branches in the same repo, such as main\nEspecially useful/necessary in collaborative projects\nAlso useful if you experiment and change code in your personal project"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#branches-and-pull-requests",
+    "href": "slides/week-07/07-Relationships.html#branches-and-pull-requests",
+    "title": "Version control (Github)",
+    "section": "Branches and pull requests",
+    "text": "Branches and pull requests"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#live-coding",
+    "href": "slides/week-07/07-Relationships.html#live-coding",
+    "title": "Version control (Github)",
+    "section": "Live coding",
+    "text": "Live coding\n\nhow to create a new branch\nhow to make changes in this branch\nhow to publish the branch\nhow to make a pull request\nhow to merge a pull request"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#conflicts",
+    "href": "slides/week-07/07-Relationships.html#conflicts",
+    "title": "Version control (Github)",
+    "section": "Conflicts",
+    "text": "Conflicts\n\nConflicts occur when there are competing line changes in two branches\nCommon in collaborative projects\nRequires time and effort but makes sure that everyone involved knows what has been changed\nHow to handle conflicts is beyond the scope of today’s session but see: resolving a merge conflict on GitHub"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#take-aways",
+    "href": "slides/week-07/07-Relationships.html#take-aways",
+    "title": "Version control (Github)",
+    "section": "Take aways",
+    "text": "Take aways\n\nVersion control is important & can be motivating and rewarding\nReproducible research is key and required for most journals\nAllows you to go “back in time” and spot changes and errors\nPrepares you for collaborative projects and software development\n\n→ Knowing about version control is a very useful skill!"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#exercise-1",
+    "href": "slides/week-07/07-Relationships.html#exercise-1",
+    "title": "Version control (Github)",
+    "section": "Exercise 1",
+    "text": "Exercise 1\nSetting up a new repository:\n\nFile → New Repository\nAdd name, select location, (optionally) add gitignore\nUse “Publish Repository” button to host repository on GitHub"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#exercise-2",
+    "href": "slides/week-07/07-Relationships.html#exercise-2",
+    "title": "Version control (Github)",
+    "section": "Exercise 2",
+    "text": "Exercise 2\nCommiting changes:\n\nCreate a file (e.g., .txt, .tex, .R, .py, .do) of your choice and save it in your repo for this workshop\nAdd some content to the file and save it\nObserve whether this change is indicated in the repo at GitHub Desktop. If that’s the case, write a commit message and press the “commit” button\nMake a few more changes to the file, inspect the changes in GitHub, and make a second commit"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#exercise-3",
+    "href": "slides/week-07/07-Relationships.html#exercise-3",
+    "title": "Version control (Github)",
+    "section": "Exercise 3",
+    "text": "Exercise 3\nPushing changes:\n1. (If necessary) publish the repository (top-right corner of GitHub Desktop)\n2. Press the same button (“Push origin”)\n3. Go to github.com, log into your account and look for the repository. Do you see the repo and the changes?"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#terms-1",
+    "href": "slides/week-07/07-Relationships.html#terms-1",
+    "title": "Version control (Github)",
+    "section": "Terms (1)",
+    "text": "Terms (1)\n\nRepository/Repo: directory of files that Git manages holistically\n\n\n\nCommit: a snapshot of all the files in the repo, at a specific moment. Under the hood, that is not exactly how Git implements things\nCommit message: every time you make a commit you must also write a short commit message"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#terms-2",
+    "href": "slides/week-07/07-Relationships.html#terms-2",
+    "title": "Version control (Github)",
+    "section": "Terms (2)",
+    "text": "Terms (2)\n\nPull request: submitting contributions to a project\nBranch: diverge from the main line of development and continue to do work without messing up this main line.\nFor more information see: https://git-scm.com/doc"
+  },
+  {
+    "objectID": "slides/week-07/07-Relationships.html#bonus",
+    "href": "slides/week-07/07-Relationships.html#bonus",
+    "title": "Version control (Github)",
+    "section": "Bonus",
+    "text": "Bonus\nBranches and pull requests:\n\nCreate and publish a new branch\nCommit changes to the branch\nMake and merge a pull request\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
   }
 ]
