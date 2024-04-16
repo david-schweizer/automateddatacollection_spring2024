@@ -214,7 +214,7 @@
     "href": "weeks/week-09.html",
     "title": "Web scraping basics",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping basics\n\n\nWeek 11\n\n\nApr 23, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping basics\n\n\nWeek 11\n\n\nApr 23, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nRead Chapter 24.1 - 24.5 in R for Data Science. Do you have already a website in mind that you might want to scrape? Think about possible websites and let me know on Slack or via e-mail!"
   },
   {
     "objectID": "weeks/week-10.html",
@@ -347,7 +347,7 @@
     "href": "weeks/week-08.html",
     "title": "APIs",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nAPIs\n\n\nWeek 10\n\n\nApr 16, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nWork on the second assignment. The deadline is 16.04.2024 15:00. You can download the assignment on ILIAS.\nHave a look at APIs for social scientists: A collaborative review. Is one of the mentioned API’s particularly interesting for you? Do you know of any other APIs (also wrapped in R packages) that are relevant for political science?"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nAPIs\n\n\nWeek 10\n\n\nApr 16, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the Quarto document for today’s session here.\n\n\nTo Do’s before our session\n\nWork on the second assignment. The deadline is 16.04.2024 15:00. You can download the assignment on ILIAS.\nHave a look at APIs for social scientists: A collaborative review. Is one of the mentioned API’s particularly interesting for you? Do you know of any other APIs (also wrapped in R packages) that are relevant for political science?"
   },
   {
     "objectID": "slides/week-02/02-ScienceOfClimateChange.html#social-and-economic-impacts-of-climate",
@@ -3866,9 +3866,9 @@
   {
     "objectID": "slides/week-08/08-Comparisons.html#plan-for-today",
     "href": "slides/week-08/08-Comparisons.html#plan-for-today",
-    "title": "Comparisons",
+    "title": "APIs",
     "section": "Plan for today",
-    "text": "Plan for today\nShort input\n\nVisualizing comparisons\n\nCoding\n\nCoding example: Merging & transforming data\n\n\n\nGroup work: Your turn!"
+    "text": "Plan for today\n\nShort input: What is an API?\nCoding example: World Bank API\nYour turn!"
   },
   {
     "objectID": "slides/week-08/08-Comparisons.html#lollipop-charts",
@@ -6403,5 +6403,40 @@
     "title": "Version control (Github)",
     "section": "GitHub desktop: Add a new repository",
     "text": "GitHub desktop: Add a new repository"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#api",
+    "href": "slides/week-08/08-Comparisons.html#api",
+    "title": "APIs",
+    "section": "API",
+    "text": "API\nApplication\nProgramming\nInterface"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#what-is-an-api",
+    "href": "slides/week-08/08-Comparisons.html#what-is-an-api",
+    "title": "APIs",
+    "section": "What is an API?",
+    "text": "What is an API?\n\n\n\n\n\n\nAPIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.\n– Amazon Web Services"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#api-endpoints",
+    "href": "slides/week-08/08-Comparisons.html#api-endpoints",
+    "title": "APIs",
+    "section": "API endpoints",
+    "text": "API endpoints\n\nIn generalAPI callResponse\n\n\nWe send a request with:\n\ndifferent parameters\n(depending on the API) an API key\n\nIn turn, we receive:\n\ndata in a JSON, txt, XML or other formats\n\n\n\n\n\n\n\n[\n  {\n    \"page\": 1,\n    \"pages\": 1,\n    \"per_page\": 50,\n    \"total\": 1,\n    \"sourceid\": \"2\",\n    \"lastupdated\": \"2024-03-28\"\n  },\n  [\n    {\n      \"indicator\": {\n        \"id\": \"SP.POP.TOTL\",\n        \"value\": \"Population, total\"\n      },\n      \"country\": {\n        \"id\": \"US\",\n        \"value\": \"United States\"\n      },\n      \"countryiso3code\": \"USA\",\n      \"date\": \"2000\",\n      \"value\": 282162411,\n      \"unit\": \"\",\n      \"obs_status\": \"\",\n      \"decimal\": 0\n    }\n  ]\n]"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#use-cases",
+    "href": "slides/week-08/08-Comparisons.html#use-cases",
+    "title": "APIs",
+    "section": "Use cases?",
+    "text": "Use cases?"
+  },
+  {
+    "objectID": "slides/week-08/08-Comparisons.html#use-cases-1",
+    "href": "slides/week-08/08-Comparisons.html#use-cases-1",
+    "title": "APIs",
+    "section": "Use cases",
+    "text": "Use cases"
   }
 ]
