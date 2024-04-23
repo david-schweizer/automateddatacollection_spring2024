@@ -46,4 +46,4 @@ TBA
 
 # To Do's before our session
 
-TBA
+Read [Chapter 24.6 in R for Data Science](https://r4ds.hadley.nz/webscraping#putting-it-all-together). Do you have already a website in mind that you might want to scrape? Think about possible websites and let me know on Slack or via e-mail!
