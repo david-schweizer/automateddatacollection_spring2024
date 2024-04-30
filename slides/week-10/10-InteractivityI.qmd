@@ -593,6 +593,7 @@ If you do this, try to keep the number of interactions with websites at a minimu
 
 ## Exercise 2:
 
--   Scrape the "[https://en.wikipedia.org/wiki/List_of_United_Nations_organizations_by_location"](https://en.wikipedia.org/wiki/List_of_United_Nations_organizations_by_location") (politely)
+-   Scrape the this [Wikipedia site](https://en.wikipedia.org/wiki/List_of_United_Nations_organizations_by_location) (politely)
     -   Create a data frame including United Nations organizations in Europe
+    -   Can you manage to have one row per organization?
 -   Try to scrape another static website!

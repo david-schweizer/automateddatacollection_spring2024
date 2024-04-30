@@ -7046,7 +7046,7 @@
     "href": "slides/week-10/10-InteractivityI.html#exercise-2",
     "title": "Web scraping static",
     "section": "Exercise 2:",
-    "text": "Exercise 2:\n\nScrape the “https://en.wikipedia.org/wiki/List_of_United_Nations_organizations_by_location” (politely)\n\nCreate a data frame including United Nations organizations in Europe\n\nTry to scrape another static website!\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+    "text": "Exercise 2:\n\nScrape the this Wikipedia site (politely)\n\nCreate a data frame including United Nations organizations in Europe\nCan you manage to have one row per organization?\n\nTry to scrape another static website!\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
   },
   {
     "objectID": "slides/week-10/10-InteractivityI.html#using-selectorgadget",
