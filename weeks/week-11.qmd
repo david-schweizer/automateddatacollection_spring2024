@@ -46,4 +46,4 @@ TBA
 
 # To Do's before our session
 
-TBA
+Think about possible *dynamic* websites that you want to scrape. Let me know on Slack or via e-mail!
