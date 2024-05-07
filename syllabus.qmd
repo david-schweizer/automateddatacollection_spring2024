@@ -71,7 +71,7 @@ understand concepts. I will also regularly check our Slack channel.
 
 **Assignments during the semester (10% of your grade)**
 
-There will be ~~ 4 ~~ 3 (short) assignments during the semester. Here, you have
+There will be 3 (short) assignments during the semester. Here, you have
 to demonstrate that you can apply the concepts/code presented during the
 session on your own.
 
