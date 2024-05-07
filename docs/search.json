@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-requirements",
     "title": "Syllabus",
     "section": "Course requirements",
-    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 4 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\nAssignment 2: 09.04.2024 after the session -&gt; 16.04.2024 15:00\nAssignment 3: 07.04.2024 after the session -&gt; 14.05.2024 15:00\nAssignment 4: 21.05.2024 after the session -&gt; 28.05.2024 15:00\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nDeadline: 09.04.2024 15:00\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
+    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be ~~ 4 ~~ 3 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\nAssignment 2: 09.04.2024 after the session -&gt; 16.04.2024 15:00\nAssignment 3: 07.05.2024 after the session -&gt; 14.05.2024 15:00\nAssignment 4: 21.05.2024 after the session -&gt; 28.05.2024 15:00\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nDeadline: 09.04.2024 15:00\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
   },
   {
     "objectID": "syllabus.html#recommended-readings",
@@ -228,14 +228,14 @@
     "href": "weeks/week-11.html",
     "title": "Web scraping dynamic",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping dynamic\n\n\nWeek 13\n\n\nMay 7, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nThink about possible dynamic websites that you want to scrape. Let me know on Slack or via e-mail!"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nWeb scraping dynamic\n\n\nWeek 13\n\n\nMay 7, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the code for the Bundeswahlleiterin example here.\n\n\nTo Do’s before our session\nThink about possible dynamic websites that you want to scrape. Let me know on Slack or via e-mail!"
   },
   {
     "objectID": "weeks/week-12.html",
     "href": "weeks/week-12.html",
     "title": "Interactive I: Create your first Shiny app",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive I: Create your first Shiny app\n\n\nWeek 14\n\n\nMay 14, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive I: Create your first Shiny app\n\n\nWeek 14\n\n\nMay 14, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nPlease have a look at:\n\nChapter 1, Your first Shiny app in Wickham, Mastering Shiny. Link to free online version.\nR Shiny, Get Started: Welcome to Shiny."
   },
   {
     "objectID": "weeks/week-13.html",
@@ -4202,9 +4202,9 @@
   {
     "objectID": "slides/week-11/11-Time.html#plan-for-today",
     "href": "slides/week-11/11-Time.html#plan-for-today",
-    "title": "Time",
+    "title": "Web scraping dynamic",
     "section": "Plan for today",
-    "text": "Plan for today\nInput\n\nIssues with the y-axis\nHow to visualize time\n\nCoding\n\nApplied example\nGroup work: Your turn!"
+    "text": "Plan for today\n\nShort input:\n\nCrawling static pages and scraping dynamic pages\n\nYour turn!"
   },
   {
     "objectID": "slides/week-11/11-Time.html#section",
@@ -7061,5 +7061,236 @@
     "title": "Web scraping static",
     "section": "Find Selectors With SelectorGadget",
     "text": "Find Selectors With SelectorGadget\n\nInfoExample\n\n\nNow, click on one of the hyperlinks in the left pane (e.g., “Main page”) and one of the hyperlinks outside the tables on the main pane (e.g., “1 Locations”) as we are only interested in the hyperlinks in the tables.\n\n\n\n\n\n\n\nIf you click on a yellow element, it is then highlighted red\nOther elements are not highlighted anymore\nSelectorGadget identifies the selector .datasortkey a"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#crawling-static-pages-overview",
+    "href": "slides/week-11/11-Time.html#crawling-static-pages-overview",
+    "title": "Web scraping dynamic",
+    "section": "Crawling (Static) Pages: Overview",
+    "text": "Crawling (Static) Pages: Overview\nMost of the time, one page does not include all information we are interested in (e.g, it is spread over different pages of a website).\nIn this case, we can crawl over these different pages by using information on one of the website’s pages.\nWe can use for loops for crawling.\n\nThis can take a long time\nWe should even more think about ethical scraping!"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-bundeswahlleiterin---btw-2021",
+    "href": "slides/week-11/11-Time.html#example-bundeswahlleiterin---btw-2021",
+    "title": "Web scraping dynamic",
+    "section": "Example: Bundeswahlleiterin - BTW 2021",
+    "text": "Example: Bundeswahlleiterin - BTW 2021"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-btw-2021---land",
+    "href": "slides/week-11/11-Time.html#example-btw-2021---land",
+    "title": "Web scraping dynamic",
+    "section": "Example: BTW 2021 - Land",
+    "text": "Example: BTW 2021 - Land"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-btw-2021---results-in-tables",
+    "href": "slides/week-11/11-Time.html#example-btw-2021---results-in-tables",
+    "title": "Web scraping dynamic",
+    "section": "Example: BTW 2021 - Results in tables",
+    "text": "Example: BTW 2021 - Results in tables"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-select-links-with-selectorgadget",
+    "href": "slides/week-11/11-Time.html#example-select-links-with-selectorgadget",
+    "title": "Web scraping dynamic",
+    "section": "Example: Select links with SelectorGadget",
+    "text": "Example: Select links with SelectorGadget"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-links",
+    "href": "slides/week-11/11-Time.html#example-get-links",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get links",
+    "text": "Example: Get links\nFirst, we scrape the page that has all URLs:\n\nlinks &lt;- bow(url = \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse.html\") %&gt;%\n        scrape() %&gt;%\n        html_elements(css = \".linklist__item+ .linklist__item a\") %&gt;% \n        html_attr(\"href\") %&gt;% \n        url_absolute(base = \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/\")\n\n\nhead(links)\n\n[1] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-8.html\" \n[2] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-9.html\" \n[3] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-11.html\"\n[4] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-12.html\"\n[5] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-4.html\" \n[6] \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99/land-2.html\""
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-tables-from-each-page",
+    "href": "slides/week-11/11-Time.html#example-get-tables-from-each-page",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get tables from each page",
+    "text": "Example: Get tables from each page\nFirst, we create an empty list. We store our table later in that list.\n\nlist &lt;- list ()\n\nfor (i in 1:length(links)) {\n  \n  page &lt;- bow(links[i]) %&gt;% scrape()\n  \n  list[[i]] &lt;- page %&gt;% \n          html_table() \n}"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-tables-from-each-page-1",
+    "href": "slides/week-11/11-Time.html#example-get-tables-from-each-page-1",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get tables from each page",
+    "text": "Example: Get tables from each page\nNext, we use a for loop to iterate over each element in our list of links:\n\nlist &lt;- list () \n\nfor (i in 1:length(links)) { \n    \n  page &lt;- bow(links[i]) %&gt;% scrape()\n\n  list[[i]] &lt;- page %&gt;% \n        html_table() \n\n}"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-tables-from-each-page-2",
+    "href": "slides/week-11/11-Time.html#example-get-tables-from-each-page-2",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get tables from each page",
+    "text": "Example: Get tables from each page\nThen, we politely (bow()) get the source code for each link (scrape()):\n\nlist &lt;- list () \n\nfor (i in 1:length(links)) { \n  \npage &lt;- bow(links[i]) %&gt;% scrape()\n\nlist[[i]] &lt;- page %&gt;% \n        html_table() \n\n}"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-tables-from-each-page-3",
+    "href": "slides/week-11/11-Time.html#example-get-tables-from-each-page-3",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get tables from each page",
+    "text": "Example: Get tables from each page\nFinally, we scrape the tables from each page with html_table() and store the results in our list:\n\nlist &lt;- list () \n\nfor (i in 1:length(links)) { \n  \npage &lt;- bow(links[i]) %&gt;% scrape() \n\nlist[[i]] &lt;- page %&gt;% \n        html_table()\n\n}"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-get-tables-from-each-page-4",
+    "href": "slides/week-11/11-Time.html#example-get-tables-from-each-page-4",
+    "title": "Web scraping dynamic",
+    "section": "Example: Get tables from each page",
+    "text": "Example: Get tables from each page\nCheck the first list entry:\n\nlist[[1]] ## Baden-Württemberg\n\n[[1]]\n# A tibble: 35 × 7\n   Merkmal         Erststimmen Erststimmen Erststimmen Zweitstimmen Zweitstimmen\n   &lt;chr&gt;           &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;        &lt;chr&gt;       \n 1 Merkmal         Anzahl      %           Diff. zu 2… Anzahl       %           \n 2 Wahlberechtigte 7.711.531   -           -           7.711.531    -           \n 3 Wählende        5.997.317   77,8        -0,5        5.997.317    77,8        \n 4 Ungültige       54.574      0,9         -0,3        47.657       0,8         \n 5 Gültige         5.942.743   99,1        +0,3        5.949.660    99,2        \n 6 CDU             1.767.316   29,7        -9,5        1.477.612    24,8        \n 7 SPD             1.247.455   21,0        +1,5        1.287.934    21,6        \n 8 GRÜNE           1.058.334   17,8        +4,4        1.022.226    17,2        \n 9 FDP             711.697     12,0        +3,3        908.039      15,3        \n10 AfD             561.058     9,4         -2,1        571.336      9,6         \n# ℹ 25 more rows\n# ℹ 1 more variable: Zweitstimmen &lt;chr&gt;"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#example-btw-2021---more-links",
+    "href": "slides/week-11/11-Time.html#example-btw-2021---more-links",
+    "title": "Web scraping dynamic",
+    "section": "Example: BTW 2021 - More links",
+    "text": "Example: BTW 2021 - More links"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#overview",
+    "href": "slides/week-11/11-Time.html#overview",
+    "title": "Web scraping dynamic",
+    "section": "Overview",
+    "text": "Overview\nDynamic pages display custom content.\nDifferent visitors see different content on the same page - e.g., depending on their input (clicking, scrolling) - URL stays the same\nFor example, the Bundeswahlleiter (Federal Returining Officer) has dynamic elements on its website (e.g., selecting election year or voting results on subnational levels).\nIt is more difficult to scrape dynamic than static pages - we need one extra step - for this extra step, we are using the package RSelenium"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-steps",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-steps",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Steps",
+    "text": "Dynamic Pages: Steps\nThree main steps:\n\nUse RSelenium to identify and select the desired elements of the page by clicking, searching, selecting from within RStudio\nGet the source code\n\nRSelenium downloads in XML format\nwe can use rvest to transform this into HTML\n\nExtract the relevant information from the source code using the rvest package\n\nthis is the same process as for static pages"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-rselenium",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-rselenium",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: RSelenium",
+    "text": "Dynamic Pages: RSelenium\nThe RSelenium package integrates the Selenium 2.0 WebDriver into R. The package allows us to interact with\n\nbrowsers on our device (e.g., open a browser and navigating to a page)\nelements on a page (e.g., opening or clicking on a drop-down menu)\n\nIn case you are stuck on a particular problem, you can easily find help for only (e.g., stackoverflow, google, etc.) or more information in the vignette."
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#starting-a-server-with-firefox",
+    "href": "slides/week-11/11-Time.html#starting-a-server-with-firefox",
+    "title": "Web scraping dynamic",
+    "section": "Starting a Server With Firefox",
+    "text": "Starting a Server With Firefox\nWe use the rsDriver function to start a server. This way we can control a browser of our choice from within R.\n\nThe function rsDriver creates the object driver and the web browser opens\nYou should avoid controlling this browser manually\nYou should avoid creating multiple servers\nNote: We can start only one server per port\n\n\ndriver &lt;- RSelenium::rsDriver(port = 0001L, \n                              browser = \"firefox\",\n                              ...\n                              )"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#starting-a-server-with-firefox-1",
+    "href": "slides/week-11/11-Time.html#starting-a-server-with-firefox-1",
+    "title": "Web scraping dynamic",
+    "section": "Starting a Server With Firefox",
+    "text": "Starting a Server With Firefox"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#starting-a-server-with-firefox-2",
+    "href": "slides/week-11/11-Time.html#starting-a-server-with-firefox-2",
+    "title": "Web scraping dynamic",
+    "section": "Starting a Server With Firefox",
+    "text": "Starting a Server With Firefox\nNext, we separate the client and server as different objects:\n\nbrowser &lt;- driver$client\nserver &lt;- driver$server\n\n\n\n\n\n\n\nrsDriver() creates a client and a server\n\nour code primarily interacts with the client\nwe can think of the client as the browser itself; it has the class remoteDriver"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#navigate-dynamic-pages",
+    "href": "slides/week-11/11-Time.html#navigate-dynamic-pages",
+    "title": "Web scraping dynamic",
+    "section": "Navigate dynamic pages",
+    "text": "Navigate dynamic pages\n\nbrowser$navigate(url = \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse.html\")\n\n\n\n\n\n\n\nnavigate is a method and not a function\n\nwe cannot pipe (%&gt;%) it into browser but have to use the dollar sign notation\nit is optional to type the name of the url argument"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#navigate-dynamic-pages-1",
+    "href": "slides/week-11/11-Time.html#navigate-dynamic-pages-1",
+    "title": "Web scraping dynamic",
+    "section": "Navigate dynamic pages",
+    "text": "Navigate dynamic pages"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#navigate-dynamic-pages-2",
+    "href": "slides/week-11/11-Time.html#navigate-dynamic-pages-2",
+    "title": "Web scraping dynamic",
+    "section": "Navigate dynamic pages",
+    "text": "Navigate dynamic pages\nGo back to previous URL:\n\nbrowser$goBack()\n\nGo forward:\n\nbrowser$goForward()\n\nRefresh:\n\nbrowser$refresh()"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#navigate-dynamic-pages-3",
+    "href": "slides/week-11/11-Time.html#navigate-dynamic-pages-3",
+    "title": "Web scraping dynamic",
+    "section": "Navigate dynamic pages",
+    "text": "Navigate dynamic pages\nGet URL of current page:\n\nbrowser$getCurrentUrl()\n\nGet title of current page\n\nbrowser$getTitle()"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-close-open-browser",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-close-open-browser",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Close & Open Browser",
+    "text": "Dynamic Pages: Close & Open Browser\nWe can close the browser without closing our session on the server:\n\nbrowser$close()\n\nAnd open a new browser without using the rsDriver function again, as the server is still running:\n\nbrowser$open()"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-get-page-source",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-get-page-source",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Get Page Source",
+    "text": "Dynamic Pages: Get Page Source\nUsing the RSelenium package, we get the page source code the following way:\n\nbrowser$getPageSource()[[1]]\n\n\nNote: This method returns a list . The XML source is in the first item of the list. This is why we use [[1]] to access it.\n\n\n\nThis is similar to our bow() %&gt;% scrape() process"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-get-page-source-1",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-get-page-source-1",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Get Page Source",
+    "text": "Dynamic Pages: Get Page Source\nWe can extract links combining methods and function from the RSelenium and the rvest package:\n\nbrowser$getPageSource()[[1]] %&gt;% \n        read_html() %&gt;% \n        html_elements(css = \".linklist__item+ .linklist__item a\") %&gt;% \n        html_attr(\"href\")"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-find-elements",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-find-elements",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Find Elements",
+    "text": "Dynamic Pages: Find Elements\nWe can locate an element on the open browser using CSS selectors\nThere are also other selectors as\n\nxpath\nid\nname\nlink text"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-find-and-highlight-elements",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-find-and-highlight-elements",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Find and Highlight Elements",
+    "text": "Dynamic Pages: Find and Highlight Elements\n\n## navigate to page\nbrowser$navigate(url = \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse.html\")\n\n## find and store element\nselection &lt;- browser$findElement(using = \"css selector\", value = \".dropdown__toggler\")\n\n## highlight element\nselection$highlightElement()\n\nNote: The highlighted element will flash for one or two seconds on the open browser."
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-input-selenium-keys",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-input-selenium-keys",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Input (Selenium Keys)",
+    "text": "Dynamic Pages: Input (Selenium Keys)\n\nas_tibble(selKeys) %&gt;% \n  names()\n\n [1] \"null\"         \"cancel\"       \"help\"         \"backspace\"    \"tab\"         \n [6] \"clear\"        \"return\"       \"enter\"        \"shift\"        \"control\"     \n[11] \"alt\"          \"pause\"        \"escape\"       \"space\"        \"page_up\"     \n[16] \"page_down\"    \"end\"          \"home\"         \"left_arrow\"   \"up_arrow\"    \n[21] \"right_arrow\"  \"down_arrow\"   \"insert\"       \"delete\"       \"semicolon\"   \n[26] \"equals\"       \"numpad_0\"     \"numpad_1\"     \"numpad_2\"     \"numpad_3\"    \n[31] \"numpad_4\"     \"numpad_5\"     \"numpad_6\"     \"numpad_7\"     \"numpad_8\"    \n[36] \"numpad_9\"     \"multiply\"     \"add\"          \"separator\"    \"subtract\"    \n[41] \"decimal\"      \"divide\"       \"f1\"           \"f2\"           \"f3\"          \n[46] \"f4\"           \"f5\"           \"f6\"           \"f7\"           \"f8\"          \n[51] \"f9\"           \"f10\"          \"f11\"          \"f12\"          \"command_meta\""
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-input",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-input",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Input",
+    "text": "Dynamic Pages: Input\nFor example, we can scroll up and down a page from within R:\n\nbody &lt;- browser$findElement(using = \"css\", value = \"body\")\n\nbody$sendKeysToElement(list(key = \"page_down\"))"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#dynamic-pages-example-bundeswahlleiterin",
+    "href": "slides/week-11/11-Time.html#dynamic-pages-example-bundeswahlleiterin",
+    "title": "Web scraping dynamic",
+    "section": "Dynamic Pages: Example Bundeswahlleiterin",
+    "text": "Dynamic Pages: Example Bundeswahlleiterin\n\nBundesländer &lt;- c(\"Baden-Württemberg\",\n                  \"Bayern\")\ntable &lt;- list()\n\nfor (i in Bundesländer){\nbrowser$navigate(url = \"https://www.bundeswahlleiter.de/bundestagswahlen/2021/ergebnisse/bund-99.html\")\nselection &lt;- browser$findElement(using = \"css selector\", value = \".dropdown__toggler\")\nselection$clickElement()\ndropdown &lt;- browser$findElement(using = \"link text\", value = i)\ndropdown$clickElement()\ntable[[i]] &lt;- browser$getPageSource()[[1]] %&gt;% \n        read_html() %&gt;% \n        html_elements(css = \"table.tablesaw:nth-child(2)\") %&gt;% \n  html_table()  \n}\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#task-for-today",
+    "href": "slides/week-11/11-Time.html#task-for-today",
+    "title": "Web scraping dynamic",
+    "section": "Task for today",
+    "text": "Task for today\n\nTry to navigate the Bundeswahlleiterin website with commands from RStudio\nCan you extend the example and scrape the data for the remaining states?\n\nMore difficult:\n\nTry to scrape the election data at the district level in Baden-Württemberg. This follows the same logic as in the example.\nTry to scrape press releases from the AfD https://www.afd.de/presse/. Things to consider: How can you crawl over all press releases? How can you actually access the separate press releases? How can you display all press releases\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#task-for-today-basic",
+    "href": "slides/week-11/11-Time.html#task-for-today-basic",
+    "title": "Web scraping dynamic",
+    "section": "Task for today: Basic",
+    "text": "Task for today: Basic\n\nTry to navigate the Bundeswahlleiterin website with commands from RStudio\nCan you extend the example and scrape the data for the remaining states?"
+  },
+  {
+    "objectID": "slides/week-11/11-Time.html#task-for-today-advanced",
+    "href": "slides/week-11/11-Time.html#task-for-today-advanced",
+    "title": "Web scraping dynamic",
+    "section": "Task for today: Advanced",
+    "text": "Task for today: Advanced\n\nTry to scrape the election data at the district level in Baden-Württemberg. This follows the same logic as in the example.\nTry to scrape press releases from the AfD https://www.afd.de/presse/. Things to consider: How can you crawl over all press releases? How can you actually access the separate press releases? How can you display all press releases\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
   }
 ]

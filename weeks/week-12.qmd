@@ -46,4 +46,8 @@ TBA
 
 # To Do's before our session
 
-TBA
+Please have a look at:
+
+-   Chapter 1, Your first Shiny app in Wickham, Mastering Shiny. [Link to free online version](https://mastering-shiny.org/basic-app.html).
+
+-   [R Shiny, Get Started: Welcome to Shiny.](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/)
