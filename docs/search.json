@@ -235,14 +235,14 @@
     "href": "weeks/week-12.html",
     "title": "Interactive I: Create your first Shiny app",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive I: Create your first Shiny app\n\n\nWeek 14\n\n\nMay 14, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nPlease have a look at:\n\nChapter 1, Your first Shiny app in Wickham, Mastering Shiny. Link to free online version.\nR Shiny, Get Started: Welcome to Shiny."
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive I: Create your first Shiny app\n\n\nWeek 14\n\n\nMay 14, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nYou can find the R scripts and the necessary data to run them for today’s session here as a zip folder. Open the the R project to ensure that the relative file paths work.\n\n\nTo Do’s before our session\nPlease have a look at:\n\nChapter 1, Your first Shiny app in Wickham, Mastering Shiny. Link to free online version.\nR Shiny, Get Started: Welcome to Shiny."
   },
   {
     "objectID": "weeks/week-13.html",
     "href": "weeks/week-13.html",
     "title": "Interactive II: Making pretty Shiny apps",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive II: Making pretty Shiny apps\n\n\nWeek 15\n\n\nMay 21, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\n\nTopic\n\n\nSession\n\n\nDate\n\n\n\n\n\n\nInteractive II: Making pretty Shiny apps\n\n\nWeek 15\n\n\nMay 21, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\n\nHave a look at the bslib package and its functionalities. What would you like to implement for your own project?\nOnly two more weeks before the semester ends: Start thinking about what kind of data you would like to scrape! Can you combine it with other data sets?"
   },
   {
     "objectID": "weeks/week-14.html",
@@ -4412,9 +4412,9 @@
   {
     "objectID": "slides/week-12/12-Space.html#plan-for-today",
     "href": "slides/week-12/12-Space.html#plan-for-today",
-    "title": "Space",
+    "title": "Interactive I: Create your first Shiny app",
     "section": "Plan for today",
-    "text": "Plan for today\nInput\n\nMisleading maps?\nProjections\nWays to visualize data with maps\nShapefiles & geom_sf()\n\nCoding\n\nApplied example\nYour turn!"
+    "text": "Plan for today\nShort input\n\nUsing dashboards\nA short introduction to shiny (dashboards)\nNext week: Reactivity & themes\n\nCoding\n\nApplied examples\nYour first shiny app!"
   },
   {
     "objectID": "slides/week-12/12-Space.html#the-2012-us-elections",
@@ -7292,5 +7292,145 @@
     "title": "Web scraping dynamic",
     "section": "Task for today: Advanced",
     "text": "Task for today: Advanced\n\nTry to scrape the election data at the district level in Baden-Württemberg. This follows the same logic as in the example.\nTry to scrape press releases from the AfD https://www.afd.de/presse/. Things to consider: How can you crawl over all press releases? How can you actually access the separate press releases? How can you display all press releases\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#dashboards",
+    "href": "slides/week-12/12-Space.html#dashboards",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Dashboards",
+    "text": "Dashboards\n\nDashboards represent a tool for effective data visualization\nThey allow us to communicate information as intuitively as possible and can support data-driven decision making\nWe focus presenting our results and telling a story!\nDashboards are useful for science communication but also provide added value in other areas such as consulting, business, etc."
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#why-shiny-apps",
+    "href": "slides/week-12/12-Space.html#why-shiny-apps",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Why Shiny apps?",
+    "text": "Why Shiny apps?\nMost importantly:\n\n(Interactive) communication of scientific results\n(Interactive) visualization of data sets\n\nBut there are many more use cases!"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#shiny-apps---user-showcase",
+    "href": "slides/week-12/12-Space.html#shiny-apps---user-showcase",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Shiny apps - User showcase",
+    "text": "Shiny apps - User showcase"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#key-elements-of-a-shiny-app",
+    "href": "slides/week-12/12-Space.html#key-elements-of-a-shiny-app",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Key elements of a Shiny app",
+    "text": "Key elements of a Shiny app\n\nUI (user interface):\n\nHere, we can determine the “look” of our app.\n\nServer:\n\nHere, we define our functions\n\nshinyApp():\n\nCombines our UI and server parts."
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#how-to-assemble-these-elements",
+    "href": "slides/week-12/12-Space.html#how-to-assemble-these-elements",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "How to assemble these elements",
+    "text": "How to assemble these elements\n\nset upuiservershinyApp()Output\n\n\n\nlibrary(shiny)\nlibrary(bslib)\nlibrary(tidyverse)\n\ndata &lt;- readRDS(\"data/constituency_shapes_vote.RDS\")\n\n\n\n\nui &lt;- page_sidebar(\n      title = \"2017 German election data\",\n      sidebar = sidebar(\n        selectInput(\n          inputId = \"parties\", \n          label = \"Choose a party\", \n          choices = c(\"AfD\", \"CDU\", \"CSU\", \n                      \"Left\" = \"DIE LINKE\", \n                      \"FDP\", \n                      \"Greens\" = \"GRÜNE\", \n                      \"SPD\"), \n          selected = \"AfD\"\n        )\n      ),\n    \n    plotOutput(\"histogram\")\n)\n\n\n\n\nserver &lt;- function(input, output) {\n  \n  output$histogram &lt;- renderPlot({\n    \n    data %&gt;% \n      filter(party == input$parties) %&gt;%\n      ggplot() +\n      geom_histogram(aes(x = vote_share),\n                     binwidth = 2.5,\n                     boundary = 0) +\n      scale_x_continuous(labels = scales::percent_format(scale = 1), \n                         limits = c(0, 80)) +\n      theme_minimal() +\n      labs(y = \"Count\",\n           x = \"Vote share\")\n  })\n}\n\n\n\n\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#example---dashboard",
+    "href": "slides/week-12/12-Space.html#example---dashboard",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Example - Dashboard",
+    "text": "Example - Dashboard"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#reactivity",
+    "href": "slides/week-12/12-Space.html#reactivity",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Reactivity",
+    "text": "Reactivity\n\nReactivityStep 1Step 2Step 3\n\n\nReactivity is what makes your Shiny apps responsive. It lets the app instantly update itself whenever the user makes a change.\nGarrett Grolemund, Understanding reactivity"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#example---interactive-map",
+    "href": "slides/week-12/12-Space.html#example---interactive-map",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Example - Interactive map",
+    "text": "Example - Interactive map"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#building-your-own-app",
+    "href": "slides/week-12/12-Space.html#building-your-own-app",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Building your own app",
+    "text": "Building your own app\n\nGet startedCustomizeWidgets\n\n\n\nThere are many great resources online. I recommend starting with the R Shiny documentation on how to get started and to build your own app:\n\nhttps://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html\n\nIn addition, the Mastering Shiny book by Hadley Wickham is great!\n\nhttps://mastering-shiny.org/index.html"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#how-to-publish-your-app",
+    "href": "slides/week-12/12-Space.html#how-to-publish-your-app",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "How to publish your app",
+    "text": "How to publish your app\n\nThere are many ways. I find shinyapps.io the easiest.\n\nSet up a free account at shinyapps.io\n\nFollow only a few steps in this short tutorial. It includes:\n\nInstalling and loading the rsconnect package\nAdd your token from your shinyapps.io account to the rsconnect package once\nDeploy your app via the Publish button while viewing the app"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#so-far",
+    "href": "slides/week-12/12-Space.html#so-far",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "… so far:",
+    "text": "… so far:\n\nBlock I: Import, Tidy, Transform, & Visualize Data\nBlock II: Communicate & Collaborate\n\n\n\nBlock III: Web scraping\n\n➡️ Today and next week: Back to communicating our results (Block II), but in an interactive way!"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#dashboard---covid",
+    "href": "slides/week-12/12-Space.html#dashboard---covid",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Dashboard - Covid",
+    "text": "Dashboard - Covid\n… but of course many other applications! GovTech, Finance, Marketing, …"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#shiny-apps-in-action-in-government",
+    "href": "slides/week-12/12-Space.html#shiny-apps-in-action-in-government",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Shiny apps in action in government",
+    "text": "Shiny apps in action in government\n… and more interesting examples here."
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#shiny-apps-in-your-final-project",
+    "href": "slides/week-12/12-Space.html#shiny-apps-in-your-final-project",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Shiny apps in your final project",
+    "text": "Shiny apps in your final project\n\nStatePol Database: &lt;https://statepol.github.io/Database/&gt;"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#shiny-apps-can-also-look-like-this",
+    "href": "slides/week-12/12-Space.html#shiny-apps-can-also-look-like-this",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Shiny apps can also look like this:",
+    "text": "Shiny apps can also look like this:\n\nnews-r: https://gallery.shinyapps.io/freedom-press-index/#home"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#example---dashboard-multiple-pages",
+    "href": "slides/week-12/12-Space.html#example---dashboard-multiple-pages",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Example - Dashboard multiple pages",
+    "text": "Example - Dashboard multiple pages"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#applied-example---dashboard-multiple-pages",
+    "href": "slides/week-12/12-Space.html#applied-example---dashboard-multiple-pages",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Applied Example - Dashboard multiple pages",
+    "text": "Applied Example - Dashboard multiple pages"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#your-turn",
+    "href": "slides/week-12/12-Space.html#your-turn",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Your turn!",
+    "text": "Your turn!\n\nTake some time to understand and run the R scripts provided on ILIAS or access the via the links on the course website.\nNow, apply it to different data! Always a simple start: Gapminder.\nAlso: Try out different widgets. For example, a slider. When using a slider, you need a continuous variable!\nIf you have time left, set up a free account at shinyapps.io and try to publish your first Shiny app (dashboard) online.\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#bslib",
+    "href": "slides/week-12/12-Space.html#bslib",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "bslib",
+    "text": "bslib"
+  },
+  {
+    "objectID": "slides/week-12/12-Space.html#applied-example---multiple-pages",
+    "href": "slides/week-12/12-Space.html#applied-example---multiple-pages",
+    "title": "Interactive I: Create your first Shiny app",
+    "section": "Applied Example - Multiple pages",
+    "text": "Applied Example - Multiple pages"
   }
 ]

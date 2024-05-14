@@ -46,4 +46,6 @@ TBA
 
 # To Do's before our session
 
-TBA
+-   Have a look at the [bslib package](https://rstudio.github.io/bslib/) and its functionalities. What would you like to implement for your own project?
+
+-   Only two more weeks before the semester ends: Start thinking about what kind of data you would like to scrape! Can you combine it with other data sets?

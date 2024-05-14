@@ -42,7 +42,7 @@ tbl-colwidths: [10,50,40]
 
 # Materials
 
-TBA
+You can find the R scripts and the necessary data to run them for today's session [**here**](https://ilias.uni-mannheim.de/goto.php?target=file_1518491_download&client_id=ILIAS) as a zip folder. Open the the R project to ensure that the relative file paths work.
 
 # To Do's before our session
 
