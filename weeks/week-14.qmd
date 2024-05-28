@@ -4,20 +4,20 @@ subtitle: "Week 16"
 description: ""
 author: ""
 date: "May 28, 2023"
-#listing:
-  # - id: slides
-  #   contents:
-  #     - ../slides/week-14/*.qmd
-  #   type: table
-  #   fields: [title, subtitle, date]
-  #   #date-format: "ddd, MMM DD"
-  #   field-display-names:
-  #     title: "Topic"
-  #     subtitle: "Session"
-  #     date: "Date"
-  #   sort: [filename]
-  #   sort-ui: false
-  #   filter-ui: false
+listing:
+   - id: slides
+     contents:
+       - ../slides/week-14/*.qmd
+     type: table
+     fields: [title, subtitle, date]
+     #date-format: "ddd, MMM DD"
+     field-display-names:
+       title: "Topic"
+       subtitle: "Session"
+       date: "Date"
+     sort: [filename]
+     sort-ui: false
+     filter-ui: false
   # - id: assignments
   #   contents:
   #     - ../hw/w1-*.qmd
