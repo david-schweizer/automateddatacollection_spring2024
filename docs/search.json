@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-requirements",
     "title": "Syllabus",
     "section": "Course requirements",
-    "text": "Course requirements\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\nAssignments during the semester (10% of your grade)\nThere will be 2 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\nAssignment 2: 09.04.2024 after the session -&gt; 16.04.2024 15:00\nAssignment 3: 07.05.2024 after the session -&gt; 14.05.2024 15:00\nAssignment 4: 21.05.2024 after the session -&gt; 28.05.2024 15:00 No mandatory assignment. Feel free to send me your code regarding the tasks for review.\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nDeadline: 09.04.2024 15:00\nData project (75% of your grade):\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade)\n\n\n\nSubmission via ILIAS. Deadline: August 06, 2024, 23:59."
+    "text": "Course requirements\n\nActive participation and preparation:\nActive participation during our weekly sessions is important to get the most out of this course. Engaging with the assigned readings is essential for participation.\nUse Slack to post any questions or discuss with your peers if you do not understand concepts. I will also regularly check our Slack channel.\n\n\nAssignments during the semester (10% of your grade)\nThere will be 2 (short) assignments during the semester. Here, you have to demonstrate that you can apply the concepts/code presented during the session on your own.\nDeadlines:\n\nAssignment 1: 12.03.2024 after the session -&gt; 19.03.2024 15:00\nAssignment 2: 09.04.2024 after the session -&gt; 16.04.2024 15:00\nAssignment 3: 07.05.2024 after the session -&gt; 14.05.2024 15:00\nAssignment 4: 21.05.2024 after the session -&gt; 28.05.2024 15:00 No mandatory assignment. Feel free to send me your code regarding the tasks for review.\n\n\n\n“Mid-term” assignments (15% of your grade)\nThe mid-term assignment differs from the other assignments in scope and length. Here, you should demonstrate your understanding of the concepts/code covered in the first half of the semester (importing, wrangling, and visualizing data).\nDeadline: 09.04.2024 15:00\n\n\nData project (75% of your grade):\nIn a nutshell: Ask a question you’re curious about, collect relevant data and visualize them with regard to your question.\nInstead of a term paper, you will work on a data project. Again, in this final assignment, you need to demonstrate you understanding of the concepts/code covered during the semester. The goal is that you build your own data set using web scraping methods and present this data set. Hence, the data project includes the following steps:\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data\nPresent your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?\n\nGroup work (up to 3 students) is possible and encouraged for the data project. In case of group work, each student will receive the same grade.\n\nIn more detail:\nThere are two options. In any case, I recommend to discuss your approach and ideas either via e-mail or during office hours!\nOPTION A: Your own project\nYou can choose the data based on your teams’ interests or based on work in other courses or research projects. The goal of this data project is for you to demonstrate proficiency in the techniques we have covered in this seminar and beyond, if you like) and apply them in a meaningful way.\nThe goal is not to do an exhaustive data analysis/visualization, i.e., do not calculate every statistic, visualize the same data with lots of different graphs, or scrape as much information as possible, but rather let me know that you are proficient at asking a meaningful question, collect relevant data, and provide some descriptive answer; that you are proficient in using R, and that you work in a reproducible way.\nTherefore, the project is very open ended. You should create some kind of compelling and interactive visualization(s) of this data in R (Shiny dashboard). There is no limit on what tools or packages you may use but sticking to packages we learned in class is required. You do not need to visualize all of the data at once. For example, a single high-quality visualization will receive a much higher grade than a large number of poor-quality visualizations.\nOPTION B: Press releases & issue emphasis on immigration and the environment\nAlternatively, you can work on a guided project. Some of the main steps in the workflow are roughly defined (i.e., research question and data), still you need to make your own decisions when it comes to presenting the data. We would be interested in investigating what drives issue emphasis (of mainstream parties) regarding the immigration and environment issue. This is not new, but inspired by:\n\nAbou-Chadi, T. (2016). Niche party success and mainstream party policy shifts–how green and radical right parties differ in their impact. British Journal of Political Science, 46(2), 417-436.\nGessler, T., & Hunger, S. (2022). How the refugee crisis and radical right parties shape party competition on immigration. Political Science Research and Methods, 10(3), 524-544.\n\nOur expectations would be that mainstream parties react (by increasing their issue emphasis) to the increased issue emphasis by radical right parties regarding immigration and by Green parties regarding the environment. However, other factors such as electoral strength of radical right and Greens, public salience, and external factors (asylum applications and protest events) could also drive the salience of these issues.\nThis project would include the following:\nCollect data\n\nScrape the press releases from the parliamentary groups of the AfD, the Greens , the CDU/CSU, and the SPD in the German Bundestag (latest starting point: January of 2023).\n\nApply a “dictionary” (there are multiple ways to do so, e.g., quanteda package, the stringr package) to detect press releases related to the issue of the environment or immigration. We want to visualize the salience of these issues (share of press releases related to environment/immigration) on a monthly basis later on. You can find a dictionary for the immigration issue in the article by Gessler and Hunger (2022). Schürmann, L. (2023). The impact of local protests on political elite communication: evidence from Fridays for Future in Germany. Journal of Elections, Public Opinion and Parties, 1-21. provides a dictionary for the issue of the environment.\n\nGet data for the Sonntagsfrage here: https://www.wahlrecht.de/umfragen/. You can click on the specific institutes for historical data. Reminder: We can easily scrape tables!\nPublic salience: Following Gessler & Hunger try out Google Trends https://trends.google.com/trends?geo=DE&hl=de to get a measure for public salience for the immigration issue and the environment (e.g., topic “climate change”)\nGet data on asylum application (monthly) from Eurostat. In addition, collect the dates of global climate strikes (organized by Fridays for Future in Germany, you can extract these events either manually or scrape them).\n\nData transformation\n\nFor (one of) our visualizations, we want to have monthly time-series data. Of course you can also decide to produce more/other visualizations. E.g., there should be the following columns: month, party, salience_immigration, salience_environment, sonntagsfrage, asylum_applications, protest.\n\nVisualization\n\nYou should produce a dashboard with (interactive) visualizations. You are free to choose the visualization which you think are suited best to speak to the overall research question / expectations. Initially, I would expect a dashboard at least three pages (one for the issue of the environment, one for immigration, and one page with text describing your project workflow (e.g., justifiying visualization choices, your key take aways from presenting the descriptives). However, you can also come up with a different structure!\n\n\n\nGrading of the project will take into account the following:\n\nData collection: Correct? “Polite”? Documentation?\nData transformation: Correct? Documentation/Annotation?\nCommunication (Visualization(s) via dashboard): Correct? Style? Effort?\nReproducibility: Can the dashboard and all pre-processing steps executed on another device without error? (You need to hand in the code for the shiny dashboard, R.data files, any R scripts for pre-processing, and the raw data.)\nBONUS: Creativity and Critical Thought - Is the project carefully thought out? How well is the project documented? Does it appear that time and effort went into the planning and implementation of the project? (More BONUS points possible for Option A)\n\nA general breakdown of scoring is as follows:\n\n1,0: Outstanding effort. Student understands how to apply all concepts o the seminar, can collect data via webscraping “politely”, transform and visualize the data coherently and convincingly, and do so in a reproducible way.\n1,3 - 2,0: Good effort. Student seems to understand most of the concepts and there are only minor mistakes regarding data collection and transformation. Communication could be clearer and/or the project is not fully reproducible.\n2,3 - 3,0: Good/Passing effort. Student has misunderstanding of concepts in several areas, has some trouble with data collection and transformation, and the communication of results is sometimes unclear. Further, the project is not fully reproducible and it is visible that little effort went into the project.\n3,3 - 4,0: Struggling effort. Student is making some effort, but has misunderstanding of many concepts and is unable to put together the workflow of the data project. Communication is unclear, the project is not reproducible.\nFail: Student is not making a sufficient effort.\n\n\n\nSubmission\nIn case of any questions or problems, please get in touch with me as early as possible. Late submission will result in grade deductions.\n\nSubmission via ILIAS (zip folder: This should include your code for the Shiny dashboard, R.data files, any R scripts for pre-processing, as well as raw data).\nDeadline: August 06, 2024, 23:59."
   },
   {
     "objectID": "syllabus.html#recommended-readings",
@@ -249,7 +249,7 @@
     "href": "weeks/week-14.html",
     "title": "Closing Session",
     "section": "",
-    "text": "Seminar slides\n\n\n\n\n\nMaterials\nTBA\n\n\nTo Do’s before our session\nTBA"
+    "text": "Seminar slides\n\n\n\n\n\nMaterials\nThere are no materials for today’s session.\n\n\nTo Do’s before our session\n\nDo you have any open questions regarding the material? Please let me know via Slack or e-mail! We can devote some of the time during the session to these questions."
   },
   {
     "objectID": "weeks/week08.html",
@@ -7432,5 +7432,82 @@
     "title": "Interactive I: Create your first Shiny app",
     "section": "Applied Example - Multiple pages",
     "text": "Applied Example - Multiple pages"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#plan-for-today",
+    "href": "slides/week-14/14-ClosingSession.html#plan-for-today",
+    "title": "Closing Session",
+    "section": "Plan for today",
+    "text": "Plan for today\n\nRecap - Content\nData project\nOutlook\nRecap - (Your) Feedback"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#recap---content",
+    "href": "slides/week-14/14-ClosingSession.html#recap---content",
+    "title": "Closing Session",
+    "section": "Recap - Content",
+    "text": "Recap - Content\n\nAND: Reproducibility"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#data-project",
+    "href": "slides/week-14/14-ClosingSession.html#data-project",
+    "title": "Closing Session",
+    "section": "Data project",
+    "text": "Data project\nIn a nutshell: Ask a question you’re curious about, collect relevant data and visualize them with regard to your question."
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#data-project-1",
+    "href": "slides/week-14/14-ClosingSession.html#data-project-1",
+    "title": "Closing Session",
+    "section": "Data project",
+    "text": "Data project\n\nCollect own data using web scraping methods\nTidy and transform the data\nPossibly enrich the data set with other data (sets)\nVisualize your data & Present your data set using an interactive web application or an (interactive Quarto document)\nDescribe: How could you or other researchers make use of this data for empirical research - What might be possible research questions?"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#data-project-2",
+    "href": "slides/week-14/14-ClosingSession.html#data-project-2",
+    "title": "Closing Session",
+    "section": "Data project",
+    "text": "Data project\nLet’s have a look at the syllabus for details.\nAND: I recommend discussing your project with me individually at least once via e-mail or office hours!"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#recap---feedback",
+    "href": "slides/week-14/14-ClosingSession.html#recap---feedback",
+    "title": "Closing Session",
+    "section": "Recap - Feedback",
+    "text": "Recap - Feedback\n\nOrganizational\nStructure\nParticipation\nLearning"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#outlook",
+    "href": "slides/week-14/14-ClosingSession.html#outlook",
+    "title": "Closing Session",
+    "section": "Outlook",
+    "text": "Outlook\nPractice and deep dive:\n\nStill access to Datacamp!\n\nExamples in social science:\n\nMZES Social Data Science Lab\n\nApply!\n\nCorrelAid - Data 4 Good\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#data-project---my-inspiration",
+    "href": "slides/week-14/14-ClosingSession.html#data-project---my-inspiration",
+    "title": "Closing Session",
+    "section": "Data project - My inspiration",
+    "text": "Data project - My inspiration\n\nStatePol Database: https://statepol.github.io/Database"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#outlook-what-now",
+    "href": "slides/week-14/14-ClosingSession.html#outlook-what-now",
+    "title": "Closing Session",
+    "section": "Outlook: What now?",
+    "text": "Outlook: What now?\nPractice and deep dive:\n\nStill access to Datacamp!\n\nExamples in social science:\n\nMZES Social Data Science Lab\n\nApply!\n\nSeminars, term papers, thesis\nCorrelAid - Data 4 Good"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#outlook-what-is-possible",
+    "href": "slides/week-14/14-ClosingSession.html#outlook-what-is-possible",
+    "title": "Closing Session",
+    "section": "Outlook: What is possible?",
+    "text": "Outlook: What is possible?\n\nnews-r: https://gallery.shinyapps.io/freedom-press-index/#home"
+  },
+  {
+    "objectID": "slides/week-14/14-ClosingSession.html#your-feedback",
+    "href": "slides/week-14/14-ClosingSession.html#your-feedback",
+    "title": "Closing Session",
+    "section": "Your Feedback",
+    "text": "Your Feedback\n\n“Open round”\nPlease take some time to fill out the survey by the institute. This is both valuable for me professionally but also for further iterations of this seminar!\n\n\n\nAutomated Data Collection | Spring 2024 | University of Mannheim"
   }
 ]
